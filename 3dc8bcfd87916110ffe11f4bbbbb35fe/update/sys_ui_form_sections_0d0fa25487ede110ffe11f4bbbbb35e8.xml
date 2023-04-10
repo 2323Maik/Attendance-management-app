@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0d0fa25487ede110ffe11f4bbbbb35e8" sys_domain="global" table="x_976191_attenda_0_employee_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-09 09:02:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>490f265487ede110ffe11f4bbbbb3594</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_976191_attenda_0_employee_table" name="x_976191_attenda_0_employee_table" sys_domain="global" view="96fe625462ede110cd687987b9378615">0d0fa25487ede110ffe11f4bbbbb35e8</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_employee_table" sys_domain="global" view="96fe625462ede110cd687987b9378615">450f265487ede110ffe11f4bbbbb3593</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-09 09:02:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-09 09:02:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>410f265487ede110ffe11f4bbbbb359a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_976191_attenda_0_employee_table" name="x_976191_attenda_0_employee_table" sys_domain="global" view="96fe625462ede110cd687987b9378615">0d0fa25487ede110ffe11f4bbbbb35e8</sys_ui_form>
+            <sys_ui_section caption="Sate and Priority" display_value="Sate and Priority" name="x_976191_attenda_0_employee_table" sys_domain="global" view="96fe625462ede110cd687987b9378615">4d0f265487ede110ffe11f4bbbbb3598</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-09 09:02:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-09 09:02:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d90f265487ede110ffe11f4bbbbb359d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_976191_attenda_0_employee_table" name="x_976191_attenda_0_employee_table" sys_domain="global" view="96fe625462ede110cd687987b9378615">0d0fa25487ede110ffe11f4bbbbb35e8</sys_ui_form>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_976191_attenda_0_employee_table" sys_domain="global" view="96fe625462ede110cd687987b9378615">090f265487ede110ffe11f4bbbbb359c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-09 09:02:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_976191_attenda_0_employee_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-09 09:02:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d0fa25487ede110ffe11f4bbbbb35e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_976191_attenda_0_employee_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0d0fa25487ede110ffe11f4bbbbb35e8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-09 09:02:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Attendance Management 0" name="workspace-attendance-management-0">96fe625462ede110cd687987b9378615</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

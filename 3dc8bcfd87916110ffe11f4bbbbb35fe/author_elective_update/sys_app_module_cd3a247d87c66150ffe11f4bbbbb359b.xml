@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Attendance Management">37365d7d87156110ffe11f4bbbbb35f6</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>ff movie</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>910</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-07 11:45:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd3a247d87c66150ffe11f4bbbbb359b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ff movie</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_app_module_cd3a247d87c66150ffe11f4bbbbb359b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-07 11:45:25</sys_updated_on>
+        <timeline_page/>
+        <title>ff movie</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>sys_app_module_cd3a247d87c66150ffe11f4bbbbb359b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Attendance Management">37365d7d87156110ffe11f4bbbbb35f6</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>ff movie</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>910</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-07 11:45:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cd3a247d87c66150ffe11f4bbbbb359b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ff movie</sys_name><sys_overrides/><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sys_app_module_cd3a247d87c66150ffe11f4bbbbb359b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-07 11:45:25</sys_updated_on><timeline_page/><title>ff movie</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>452774008</payload_hash>
+        <record_name>ff movie</record_name>
+        <reverted_from/>
+        <source>dfad6a9587422150ffe11f4bbbbb35eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-07 11:45:25</sys_created_on>
+        <sys_id>635aa03d87c66150ffe11f4bbbbb35c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1875b891fc80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-07 11:45:25</sys_updated_on>
+        <type>Module</type>
+        <update_guid>675aa03d1ac66150e13a3eed5cb83cc1</update_guid>
+        <update_guid_history>675aa03d1ac66150e13a3eed5cb83cc1:452774008</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ff movie">2f7b6cbd87c66150ffe11f4bbbbb353b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-07 11:50:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>30bb1ad2c01a47108b6e6f626adff410</sys_id>
+        <sys_metadata>cd3a247d87c66150ffe11f4bbbbb359b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ff movie</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sys_app_module_cd3a247d87c66150ffe11f4bbbbb359b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_cd3a247d87c66150ffe11f4bbbbb359b">635aa03d87c66150ffe11f4bbbbb35c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-07 11:50:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

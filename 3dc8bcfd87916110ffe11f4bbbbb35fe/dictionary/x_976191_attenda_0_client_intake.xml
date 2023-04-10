@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4bf0ee9a87e5e910ffe11f4bbbbb3526" label="Client Intake" max_length="40" name="x_976191_attenda_0_client_intake" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Cell Phone" mandatory="true" max_length="40" name="cell_phone" type="integer"/>
+        <element label="Client Company" mandatory="true" max_length="40" name="client_company" type="string"/>
+        <element label="Client Name" mandatory="true" max_length="40" name="client_name" type="string"/>
+        <element label="Comment" max_length="255" name="comment" type="string_full_utf8"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Department" mandatory="true" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="DOB" max_length="40" name="dob" type="glide_date"/>
+        <element label="Email" max_length="50" name="email" type="string"/>
+        <element choice="3" label="Gender" mandatory="true" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" value="female"/>
+                <element inactive_on_update="false" label="Male" value="male"/>
+            </choice>
+        </element>
+        <element label="Home Address" max_length="500" name="home_address" type="string"/>
+        <element label="Home Phone" max_length="40" name="home_phone" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Other" max_length="40" name="other" type="string"/>
+        <element label="Other Phone" max_length="40" name="other_phone" type="integer"/>
+        <element label="Positions" max_length="50" name="positions" type="string"/>
+        <element label="Previous Customer" max_length="40" name="previous_customer" type="boolean"/>
+        <element label="Project/Request " mandatory="true" max_length="5000" name="project_request" type="string"/>
+        <element choice="3" label="Referred By" max_length="40" name="referred_by" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dr." value="dr"/>
+                <element inactive_on_update="false" label="Engineer" value="engineer"/>
+                <element inactive_on_update="false" label="Sir" value="sir"/>
+            </choice>
+        </element>
+        <element label="Supervisor" max_length="32" name="supervisor" reference="sys_user" type="reference"/>
+        <element label="Tending Associate" max_length="40" name="tending_associate" type="string"/>
+        <element label="Work Address" mandatory="true" max_length="500" name="work_address" type="string"/>
+    </element>
+</database>

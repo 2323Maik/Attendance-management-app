@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Employee Record for Request ">c28933d387d52110ffe11f4bbbbb35c9</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-15 12:24:28</sys_created_on>
+        <sys_id>43b65a9287e5e910ffe11f4bbbbb3546</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Standard Employee Questions.Employee Record for Request </sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>io_set_item_43b65a9287e5e910ffe11f4bbbbb3546</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-15 12:24:28</sys_updated_on>
+        <variable_set display_value="Standard Employee Questions">3b549ede87a5e910ffe11f4bbbbb35a5</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>io_set_item_43b65a9287e5e910ffe11f4bbbbb3546</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Employee Record for Request ">c28933d387d52110ffe11f4bbbbb35c9</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-15 12:24:28</sys_created_on><sys_id>43b65a9287e5e910ffe11f4bbbbb3546</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Standard Employee Questions.Employee Record for Request </sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>io_set_item_43b65a9287e5e910ffe11f4bbbbb3546</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-15 12:24:28</sys_updated_on><variable_set display_value="Standard Employee Questions">3b549ede87a5e910ffe11f4bbbbb35a5</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-344462607</payload_hash>
+        <record_name>Standard Employee Questions.Employee Record for Request </record_name>
+        <reverted_from/>
+        <source>c7e9f0bd87916110ffe11f4bbbbb35cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-15 12:24:28</sys_created_on>
+        <sys_id>8bb69ad287e5e910ffe11f4bbbbb3559</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186e53a99190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-15 12:24:28</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>cfb69ad296e5e910bcee2c729845b658</update_guid>
+        <update_guid_history>cfb69ad296e5e910bcee2c729845b658:-344462607</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Standard Employee Questions.Employee Record for Request ">3ed935a487f5e510ffe11f4bbbbb35b8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 10:04:37</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>00bb9cebaf3943f3805456e07f01f379</sys_id>
+        <sys_metadata>43b65a9287e5e910ffe11f4bbbbb3546</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Standard Employee Questions.Employee Record for Request </sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>io_set_item_43b65a9287e5e910ffe11f4bbbbb3546</sys_update_name>
+        <sys_update_version display_value="io_set_item_43b65a9287e5e910ffe11f4bbbbb3546">8bb69ad287e5e910ffe11f4bbbbb3559</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 10:04:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

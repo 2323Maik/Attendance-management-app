@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description>This should be used for all end user requests such as&#13;
+					checking attendance, resetting password, etc. </description>
+        <display_title>false</display_title>
+        <internal_name>standard_employee_questions</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-15 12:16:28</sys_created_on>
+        <sys_id>3b549ede87a5e910ffe11f4bbbbb35a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Standard Employee Questions</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>item_option_new_set_3b549ede87a5e910ffe11f4bbbbb35a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-15 12:16:28</sys_updated_on>
+        <title>Standard Employee Questions</title>
+        <type>one_to_many</type>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>item_option_new_set_3b549ede87a5e910ffe11f4bbbbb35a5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description>This should be used for all end user requests such as&#13;
+					checking attendance, resetting password, etc. </description><display_title>false</display_title><internal_name>standard_employee_questions</internal_name><layout>normal</layout><name/><order>100</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-15 12:16:28</sys_created_on><sys_id>3b549ede87a5e910ffe11f4bbbbb35a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Standard Employee Questions</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>item_option_new_set_3b549ede87a5e910ffe11f4bbbbb35a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-15 12:16:28</sys_updated_on><title>Standard Employee Questions</title><type>one_to_many</type><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>723870138</payload_hash>
+        <record_name>Standard Employee Questions</record_name>
+        <reverted_from/>
+        <source>c7e9f0bd87916110ffe11f4bbbbb35cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-15 12:16:28</sys_created_on>
+        <sys_id>c2e4925287e5e910ffe11f4bbbbb3514</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186e53348280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-15 12:16:28</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>0ae492520fe5e91086613cf3dbaae613</update_guid>
+        <update_guid_history>0ae492520fe5e91086613cf3dbaae613:723870138</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Standard Employee Questions">6d2ab9a487f5e510ffe11f4bbbbb357a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 10:05:53</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>33893b71427b42578c452ccd5cdc9e41</sys_id>
+        <sys_metadata>3b549ede87a5e910ffe11f4bbbbb35a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Standard Employee Questions</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>item_option_new_set_3b549ede87a5e910ffe11f4bbbbb35a5</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_3b549ede87a5e910ffe11f4bbbbb35a5">c2e4925287e5e910ffe11f4bbbbb3514</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 10:05:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

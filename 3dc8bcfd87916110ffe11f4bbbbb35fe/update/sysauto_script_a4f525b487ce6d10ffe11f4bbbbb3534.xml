@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 12:00:00</entered_time>
+        <max_drift/>
+        <name>Find over due task on Problem solution table </name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Mikias Tefera">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2023-04-04 13:31:48</run_start>
+        <run_time>1970-01-01 12:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[// Get today's time and date
+var rightNow = new GlideDateTime();
+
+// Query the database for NeedIt Task records with Due date field values older
+// than the current time.  Only return NeedIt Task records that do not have
+// a State field value of Closed Complete.
+var overDeuTask = new GlideRecord('x_976191_attenda_0_problem_solution');
+overDeuTask.addQuery('due_date', '<=', rightNow);
+//overDeuTask.addQuery('solutions_for_problems','==',' ');
+overDeuTask.query();
+
+// Write a log message for each overdue problem Record
+while (overDeuTask.next()) {
+    gs.info('Overdue problem Task record' + overDeuTask.number);
+	gs.eventQueue('x_976191_attenda_0.OverDueProblemTask',overDeuTask,overDeuTask.number, gs.getUserName());
+
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-04 13:33:10</sys_created_on>
+        <sys_id>a4f525b487ce6d10ffe11f4bbbbb3534</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Find over due task on Problem solution table </sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sysauto_script_a4f525b487ce6d10ffe11f4bbbbb3534</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-05 07:48:30</sys_updated_on>
+        <time_zone>floating</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

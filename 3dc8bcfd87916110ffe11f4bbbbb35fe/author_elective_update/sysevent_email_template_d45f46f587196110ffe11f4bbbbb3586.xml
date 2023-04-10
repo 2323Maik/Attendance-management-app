@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="DELETE">
+        <collection>x_976191_attenda_0_employee_table</collection>
+        <email_layout display_value="Employee notification layout">9d3d6f8777823010f088a0e89e5a997f</email_layout>
+        <message/>
+        <message_html/>
+        <message_list/>
+        <message_text><![CDATA[Hi!
+Your position is changed to ${positions}]]></message_text>
+        <name>Position Change Notification</name>
+        <sms_alternate/>
+        <subject>Notify for Position changes to ${positions}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-01 12:23:10</sys_created_on>
+        <sys_id>d45f46f587196110ffe11f4bbbbb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Position Change Notification</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sysevent_email_template_d45f46f587196110ffe11f4bbbbb3586</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-01 12:23:10</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>sysevent_email_template_d45f46f587196110ffe11f4bbbbb3586</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysevent_email_template"&gt;&lt;sysevent_email_template action="INSERT_OR_UPDATE"&gt;&lt;collection&gt;x_976191_attenda_0_employee_table&lt;/collection&gt;&lt;email_layout display_value="Employee notification layout"&gt;9d3d6f8777823010f088a0e89e5a997f&lt;/email_layout&gt;&lt;message/&gt;&lt;message_html/&gt;&lt;message_list/&gt;&lt;message_text&gt;&lt;![CDATA[Hi!
+Your position is changed to ${positions}]]&gt;&lt;/message_text&gt;&lt;name&gt;Position Change Notification&lt;/name&gt;&lt;sms_alternate/&gt;&lt;subject&gt;Notify for Position changes to ${positions}&lt;/subject&gt;&lt;sys_class_name&gt;sysevent_email_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-01 12:23:10&lt;/sys_created_on&gt;&lt;sys_id&gt;d45f46f587196110ffe11f4bbbbb3586&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Position Change Notification&lt;/sys_name&gt;&lt;sys_package display_value="Attendance Management" source="x_976191_attenda_0"&gt;3dc8bcfd87916110ffe11f4bbbbb35fe&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Attendance Management"&gt;3dc8bcfd87916110ffe11f4bbbbb35fe&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_template_d45f46f587196110ffe11f4bbbbb3586&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-01 12:23:10&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;/sysevent_email_template&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1065219190</payload_hash>
+        <record_name>Position Change Notification</record_name>
+        <reverted_from/>
+        <source>e5f9ce7187196110ffe11f4bbbbb3581</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-01 12:23:10</sys_created_on>
+        <sys_id>fb20d2b587196110ffe11f4bbbbb35f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1869d2060cb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-01 12:23:10</sys_updated_on>
+        <type>Email Template</type>
+        <update_guid>3720d2b5cd196110c00423b9a64799f2</update_guid>
+        <update_guid_history>3720d2b5cd196110c00423b9a64799f2:1065219190</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-10 06:40:11</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_template">sysevent_email_template</sys_db_object>
+        <sys_id>3967377cf621409a9c5776c84fa2e7c4</sys_id>
+        <sys_metadata>d45f46f587196110ffe11f4bbbbb3586</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Position Change Notification</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent display_value="Employee Table">da65413d87d16110ffe11f4bbbbb3507</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sysevent_email_template_d45f46f587196110ffe11f4bbbbb3586</sys_update_name>
+        <sys_update_version display_value="sysevent_email_template_d45f46f587196110ffe11f4bbbbb3586">fb20d2b587196110ffe11f4bbbbb35f2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-10 06:40:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

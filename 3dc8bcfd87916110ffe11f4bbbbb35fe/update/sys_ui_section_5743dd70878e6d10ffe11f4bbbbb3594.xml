@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="5743dd70878e6d10ffe11f4bbbbb3594" sys_domain="global" table="x_976191_attenda_0_problem_table" version="3" view="problems">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_976191_attenda_0_problem_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-04 12:10:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5743dd70878e6d10ffe11f4bbbbb3594</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_976191_attenda_0_problem_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+            <sys_update_name>sys_ui_section_5743dd70878e6d10ffe11f4bbbbb3594</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-04 12:10:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Problems" name="problems">2ec30c6f87d52110ffe11f4bbbbb3590</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

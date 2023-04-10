@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices>7,14,21,28</choices>
+        <description>Number of days a Problem Solution Task is overdue before it should automatically close</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_976191_attenda_0.autoCloseOverdue</name>
+        <read_roles>x_976191_attenda_0.admin</read_roles>
+        <suffix>autoCloseOverdue</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-07 11:21:09</sys_created_on>
+        <sys_id>ac0420f587c66150ffe11f4bbbbb3540</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_976191_attenda_0.autoCloseOverdue</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_properties_ac0420f587c66150ffe11f4bbbbb3540</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-07 12:02:46</sys_updated_on>
+        <type>choicelist</type>
+        <value>21</value>
+        <write_roles>x_976191_attenda_0.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=ac0420f587c66150ffe11f4bbbbb3540"/>
+</record_update>

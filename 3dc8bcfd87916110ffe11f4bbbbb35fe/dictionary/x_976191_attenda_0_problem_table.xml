@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="04530c6f87d52110ffe11f4bbbbb3558" extends="task" label="Problem Table" max_length="40" name="x_976191_attenda_0_problem_table" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Expected  problems" max_length="100" name="expected_problems" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Problem Types" max_length="100" name="problem_types" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Targeted Problems" max_length="100" name="targeted_problems" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>If true, portal css would be in rem units</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.service_portal.resize_text.AM.enable_rem_conversion</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 06:31:00</sys_created_on>
+        <sys_id>58c25f9a87112110ffe11f4bbbbb35ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.service_portal.resize_text.AM.enable_rem_conversion</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_properties_58c25f9a87112110ffe11f4bbbbb35ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 06:31:00</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=58c25f9a87112110ffe11f4bbbbb35ee"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>sys_properties_58c25f9a87112110ffe11f4bbbbb35ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>If true, portal css would be in rem units</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>glide.service_portal.resize_text.AM.enable_rem_conversion</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-03 06:31:00</sys_created_on><sys_id>58c25f9a87112110ffe11f4bbbbb35ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>glide.service_portal.resize_text.AM.enable_rem_conversion</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sys_properties_58c25f9a87112110ffe11f4bbbbb35ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-03 06:31:00</sys_updated_on><type>boolean</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=58c25f9a87112110ffe11f4bbbbb35ee"/></record_update>]]></payload>
+        <payload_hash>-1406167300</payload_hash>
+        <record_name>glide.service_portal.resize_text.AM.enable_rem_conversion</record_name>
+        <reverted_from/>
+        <source>e5f9ce7187196110ffe11f4bbbbb3581</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 06:31:00</sys_created_on>
+        <sys_id>60c25f9a87112110ffe11f4bbbbb35f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186a62ab00c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 06:31:00</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>a8c25f9ae01121100b88d81e6bf38df1</update_guid>
+        <update_guid_history>a8c25f9ae01121100b88d81e6bf38df1:-1406167300</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 08:51:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>102e2d4c40c1462a822e25d32621bf49</sys_id>
+        <sys_metadata>58c25f9a87112110ffe11f4bbbbb35ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.service_portal.resize_text.AM.enable_rem_conversion</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sys_properties_58c25f9a87112110ffe11f4bbbbb35ee</sys_update_name>
+        <sys_update_version display_value="sys_properties_58c25f9a87112110ffe11f4bbbbb35ee">60c25f9a87112110ffe11f4bbbbb35f2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 08:51:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

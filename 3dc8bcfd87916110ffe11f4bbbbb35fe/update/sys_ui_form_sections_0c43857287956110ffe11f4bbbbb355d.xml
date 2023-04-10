@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0c43857287956110ffe11f4bbbbb355d" sys_domain="global" table="x_976191_attenda_0_employee_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-04 09:20:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8043857287956110ffe11f4bbbbb3560</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_976191_attenda_0_employee_table" name="x_976191_attenda_0_employee_table" sys_domain="global" view="c8c705bd87d16110ffe11f4bbbbb35ec">0c43857287956110ffe11f4bbbbb355d</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_employee_table" sys_domain="global" view="c8c705bd87d16110ffe11f4bbbbb35ec">3f9a057187156110ffe11f4bbbbb3516</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-04 09:20:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-04 09:20:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1843857287956110ffe11f4bbbbb3564</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_976191_attenda_0_employee_table" name="x_976191_attenda_0_employee_table" sys_domain="global" view="c8c705bd87d16110ffe11f4bbbbb35ec">0c43857287956110ffe11f4bbbbb355d</sys_ui_form>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_976191_attenda_0_employee_table" sys_domain="global" view="c8c705bd87d16110ffe11f4bbbbb35ec">0443857287956110ffe11f4bbbbb355d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-04 09:28:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-04 09:20:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc43857287956110ffe11f4bbbbb3560</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_976191_attenda_0_employee_table" name="x_976191_attenda_0_employee_table" sys_domain="global" view="c8c705bd87d16110ffe11f4bbbbb35ec">0c43857287956110ffe11f4bbbbb355d</sys_ui_form>
+            <sys_ui_section caption="State and Priority" display_value="State and Priority" name="x_976191_attenda_0_employee_table" sys_domain="global" view="c8c705bd87d16110ffe11f4bbbbb35ec">4843857287956110ffe11f4bbbbb355c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-04 09:28:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_976191_attenda_0_employee_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-04 09:20:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c43857287956110ffe11f4bbbbb355d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_976191_attenda_0_employee_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0c43857287956110ffe11f4bbbbb355d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-04 09:20:59</sys_updated_on>
+            <sys_user/>
+            <view display_value="emp  view" name="emp">c8c705bd87d16110ffe11f4bbbbb35ec</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

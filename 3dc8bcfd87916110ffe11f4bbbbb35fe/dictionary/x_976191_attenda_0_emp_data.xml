@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b91f503c878a6d10ffe11f4bbbbb3514" extends="sys_import_set_row" label="Emp Data" max_length="40" name="x_976191_attenda_0_emp_data" type="collection">
+        <element attributes="import_attribute_name=Contact No" label="Contact No" max_length="40" name="u_contact_no" type="float"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Empname" label="Empname" max_length="40" name="u_empname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Emp name" label="Emp name" max_length="40" name="u_emp_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Faborite Food" label="Faborite Food" max_length="40" name="u_faborite_food" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Location" label="Location" max_length="40" name="u_location" type="string"/>
+    </element>
+</database>

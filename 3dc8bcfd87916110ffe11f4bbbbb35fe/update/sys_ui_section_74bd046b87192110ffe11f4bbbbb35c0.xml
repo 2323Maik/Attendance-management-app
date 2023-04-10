@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="74bd046b87192110ffe11f4bbbbb35c0" sys_domain="global" table="x_976191_attenda_0_ceo_table" version="3" view="ceo_">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 09:24:16</sys_created_on>
+            <sys_id>682701cd87a5a510ffe11f4bbbbb3548</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 09:24:16</sys_updated_on>
+            <text>&lt;h2 style="text-align:center"&gt;Custom  Form&lt;/h2&gt;</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>682701cd87a5a510ffe11f4bbbbb3548</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 09:24:16</sys_created_on>
+            <sys_id>a82741cd87a5a510ffe11f4bbbbb3586</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_ceo_table" sys_domain="global" view="3fa673db87952110ffe11f4bbbbb3534">74bd046b87192110ffe11f4bbbbb35c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 09:24:16</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 09:24:16</sys_created_on>
+            <sys_id>ac2741cd87a5a510ffe11f4bbbbb3586</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_ceo_table" sys_domain="global" view="3fa673db87952110ffe11f4bbbbb3534">74bd046b87192110ffe11f4bbbbb35c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 09:24:16</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requestername</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 09:24:16</sys_created_on>
+            <sys_id>a02741cd87a5a510ffe11f4bbbbb3587</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_ceo_table" sys_domain="global" view="3fa673db87952110ffe11f4bbbbb3534">74bd046b87192110ffe11f4bbbbb35c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 09:24:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>solutions_for_problem</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 09:24:16</sys_created_on>
+            <sys_id>a42741cd87a5a510ffe11f4bbbbb3587</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_ceo_table" sys_domain="global" view="3fa673db87952110ffe11f4bbbbb3534">74bd046b87192110ffe11f4bbbbb35c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 09:24:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 09:24:16</sys_created_on>
+            <sys_id>a82741cd87a5a510ffe11f4bbbbb3587</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_ceo_table" sys_domain="global" view="3fa673db87952110ffe11f4bbbbb3534">74bd046b87192110ffe11f4bbbbb35c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 09:24:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 09:24:16</sys_created_on>
+            <sys_id>ac2741cd87a5a510ffe11f4bbbbb3587</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_ceo_table" sys_domain="global" view="3fa673db87952110ffe11f4bbbbb3534">74bd046b87192110ffe11f4bbbbb35c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 09:24:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>importance</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 09:24:16</sys_created_on>
+            <sys_id>a02741cd87a5a510ffe11f4bbbbb3588</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_ceo_table" sys_domain="global" view="3fa673db87952110ffe11f4bbbbb3534">74bd046b87192110ffe11f4bbbbb35c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 09:24:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>send_reminder</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 09:24:16</sys_created_on>
+            <sys_id>a42741cd87a5a510ffe11f4bbbbb3588</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_ceo_table" sys_domain="global" view="3fa673db87952110ffe11f4bbbbb3534">74bd046b87192110ffe11f4bbbbb35c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 09:24:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>empty</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 09:24:16</sys_created_on>
+            <sys_id>a82741cd87a5a510ffe11f4bbbbb3588</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_ceo_table" sys_domain="global" view="3fa673db87952110ffe11f4bbbbb3534">74bd046b87192110ffe11f4bbbbb35c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 09:24:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-11 09:24:16</sys_created_on>
+            <sys_id>ac2741cd87a5a510ffe11f4bbbbb3588</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_ceo_table" sys_domain="global" view="3fa673db87952110ffe11f4bbbbb3534">74bd046b87192110ffe11f4bbbbb35c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-11 09:24:16</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_976191_attenda_0_ceo_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-06 13:22:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74bd046b87192110ffe11f4bbbbb35c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_976191_attenda_0_ceo_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+            <sys_update_name>sys_ui_section_74bd046b87192110ffe11f4bbbbb35c0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-06 13:22:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="ceo " name="ceo_">3fa673db87952110ffe11f4bbbbb3534</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

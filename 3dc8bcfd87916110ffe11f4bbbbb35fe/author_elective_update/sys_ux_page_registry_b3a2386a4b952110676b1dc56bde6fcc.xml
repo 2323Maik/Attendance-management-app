@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>33a2386a67952110c94b650e9054f7d2</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>attendance-management-workspace</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:30:09</sys_created_on>
+        <sys_id>b3a2386a4b952110676b1dc56bde6fcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attendance WorkSpace</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_ux_page_registry_b3a2386a4b952110676b1dc56bde6fcc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:30:09</sys_updated_on>
+        <title>Attendance WorkSpace</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>sys_ux_page_registry_b3a2386a4b952110676b1dc56bde6fcc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>33a2386a67952110c94b650e9054f7d2</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>attendance-management-workspace</path><root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-03 13:30:09</sys_created_on><sys_id>b3a2386a4b952110676b1dc56bde6fcc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Attendance WorkSpace</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sys_ux_page_registry_b3a2386a4b952110676b1dc56bde6fcc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-03 13:30:09</sys_updated_on><title>Attendance WorkSpace</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-1380942974</payload_hash>
+        <record_name>Attendance WorkSpace</record_name>
+        <reverted_from/>
+        <source>5c01a71387112110ffe11f4bbbbb35fd</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-03-06 10:07:11</sys_created_on>
+        <sys_id>32350e18872de110ffe11f4bbbbb3532</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>186b663ac980000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>fe350e186d2de110f43af275602b9c31</update_guid>
+        <update_guid_history>fe350e186d2de110f43af275602b9c31:-1380942974</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-09 06:00:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>77ffe29614724c64b5de1a5d94f16bd9</sys_id>
+        <sys_metadata>b3a2386a4b952110676b1dc56bde6fcc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attendance WorkSpace</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_b3a2386a4b952110676b1dc56bde6fcc</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_b3a2386a4b952110676b1dc56bde6fcc">32350e18872de110ffe11f4bbbbb3532</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 06:00:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

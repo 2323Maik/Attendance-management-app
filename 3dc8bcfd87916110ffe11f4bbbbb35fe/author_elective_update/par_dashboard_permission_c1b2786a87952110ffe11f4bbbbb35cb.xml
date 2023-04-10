@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
+    <par_dashboard_permission action="DELETE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Attendance WorkSpace">b3a2386a0a952110ee888933e519a0cb</dashboard>
+        <group/>
+        <role display_value="x_976191_attenda_0.employee_table_user" name="x_976191_attenda_0.employee_table_user">5e06cdf987d16110ffe11f4bbbbb35be</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:30:12</sys_created_on>
+        <sys_id>c1b2786a87952110ffe11f4bbbbb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b3a2386a0a952110ee888933e519a0cb</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>par_dashboard_permission_c1b2786a87952110ffe11f4bbbbb35cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:30:12</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>par_dashboard_permission_c1b2786a87952110ffe11f4bbbbb35cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>false</can_share><can_write>false</can_write><dashboard display_value="Attendance WorkSpace">b3a2386a0a952110ee888933e519a0cb</dashboard><group/><role display_value="x_976191_attenda_0.employee_table_user" name="x_976191_attenda_0.employee_table_user">5e06cdf987d16110ffe11f4bbbbb35be</role><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-03 13:30:12</sys_created_on><sys_id>c1b2786a87952110ffe11f4bbbbb35cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>b3a2386a0a952110ee888933e519a0cb</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>par_dashboard_permission_c1b2786a87952110ffe11f4bbbbb35cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-03 13:30:12</sys_updated_on><user/></par_dashboard_permission></record_update>]]></payload>
+        <payload_hash>1583519238</payload_hash>
+        <record_name>b3a2386a0a952110ee888933e519a0cb</record_name>
+        <reverted_from/>
+        <source>0a41f0a687952110ffe11f4bbbbb3514</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:30:12</sys_created_on>
+        <sys_id>81b2786a87952110ffe11f4bbbbb35d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186a7aa78ff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:30:12</sys_updated_on>
+        <type>PAR Dashboard Permission</type>
+        <update_guid>05b2786a7a9521109ea668c2179e94cc</update_guid>
+        <update_guid_history>05b2786a7a9521109ea668c2179e94cc:1583519238</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9cdab8e287d52110ffe11f4bbbbb35d7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 14:05:39</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_permission">par_dashboard_permission</sys_db_object>
+        <sys_id>85f07aee151145dc99881ef719b49ec4</sys_id>
+        <sys_metadata>c1b2786a87952110ffe11f4bbbbb35cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b3a2386a0a952110ee888933e519a0cb</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>par_dashboard_permission_c1b2786a87952110ffe11f4bbbbb35cb</sys_update_name>
+        <sys_update_version display_value="par_dashboard_permission_c1b2786a87952110ffe11f4bbbbb35cb">81b2786a87952110ffe11f4bbbbb35d9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 14:05:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>Only Mapped Fields</enforce_mandatory_fields>
+        <name>Import Employee data</name>
+        <order>100</order>
+        <run_business_rules>false</run_business_rules>
+        <run_script>true</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+    if (!("email" in source)) {
+        var name = source.empname.toLowerCase();
+        target.email = name.replace(' ', '.') + "@example.com";
+    }
+
+})(source, target, map, log, action === "update");]]></script>
+        <source_table>x_976191_attenda_0_emp_data</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-04 08:25:36</sys_created_on>
+        <sys_id>ab2fd03c878a6d10ffe11f4bbbbb3593</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Import Employee data</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_transform_map_ab2fd03c878a6d10ffe11f4bbbbb3593</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-04 09:05:40</sys_updated_on>
+        <target_table>x_976191_attenda_0_employee_table</target_table>
+    </sys_transform_map>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>sys_ux_applicability sys_id for Workspace audience</description>
+        <name>wbApplicabilityConfigId</name>
+        <page display_value="Attendance WorkSpace">b3a2386a4b952110676b1dc56bde6fcc</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:30:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>77a2386a4295211018c85d55412530d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_ux_page_property_77a2386a4295211018c85d55412530d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:30:12</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_976191_attenda_0.b3a2386a4b952110676b1dc56bde6fcc.root.wbApplicabilityConfigId</unique_name>
+        <value>bcb2786a87952110ffe11f4bbbbb35b9</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=77a2386a4295211018c85d55412530d2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>sys_ux_page_property_77a2386a4295211018c85d55412530d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>sys_ux_applicability sys_id for Workspace audience</description><name>wbApplicabilityConfigId</name><page display_value="Attendance WorkSpace">b3a2386a4b952110676b1dc56bde6fcc</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-03 13:30:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>77a2386a4295211018c85d55412530d2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>wbApplicabilityConfigId</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sys_ux_page_property_77a2386a4295211018c85d55412530d2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-03 13:30:12</sys_updated_on><type>string</type><unique_name>x_976191_attenda_0.b3a2386a4b952110676b1dc56bde6fcc.root.wbApplicabilityConfigId</unique_name><value>bcb2786a87952110ffe11f4bbbbb35b9</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=77a2386a4295211018c85d55412530d2"/></record_update>]]></payload>
+        <payload_hash>475813063</payload_hash>
+        <record_name>wbApplicabilityConfigId</record_name>
+        <reverted_from/>
+        <source>0a41f0a687952110ffe11f4bbbbb3514</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:30:12</sys_created_on>
+        <sys_id>49b2786a87952110ffe11f4bbbbb35bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186a7aa77ff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:30:12</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>41b2786ab6952110a1aff61c1ae38fbf</update_guid>
+        <update_guid_history>41b2786ab6952110a1aff61c1ae38fbf:475813063,0db2786a28952110702a9fb3414eb5bd:1860942441</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-09 06:00:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>28d2826bcf3a4bebb7a9202e6e3392b1</sys_id>
+        <sys_metadata>77a2386a4295211018c85d55412530d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_77a2386a4295211018c85d55412530d2</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_77a2386a4295211018c85d55412530d2">49b2786a87952110ffe11f4bbbbb35bf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 06:00:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

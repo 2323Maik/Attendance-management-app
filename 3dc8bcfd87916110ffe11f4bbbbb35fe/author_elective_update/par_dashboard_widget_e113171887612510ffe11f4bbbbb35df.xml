@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">defe625426ede110ed04c1116311b310</canvas>
+        <component display_value="sn-component-filter">b999eb8ac52f85df203e43cbf2352fde</component>
+        <component_props>{"filterId":"1gr32fj0ckqri9nn00vo","filterName":"Date","filterComponentType":"date","targets":[{"type":"table","table":{"id":"x_976191_attenda_0_attendance_table","label":"Attendance Table"},"field":{"id":"due_date","type":"glide_date","label":"Due Date","reference":""}}],"defaultSelectedItems":[],"defaultSelectedDateRange":{"range":"SN_DYNAMIC_DATERANGE__LAST_7_DAYS","label":"Last 7 days"},"allowTimeSelection":true,"dateFilterView":"calendar-reldates","sort":"ASC","enableResetToDefault":true,"enableClearFilter":true,"maxElements":500,"filterConfigurations":[{"filterId":"1gr32fj0ckqri9nn00vo","start":"2023-02-10T00:00:00","apply_to":["x_976191_attenda_0_attendance_table.due_date"],"end":"2023-03-12T23:59:59","label":"Date","type":"date","order":0}]}</component_props>
+        <h>3</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-09 11:40:17</sys_created_on>
+        <sys_id>e113171887612510ffe11f4bbbbb35df</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>par_dashboard_widget_e113171887612510ffe11f4bbbbb35df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-11 07:02:56</sys_updated_on>
+        <visualization/>
+        <w>17</w>
+        <x>31</x>
+        <y>12</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>par_dashboard_widget_e113171887612510ffe11f4bbbbb35df</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">defe625426ede110ed04c1116311b310</canvas><component display_value="sn-component-filter">b999eb8ac52f85df203e43cbf2352fde</component><component_props>{"filterId":"1gr32fj0ckqri9nn00vo","filterName":"Date","filterComponentType":"date","targets":[{"type":"table","table":{"id":"x_976191_attenda_0_attendance_table","label":"Attendance Table"},"field":{"id":"due_date","type":"glide_date","label":"Due Date","reference":""}}],"defaultSelectedItems":[],"defaultSelectedDateRange":{"range":"SN_DYNAMIC_DATERANGE__LAST_7_DAYS","label":"Last 7 days"},"allowTimeSelection":true,"dateFilterView":"calendar-reldates","sort":"ASC","enableResetToDefault":true,"enableClearFilter":true,"maxElements":500,"filterConfigurations":[{"filterId":"1gr32fj0ckqri9nn00vo","start":"2023-02-10T00:00:00","apply_to":["x_976191_attenda_0_attendance_table.due_date"],"end":"2023-03-12T23:59:59","label":"Date","type":"date","order":0}]}</component_props><h>3</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-09 11:40:17</sys_created_on><sys_id>e113171887612510ffe11f4bbbbb35df</sys_id><sys_mod_count>9</sys_mod_count><sys_name/><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>par_dashboard_widget_e113171887612510ffe11f4bbbbb35df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-11 07:02:56</sys_updated_on><visualization/><w>17</w><x>31</x><y>12</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>467341444</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c7e9f0bd87916110ffe11f4bbbbb35cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-11 07:02:56</sys_created_on>
+        <sys_id>16c6a80d8725a510ffe11f4bbbbb35b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186cf7acb5c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-11 07:02:56</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>1ec6a80df525a510392af78c544a41b4</update_guid>
+        <update_guid_history>1ec6a80df525a510392af78c544a41b4:467341444,cd36600d3225a5103a635ac5dd395060:91983992,d4c4e489da25a510d794d3dd5b281fe2:1136347399,5d2c8cf00f256510f38950c4de0367d2:991345026,559b04f07f2565101bb602cbd7568996:1939210197,fbde135431a12510ac6142ceac1ad2ac:1257705469,adad9fd067a12510443acb0d05b7250f:1742387560,dc1ad71002a12510f35bce8691525ed6:-908044160,1f631f58da6125100b9eab196a20a693:991345026,e113171818612510d436ba8b9afbc4e0:2010591650</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4a88648d8725a510ffe11f4bbbbb3591</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-11 07:10:34</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>1afaf496ae8c4ad6904e3720abe38784</sys_id>
+        <sys_metadata>e113171887612510ffe11f4bbbbb35df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_e113171887612510ffe11f4bbbbb35df</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_e113171887612510ffe11f4bbbbb35df">16c6a80d8725a510ffe11f4bbbbb35b5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-11 07:10:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

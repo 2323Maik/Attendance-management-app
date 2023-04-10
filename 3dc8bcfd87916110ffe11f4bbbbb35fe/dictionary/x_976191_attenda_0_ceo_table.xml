@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0a65375387952110ffe11f4bbbbb3524" extends="x_976191_employee_employee" label="Record Store" max_length="40" name="x_976191_attenda_0_ceo_table" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="ref_ac_columns=Expected problems,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter" label="Problem" mandatory="true" max_length="32" name="assigned_to" reference="x_976191_attenda_0_problem_table" type="reference"/>
+        <element label="Due Date" mandatory="true" max_length="40" name="due_date" type="glide_date"/>
+        <element default="true" label="empty" max_length="40" name="empty" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Importance" max_length="40" name="importance" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Important" sequence="0" value="important"/>
+                <element inactive_on_update="false" label="Not Important" sequence="1" value="not_important"/>
+                <element inactive_on_update="false" label="Vary Important" sequence="2" value="vary_important"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Password Reset" max_length="40" name="password_reset" type="string"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="RequesterName" mandatory="true" max_length="32" name="requestername" reference="x_976191_attenda_0_employee_table" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Request Discreption" max_length="100" name="request_discreption" type="string"/>
+        <element label="Send Reminder" max_length="40" name="send_reminder" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Targeted Problems" max_length="100" name="targeted_problems" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="requestername"/>
+        </index>
+    </element>
+</database>

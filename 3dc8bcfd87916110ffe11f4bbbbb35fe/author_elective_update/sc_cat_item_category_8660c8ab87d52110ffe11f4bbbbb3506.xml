@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Employee Record for Request ">c28933d387d52110ffe11f4bbbbb35c9</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-06 12:24:23</sys_created_on>
+        <sys_id>8660c8ab87d52110ffe11f4bbbbb3506</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Can We Help You?.Employee Record for Request </sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sc_cat_item_category_8660c8ab87d52110ffe11f4bbbbb3506</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-03-06 13:41:42</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>sc_cat_item_category_8660c8ab87d52110ffe11f4bbbbb3506</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="Employee Record for Request ">c28933d387d52110ffe11f4bbbbb35c9</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-06 12:24:23</sys_created_on><sys_id>8660c8ab87d52110ffe11f4bbbbb3506</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Can We Help You?.Employee Record for Request </sys_name><sys_package/><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sc_cat_item_category_8660c8ab87d52110ffe11f4bbbbb3506</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-03-06 13:41:42</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1040618580</payload_hash>
+        <record_name>Can We Help You?.Employee Record for Request </record_name>
+        <reverted_from/>
+        <source>a084106387592110ffe11f4bbbbb3599</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-03-06 13:52:12</sys_created_on>
+        <sys_id>2484506387592110ffe11f4bbbbb352f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186b731b01f0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-03-06 13:52:12</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>288450633c59211004189f2430d7332e</update_guid>
+        <update_guid_history>288450633c59211004189f2430d7332e:1040618580,761294af051921108b9d306a3298b644:945181000</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.Employee Record for Request ">e484506387592110ffe11f4bbbbb3533</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-03-06 13:52:12</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>03b128f5ef03403291bf10684b373289</sys_id>
+        <sys_metadata>8660c8ab87d52110ffe11f4bbbbb3506</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Employee Record for Request </sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_8660c8ab87d52110ffe11f4bbbbb3506</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_8660c8ab87d52110ffe11f4bbbbb3506">2484506387592110ffe11f4bbbbb352f</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-03-06 13:52:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

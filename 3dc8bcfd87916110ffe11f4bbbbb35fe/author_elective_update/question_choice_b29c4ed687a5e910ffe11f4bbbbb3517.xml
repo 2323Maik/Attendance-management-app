@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Levels of importance">ca3b4ed687a5e910ffe11f4bbbbb350c</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-15 11:40:37</sys_created_on>
+        <sys_id>b29c4ed687a5e910ffe11f4bbbbb3517</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Vary Important</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>question_choice_b29c4ed687a5e910ffe11f4bbbbb3517</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-15 11:55:38</sys_updated_on>
+        <text>Vary Important</text>
+        <value>vary important</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=b29c4ed687a5e910ffe11f4bbbbb3517"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>question_choice_b29c4ed687a5e910ffe11f4bbbbb3517</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Levels of importance">ca3b4ed687a5e910ffe11f4bbbbb350c</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-15 11:40:37</sys_created_on><sys_id>b29c4ed687a5e910ffe11f4bbbbb3517</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Vary Important</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>question_choice_b29c4ed687a5e910ffe11f4bbbbb3517</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-15 11:55:38</sys_updated_on><text>Vary Important</text><value>vary important</value></question_choice><fx_price action="delete_multiple" query="id=b29c4ed687a5e910ffe11f4bbbbb3517"/></record_update>]]></payload>
+        <payload_hash>-394657744</payload_hash>
+        <record_name>Vary Important</record_name>
+        <reverted_from/>
+        <source>c7e9f0bd87916110ffe11f4bbbbb35cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-15 11:55:38</sys_created_on>
+        <sys_id>bc209e1e87a5e910ffe11f4bbbbb35ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186e52033230000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-15 11:55:38</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>b4209e1e67a5e91006f87175052aa4ec</update_guid>
+        <update_guid_history>b4209e1e67a5e91006f87175052aa4ec:-394657744,4dbc065a3ea5e910df5d4b0b24cf9560:985608787</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Vary Important">714c925a87e5e910ffe11f4bbbbb3529</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-15 12:48:41</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>1b83834dcaf544c78473b036414af751</sys_id>
+        <sys_metadata>b29c4ed687a5e910ffe11f4bbbbb3517</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vary Important</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>question_choice_b29c4ed687a5e910ffe11f4bbbbb3517</sys_update_name>
+        <sys_update_version display_value="question_choice_b29c4ed687a5e910ffe11f4bbbbb3517">bc209e1e87a5e910ffe11f4bbbbb35ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-15 12:48:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

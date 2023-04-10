@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>2</order>
+        <sc_cat_item display_value="CLIENT INTAKE">020802e287212110ffe11f4bbbbb35e3</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-16 06:56:27</sys_created_on>
+        <sys_id>0045de2287612110ffe11f4bbbbb3500</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Project info.CLIENT INTAKE</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>io_set_item_0045de2287612110ffe11f4bbbbb3500</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-16 07:10:31</sys_updated_on>
+        <variable_set display_value="Project info">f5255a6287612110ffe11f4bbbbb353f</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>io_set_item_0045de2287612110ffe11f4bbbbb3500</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>2</order><sc_cat_item display_value="CLIENT INTAKE">020802e287212110ffe11f4bbbbb35e3</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-16 06:56:27</sys_created_on><sys_id>0045de2287612110ffe11f4bbbbb3500</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Project info.CLIENT INTAKE</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>io_set_item_0045de2287612110ffe11f4bbbbb3500</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-16 07:10:31</sys_updated_on><variable_set display_value="Project info">f5255a6287612110ffe11f4bbbbb353f</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-410619096</payload_hash>
+        <record_name>Project info.CLIENT INTAKE</record_name>
+        <reverted_from/>
+        <source>c7e9f0bd87916110ffe11f4bbbbb35cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-16 07:10:31</sys_created_on>
+        <sys_id>8e78566687612110ffe11f4bbbbb358c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186e94187cb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-16 07:10:31</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>86785666c561211040d2202cd866708c</update_guid>
+        <update_guid_history>86785666c561211040d2202cd866708c:-410619096,4045de6232612110e6e1f2d1a517e0c8:364138345</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Project info.CLIENT INTAKE">27e2e22287a12110ffe11f4bbbbb35d8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-16 07:56:13</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>6e4c17cfda7846dcbac447a1c9b030b9</sys_id>
+        <sys_metadata>0045de2287612110ffe11f4bbbbb3500</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project info.CLIENT INTAKE</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>io_set_item_0045de2287612110ffe11f4bbbbb3500</sys_update_name>
+        <sys_update_version display_value="io_set_item_0045de2287612110ffe11f4bbbbb3500">8e78566687612110ffe11f4bbbbb358c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-16 07:56:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
