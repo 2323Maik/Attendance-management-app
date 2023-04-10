@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="CLIENT INTAKE">020802e287212110ffe11f4bbbbb35e3</catalog_item>
+        <catalog_variable>IO:846e20d587b92110ffe11f4bbbbb3530</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>6</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 09:47:32</sys_created_on>
+        <sys_id>0465396087f5e510ffe11f4bbbbb35b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>your_sex</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_0465396087f5e510ffe11f4bbbbb35b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-24 12:33:55</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Adding other option to Gender field">9d34752087f5e510ffe11f4bbbbb35e9</ui_policy>
+        <variable>your_sex</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

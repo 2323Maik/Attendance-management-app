@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="DELETE">
+        <css_variables/>
+        <default>false</default>
+        <enable_ais>true</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="employee_profile">228cd5e053333010fedfddeeff7b121f</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page display_value="kb_home">e1c919e4dbd3220099f93691f0b8f535</kb_knowledge_page>
+        <login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page>
+        <logo/>
+        <notfound_page display_value="announcements">ecc828d3e733320075c2a117c2f6a91f</notfound_page>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page display_value="esc_kb_category">4501c1e4b7202300d0ac9277ee11a947</sc_catalog_page>
+        <sc_category_page display_value="esc_sc_category">c221e520b7602300d0ac9277ee11a960</sc_category_page>
+        <search_application display_value="Attendance Workspace AI Search Configuration">fd9dd8a135d121106bd3a6225ea10bf5</search_application>
+        <search_results_configuration display_value="Service Portal Search">80eb579d53671010968addeeff7b1215</search_results_configuration>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="Employee Center Menu">493d01365368301056c1ddeeff7b1207</sp_rectangle_menu>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 06:31:00</sys_created_on>
+        <sys_id>31f0175a87112110ffe11f4bbbbb357f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>attendance management</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sp_portal_31f0175a87112110ffe11f4bbbbb357f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 06:31:00</sys_updated_on>
+        <theme display_value="Instance Security Center Theme">dcc2b90753221300a8ed21fac2dc3455</theme>
+        <title>attendance management</title>
+        <ts_index_group/>
+        <url_suffix>AM</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="DELETE" query="documentkey=31f0175a87112110ffe11f4bbbbb357f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>sp_portal_31f0175a87112110ffe11f4bbbbb357f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><css_variables/><default>false</default><enable_ais>true</enable_ais><enable_favorites>false</enable_favorites><hide_portal_name>false</hide_portal_name><homepage display_value="employee_profile">228cd5e053333010fedfddeeff7b121f</homepage><icon/><kb_knowledge_base/><kb_knowledge_page display_value="kb_home">e1c919e4dbd3220099f93691f0b8f535</kb_knowledge_page><login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page><logo/><notfound_page display_value="announcements">ecc828d3e733320075c2a117c2f6a91f</notfound_page><quick_start_config/><sc_catalog/><sc_catalog_page display_value="esc_kb_category">4501c1e4b7202300d0ac9277ee11a947</sc_catalog_page><sc_category_page display_value="esc_sc_category">c221e520b7602300d0ac9277ee11a960</sc_category_page><search_application display_value="Attendance Workspace AI Search Configuration">fd9dd8a135d121106bd3a6225ea10bf5</search_application><search_results_configuration display_value="Service Portal Search">80eb579d53671010968addeeff7b1215</search_results_configuration><sp_chat_queue/><sp_rectangle_menu display_value="Employee Center Menu">493d01365368301056c1ddeeff7b1207</sp_rectangle_menu><sys_class_name>sp_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-03 06:31:00</sys_created_on><sys_id>31f0175a87112110ffe11f4bbbbb357f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>attendance management</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sp_portal_31f0175a87112110ffe11f4bbbbb357f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-03 06:31:00</sys_updated_on><theme display_value="Instance Security Center Theme">dcc2b90753221300a8ed21fac2dc3455</theme><title>attendance management</title><ts_index_group/><url_suffix>AM</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=31f0175a87112110ffe11f4bbbbb357f"/></record_update>]]></payload>
+        <payload_hash>705588375</payload_hash>
+        <record_name>attendance management</record_name>
+        <reverted_from/>
+        <source>e5f9ce7187196110ffe11f4bbbbb3581</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 06:31:00</sys_created_on>
+        <sys_id>a8c25f9a87112110ffe11f4bbbbb35f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186a62ab06f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 06:31:00</sys_updated_on>
+        <type>Service Portal</type>
+        <update_guid>e0c25f9a06112110c873f483c5d278f7</update_guid>
+        <update_guid_history>e0c25f9a06112110c873f483c5d278f7:705588375</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="attendance management">54e9ffe387956110ffe11f4bbbbb35ce</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-07 06:34:20</sys_created_on>
+        <sys_db_object display_value="" name="sp_portal">sp_portal</sys_db_object>
+        <sys_id>6a9bb351690f4a799dd8738ef76921c9</sys_id>
+        <sys_metadata>31f0175a87112110ffe11f4bbbbb357f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>attendance management</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sp_portal_31f0175a87112110ffe11f4bbbbb357f</sys_update_name>
+        <sys_update_version display_value="sp_portal_31f0175a87112110ffe11f4bbbbb357f">a8c25f9a87112110ffe11f4bbbbb35f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-07 06:34:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

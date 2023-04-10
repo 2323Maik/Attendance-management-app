@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_user_metadata">
+    <par_dashboard_user_metadata action="DELETE">
+        <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
+        <created_on>2022-05-29 16:29:20</created_on>
+        <dashboard display_value="Attendance WorkSpace">b3a2386a0a952110ee888933e519a0cb</dashboard>
+        <last_updated_on>2023-03-03 14:00:05</last_updated_on>
+        <requested_by_user/>
+        <sys_class_name>par_dashboard_user_metadata</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:30:08</sys_created_on>
+        <sys_id>7fa2386a85952110ff1e6153083cead1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>par_dashboard_user_metadata_7fa2386a85952110ff1e6153083cead1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 14:00:05</sys_updated_on>
+        <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
+    </par_dashboard_user_metadata>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>par_dashboard_user_metadata_7fa2386a85952110ff1e6153083cead1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_user_metadata"><par_dashboard_user_metadata action="INSERT_OR_UPDATE"><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><created_on>2022-05-29 16:29:20</created_on><dashboard display_value="Attendance WorkSpace">b3a2386a0a952110ee888933e519a0cb</dashboard><last_updated_on>2023-03-03 14:00:05</last_updated_on><requested_by_user/><sys_class_name>par_dashboard_user_metadata</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-03 13:30:08</sys_created_on><sys_id>7fa2386a85952110ff1e6153083cead1</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>par_dashboard_user_metadata_7fa2386a85952110ff1e6153083cead1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-03 14:00:05</sys_updated_on><updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user></par_dashboard_user_metadata></record_update>]]></payload>
+        <payload_hash>178944078</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0a41f0a687952110ffe11f4bbbbb3514</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 14:00:05</sys_created_on>
+        <sys_id>b28974a287d52110ffe11f4bbbbb3541</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186a7c5d44e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 14:00:05</sys_updated_on>
+        <type>PAR Dashboard User Metadata</type>
+        <update_guid>fa8974a2e5d5211045ade57ccfb33040</update_guid>
+        <update_guid_history>fa8974a2e5d5211045ade57ccfb33040:178944078,45b2786a01952110437a965e5a5c5fde:1500424981,cdb2786a38952110728172722d8f57dc:-1096803153</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">18dab8e287d52110ffe11f4bbbbb35a8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 14:05:39</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_user_metadata">par_dashboard_user_metadata</sys_db_object>
+        <sys_id>ad8aa7d3bf1744c09f818521e211ed64</sys_id>
+        <sys_metadata>7fa2386a85952110ff1e6153083cead1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>par_dashboard_user_metadata_7fa2386a85952110ff1e6153083cead1</sys_update_name>
+        <sys_update_version display_value="par_dashboard_user_metadata_7fa2386a85952110ff1e6153083cead1">b28974a287d52110ffe11f4bbbbb3541</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 14:05:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

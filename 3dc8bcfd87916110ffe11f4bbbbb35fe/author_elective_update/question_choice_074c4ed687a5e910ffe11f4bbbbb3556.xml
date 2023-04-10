@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Levels of importance">ca3b4ed687a5e910ffe11f4bbbbb350c</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-15 11:39:27</sys_created_on>
+        <sys_id>074c4ed687a5e910ffe11f4bbbbb3556</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Not Important</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>question_choice_074c4ed687a5e910ffe11f4bbbbb3556</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-15 11:56:09</sys_updated_on>
+        <text>Not Important</text>
+        <value>not_important</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=074c4ed687a5e910ffe11f4bbbbb3556"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>074c4ed687a5e910ffe11f4bbbbb3556</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-15 11:39:27</sys_created_on>
+        <sys_id>7b6cc21a87a5e910ffe11f4bbbbb3502</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-15 11:39:27</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>074c4ed687a5e910ffe11f4bbbbb3556</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-15 11:39:27</sys_created_on>
+        <sys_id>ff6cc21a87a5e910ffe11f4bbbbb3501</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-15 11:39:27</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>question_choice_074c4ed687a5e910ffe11f4bbbbb3556</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>100</order><published_ref/><question display_value="Levels of importance">ca3b4ed687a5e910ffe11f4bbbbb350c</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-15 11:39:27</sys_created_on><sys_id>074c4ed687a5e910ffe11f4bbbbb3556</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Not Important</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>question_choice_074c4ed687a5e910ffe11f4bbbbb3556</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-15 11:56:09</sys_updated_on><text>Not Important</text><value>not_important</value></question_choice><fx_price action="delete_multiple" query="id=074c4ed687a5e910ffe11f4bbbbb3556"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>074c4ed687a5e910ffe11f4bbbbb3556</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-15 11:39:27</sys_created_on><sys_id>7b6cc21a87a5e910ffe11f4bbbbb3502</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-15 11:39:27</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>074c4ed687a5e910ffe11f4bbbbb3556</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-15 11:39:27</sys_created_on><sys_id>ff6cc21a87a5e910ffe11f4bbbbb3501</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-15 11:39:27</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>270989613</payload_hash>
+        <record_name>Not Important</record_name>
+        <reverted_from/>
+        <source>c7e9f0bd87916110ffe11f4bbbbb35cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-15 11:56:09</sys_created_on>
+        <sys_id>e8409e1e87a5e910ffe11f4bbbbb35fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186e520aee50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-15 11:56:09</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>e0409e1e70a5e910949a29f477b582fa</update_guid>
+        <update_guid_history>e0409e1e70a5e910949a29f477b582fa:270989613,f36cc21a35a5e91022e0a9b5d8227204:583056204</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Not Important">fd4c925a87e5e910ffe11f4bbbbb351d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-15 12:48:41</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>39a82abf7ab14e6ab901be815be75724</sys_id>
+        <sys_metadata>074c4ed687a5e910ffe11f4bbbbb3556</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Not Important</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>question_choice_074c4ed687a5e910ffe11f4bbbbb3556</sys_update_name>
+        <sys_update_version display_value="question_choice_074c4ed687a5e910ffe11f4bbbbb3556">e8409e1e87a5e910ffe11f4bbbbb35fa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-15 12:48:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

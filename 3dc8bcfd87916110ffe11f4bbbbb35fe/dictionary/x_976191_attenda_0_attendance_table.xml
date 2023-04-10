@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f510c9b587d16110ffe11f4bbbbb35ac" label="Attendance Table" max_length="40" name="x_976191_attenda_0_attendance_table" text_index="true" type="collection">
+        <element label="Absent Dates" max_length="40" name="absent_dates" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Absent Reason" max_length="1000" name="absent_reason" type="string"/>
+        <element label="Due Date" max_length="40" name="due_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="EmpId" max_length="32" name="empid" reference="x_976191_attenda_0_employee_table" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Employment Start Date" max_length="40" name="employment_start_date" type="glide_date"/>
+        <element attributes="ref_ac_columns=empid,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter" label="EmpName" mandatory="true" max_length="32" name="empname" reference="x_976191_attenda_0_employee_table" type="reference"/>
+        <element choice="1" choice_field="importance" choice_table="x_976191_to_do_to_do" label="Importance" max_length="40" name="importance" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Important" sequence="0" value="Important"/>
+                <element inactive_on_update="false" label="Not important" sequence="1" value="not_important"/>
+                <element inactive_on_update="false" label="Very Important" sequence="2" value="Very Important"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+                <element inactive_on_update="false" label="Closed complate" value="closedcomplate"/>
+                <element inactive_on_update="false" label="In progress" value="inprogress"/>
+                <element inactive_on_update="false" label="new" value="new"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+                <element inactive_on_update="false" label="Waiting for approval" value="Waitingforapproval"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="empid"/>
+        </index>
+        <index name="index2">
+            <element name="empname"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

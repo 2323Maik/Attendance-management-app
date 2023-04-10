@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">e3de135487a12510ffe11f4bbbbb359b</canvas>
+        <component display_value="">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"filterConfigurations":[],"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"newReporting":false,"showSparkline":false,"dataPassthrough":null,"configVersion":"23.0.0-ci-SNAPSHOT","groupBy":null,"trendBy":null,"showMaximumRange":false,"enableRealTimeUpdate":false,"scoreType":null,"showScoreUpdateTime":false,"colorConfig":{"type":"default"},"showHeader":true,"headerTitle":"My Tasks","showHeaderSeparator":true,"showFilterIcon":true,"followFilters":true,"applyDateRange":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Attendance Table","sourceType":"table","tableOrViewName":"x_976191_attenda_0_attendance_table","filterQuery":"empname=40af313987d56110ffe11f4bbbbb3521","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4Xzk3NjE5MV9hdHRlbmRhXzBfYXR0ZW5kYW5jZV90YWJsZTE2Nzg0NDQwNjY0ODM=","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"dGFibGV4Xzk3NjE5MV9hdHRlbmRhXzBfYXR0ZW5kYW5jZV90YWJsZTE2Nzg0NDQwNjY0ODM=","id":"ZEdGaWJHVjRYemszTmpFNU1WOWhkSFJsYm1SaFh6QmZZWFIwWlc1a1lXNWpaVjkwWVdKc1pURTJOemcwTkRRd05qWTBPRE09MTY3ODQ0NDA2ODIyNQ==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"enableCustomEmptyState":true,"emptyStateIllustration":"completed-tasks"}</component_props>
+        <h>10</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-10 10:28:04</sys_created_on>
+        <sys_id>d52c8cf087256510ffe11f4bbbbb35de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>par_dashboard_widget_d52c8cf087256510ffe11f4bbbbb35de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-10 10:29:29</sys_updated_on>
+        <visualization/>
+        <w>17</w>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>par_dashboard_widget_d52c8cf087256510ffe11f4bbbbb35de</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">e3de135487a12510ffe11f4bbbbb359b</canvas><component display_value="">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"filterConfigurations":[],"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"newReporting":false,"showSparkline":false,"dataPassthrough":null,"configVersion":"23.0.0-ci-SNAPSHOT","groupBy":null,"trendBy":null,"showMaximumRange":false,"enableRealTimeUpdate":false,"scoreType":null,"showScoreUpdateTime":false,"colorConfig":{"type":"default"},"showHeader":true,"headerTitle":"My Tasks","showHeaderSeparator":true,"showFilterIcon":true,"followFilters":true,"applyDateRange":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Attendance Table","sourceType":"table","tableOrViewName":"x_976191_attenda_0_attendance_table","filterQuery":"empname=40af313987d56110ffe11f4bbbbb3521","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4Xzk3NjE5MV9hdHRlbmRhXzBfYXR0ZW5kYW5jZV90YWJsZTE2Nzg0NDQwNjY0ODM=","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"dGFibGV4Xzk3NjE5MV9hdHRlbmRhXzBfYXR0ZW5kYW5jZV90YWJsZTE2Nzg0NDQwNjY0ODM=","id":"ZEdGaWJHVjRYemszTmpFNU1WOWhkSFJsYm1SaFh6QmZZWFIwWlc1a1lXNWpaVjkwWVdKc1pURTJOemcwTkRRd05qWTBPRE09MTY3ODQ0NDA2ODIyNQ==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"enableCustomEmptyState":true,"emptyStateIllustration":"completed-tasks"}</component_props><h>10</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-10 10:28:04</sys_created_on><sys_id>d52c8cf087256510ffe11f4bbbbb35de</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>par_dashboard_widget_d52c8cf087256510ffe11f4bbbbb35de</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-10 10:29:29</sys_updated_on><visualization/><w>17</w><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-106894190</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>aaf1c13987d16110ffe11f4bbbbb35d9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-10 10:29:29</sys_created_on>
+        <sys_id>8a7cccf087256510ffe11f4bbbbb3579</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186cb11886b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-10 10:29:29</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>827cccf087256510d604c476d9668d79</update_guid>
+        <update_guid_history>827cccf087256510d604c476d9668d79:-106894190,d92c8cf06a25651090bf808e74eea5df:-928358798</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">72e3a8498725a510ffe11f4bbbbb35da</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-11 06:50:25</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>1624c060a9d74b5c86fc8bfdc8a63890</sys_id>
+        <sys_metadata>d52c8cf087256510ffe11f4bbbbb35de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_d52c8cf087256510ffe11f4bbbbb35de</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_d52c8cf087256510ffe11f4bbbbb35de">8a7cccf087256510ffe11f4bbbbb3579</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-11 06:50:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

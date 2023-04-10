@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_976191_attenda_0_attendance_table" version="2" view="Workspace-x_976191_attenda_0-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Attendance Table - Workspace-x 976191 attenda 0-0" name="x_976191_attenda_0_attendance_table" related_list="NULL" sys_domain="global" view="33a2386a93952110dae7f70a354eefce">c8c27c6a87952110ffe11f4bbbbb35a4</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-03 13:30:25</sys_created_on>
+            <sys_id>c0c27c6a87952110ffe11f4bbbbb35a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-03 13:30:25</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Attendance Table - Workspace-x 976191 attenda 0-0</calculated_name>
+            <filter/>
+            <name>x_976191_attenda_0_attendance_table</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-03 13:30:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8c27c6a87952110ffe11f4bbbbb35a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Attendance Table - Workspace-x 976191 attenda 0-0</sys_name>
+            <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+            <sys_update_name>sys_ui_related_x_976191_attenda_0_attendance_table_Workspace-x_976191_attenda_0-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-03 13:30:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace-x 976191 attenda 0-0" name="Workspace-x_976191_attenda_0-0">33a2386a93952110dae7f70a354eefce</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

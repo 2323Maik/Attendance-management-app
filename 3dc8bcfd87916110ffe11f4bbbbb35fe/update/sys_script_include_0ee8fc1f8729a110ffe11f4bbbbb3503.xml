@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_976191_attenda_0.VTB</api_name>
+        <caller_access>2</caller_access>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>VTB</name>
+        <script><![CDATA[var VTB = Class.create();
+VTB.prototype = {
+    initialize: function() {
+        function openAddToBoardDialogList() {
+
+            var tableName = g_list.getTableName();
+            var listId = g_list.listID;
+            var list = GlideList2.get(listId);
+            var checked = list.getChecked();
+
+            if (!checked)
+                return;
+
+            var url = new GlideURL("$vtb_add_to_board.do");
+            url.addParam("sysparm_nostack", "yes");
+            url.addParam("sysparm_record_list", checked);
+            url.addParam("sysparm_table_name", tableName);
+
+            var o = new GlideOverlay({
+                title: getMessage("Select a Visual Task board"),
+                iframe: url.getURL(),
+                allowOverflowX: true,
+                height: 1000,
+                width: 2000,
+                messages: "",
+                onAfterLoad: function() {
+                    document.getElementsByClassName('gb_close')[0].focus();
+                },
+                onBeforeLoad: function() {
+                    this.glideBoxCallerElement = event.target;
+                },
+                onAfterClose: function() {
+                    this.glideBoxCallerElement.focus();
+                }
+            });
+
+            o.setPreference("sysparm_table_name", tableName);
+            o.setOnBeforeClose(displayMessageStashListChoice);
+            o.render();
+
+            uncheckSelected(listId, checked);
+        }
+
+        function displayMessageStashListChoice() {
+
+            if (!this.getData("messages"))
+                return;
+
+            GlideUI.get().clearOutputMessages();
+
+            var m = this.getData("messages");
+            if (m.messages.info) {
+                for (var i = 0; i < m.messages.info.length; i++) {
+                    var msg = m.messages.info[i];
+                    if (msg)
+                        addFormMessage(msg, "info", 0);
+                }
+            }
+
+            if (m.messages.error) {
+                for (var j = 0; j < m.messages.error.length; j++) {
+                     msg = m.messages.error[j];
+                    if (msg)
+                        addFormMessage(msg, "error", 0);
+                }
+            }
+        }
+
+        function addFormMessage(msg, type, id) {
+            GlideUI.get().addOutputMessage({
+                msg: msg,
+                type: type,
+                id: id
+            });
+            var scrollDiv = getFormContentParent();
+            scrollDiv.scrollTop = 0;
+        }
+
+        function uncheckSelected(listId, checked) {
+            var checkedIds = checked.split(',');
+            for (var i = 0; i < checkedIds.length; i++)
+                $('check_' + listId + '_' + checkedIds[i]).checked = false;
+            $("allcheck_" + listId).checked = false;
+        }
+
+    },
+
+    type: 'VTB'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-18 08:09:43</sys_created_on>
+        <sys_id>0ee8fc1f8729a110ffe11f4bbbbb3503</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>VTB</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_script_include_0ee8fc1f8729a110ffe11f4bbbbb3503</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-24 12:10:30</sys_updated_on>
+    </sys_script_include>
+</record_update>

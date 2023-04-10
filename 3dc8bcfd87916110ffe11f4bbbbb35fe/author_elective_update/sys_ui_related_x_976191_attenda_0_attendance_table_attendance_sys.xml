@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_976191_attenda_0_attendance_table" version="2" view="attendance_sys">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Attendance Table - Attendance sys" name="x_976191_attenda_0_attendance_table" related_list="NULL" sys_domain="global" view="d77097c487916110ffe11f4bbbbb3562">71f68ebd87d56110ffe11f4bbbbb35e6</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-01 11:42:54</sys_created_on>
+            <sys_id>bdf68ebd87d56110ffe11f4bbbbb35e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-01 11:42:54</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Attendance Table - Attendance sys</calculated_name>
+            <filter/>
+            <name>x_976191_attenda_0_attendance_table</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-01 11:42:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>71f68ebd87d56110ffe11f4bbbbb35e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Attendance Table - Attendance sys</sys_name>
+            <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+            <sys_update_name>sys_ui_related_x_976191_attenda_0_attendance_table_attendance_sys</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-01 11:42:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Attendance sys" name="attendance_sys">d77097c487916110ffe11f4bbbbb3562</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>sys_ui_related_x_976191_attenda_0_attendance_table_attendance_sys</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_976191_attenda_0_attendance_table" version="2" view="attendance_sys"><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Attendance Table - Attendance sys" name="x_976191_attenda_0_attendance_table" related_list="NULL" sys_domain="global" view="d77097c487916110ffe11f4bbbbb3562">71f68ebd87d56110ffe11f4bbbbb35e6</list_id><order_by/><position>0</position><related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-01 11:42:54</sys_created_on><sys_id>bdf68ebd87d56110ffe11f4bbbbb35e6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-01 11:42:54</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Attendance Table - Attendance sys</calculated_name><filter/><name>x_976191_attenda_0_attendance_table</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-01 11:42:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>71f68ebd87d56110ffe11f4bbbbb35e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Attendance Table - Attendance sys</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sys_ui_related_x_976191_attenda_0_attendance_table_attendance_sys</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-01 11:42:54</sys_updated_on><sys_user/><view display_value="Attendance sys" name="attendance_sys">d77097c487916110ffe11f4bbbbb3562</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>-193876748</payload_hash>
+        <record_name>Attendance Table</record_name>
+        <reverted_from/>
+        <source>aaf1c13987d16110ffe11f4bbbbb35d9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-01 11:42:54</sys_created_on>
+        <sys_id>39f68ebd87d56110ffe11f4bbbbb35e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1869cfb82980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-01 11:42:54</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>b1f68ebd49d56110e0e437b6d3ca71e8</update_guid>
+        <update_guid_history>b1f68ebd49d56110e0e437b6d3ca71e8:-193876748</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-10 10:06:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>bede4a60ed0c4dc0b080efa41ef21000</sys_id>
+        <sys_metadata>71f68ebd87d56110ffe11f4bbbbb35e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attendance Table - Attendance sys</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent display_value="Attendance Table">f510c9b587d16110ffe11f4bbbbb35ac</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_976191_attenda_0_attendance_table_attendance_sys</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_976191_attenda_0_attendance_table_attendance_sys">39f68ebd87d56110ffe11f4bbbbb35e8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-10 10:06:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

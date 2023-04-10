@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">77a2386a9895211076035a4b69bceccc</canvas>
+        <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
+        <component_props>{"listTitle":"All attendance","table":"x_976191_attenda_0_attendance_table","fixedQuery":"","query":"active=true","columns":"number,empname,empid,employment_start_date","groupByField":"","limit":5,"maxColumns":5,"page":1,"highlightedValueConfigId":"","hideHighlightedValues":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideRefreshButton":false,"hideLastRefreshedText":false,"hideColumnResizing":true,"hideColumnGrouping":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hidePersonalization":true,"hideColumnReorder":true,"hideDotwalk":true,"hideInlineEditing":true,"hideHighlightContent":false,"highlightContent":"{ \"patterns\": [], \"color\" : \"\" }","hideLinks":false,"hideViewAll":false,"hideCellFilter":true,"hideCheckboxHover":true,"hideFilterPanel":false,"hideFirstPage":false,"hideLastPage":false,"hideLimitSelector":false,"hideMenuButton":true,"hideMultiEdit":false,"hideDeclarativeActions":false,"hideNextPage":false,"hidePages":false,"hidePagination":true,"hidePanel":true,"hidePanelAdvanced":false,"hidePanelConditionDelete":false,"hidePanelFooter":false,"hidePanelRestore":false,"hidePreviousPage":false,"hideQuickEdit":true,"hideRange":false,"hideRowCount":false,"hideRowSelector":false,"hideSelectAll":true,"hideEmptyStateImage":false,"hideDBViews":false,"hideUnnecessaryRowSelectors":true,"overrideWordWrapUserPref":false,"wordWrap":false,"maxCharLimit":4000,"refreshRequested":"","recordSelectedTable":"","recordSelectedSysId":"","recordSelectedQuery":"","recordSelectedView":"","showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"showSparkline":false,"dataPassthrough":null,"bareBorder":false,"configVersion":"22.1.7","groupBy":null,"trendBy":null,"showMaximumRange":false,"applyDateRange":false,"scoreType":null,"showScoreUpdateTime":true}</component_props>
+        <h>15</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:30:09</sys_created_on>
+        <sys_id>ffa2386a83952110b4136dae75584bcd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>par_dashboard_widget_ffa2386a83952110b4136dae75584bcd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 14:00:04</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <x>0</x>
+        <y>17</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>par_dashboard_widget_ffa2386a83952110b4136dae75584bcd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">77a2386a9895211076035a4b69bceccc</canvas><component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component><component_props>{"listTitle":"All attendance","table":"x_976191_attenda_0_attendance_table","fixedQuery":"","query":"active=true","columns":"number,empname,empid,employment_start_date","groupByField":"","limit":5,"maxColumns":5,"page":1,"highlightedValueConfigId":"","hideHighlightedValues":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideRefreshButton":false,"hideLastRefreshedText":false,"hideColumnResizing":true,"hideColumnGrouping":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hidePersonalization":true,"hideColumnReorder":true,"hideDotwalk":true,"hideInlineEditing":true,"hideHighlightContent":false,"highlightContent":"{ \"patterns\": [], \"color\" : \"\" }","hideLinks":false,"hideViewAll":false,"hideCellFilter":true,"hideCheckboxHover":true,"hideFilterPanel":false,"hideFirstPage":false,"hideLastPage":false,"hideLimitSelector":false,"hideMenuButton":true,"hideMultiEdit":false,"hideDeclarativeActions":false,"hideNextPage":false,"hidePages":false,"hidePagination":true,"hidePanel":true,"hidePanelAdvanced":false,"hidePanelConditionDelete":false,"hidePanelFooter":false,"hidePanelRestore":false,"hidePreviousPage":false,"hideQuickEdit":true,"hideRange":false,"hideRowCount":false,"hideRowSelector":false,"hideSelectAll":true,"hideEmptyStateImage":false,"hideDBViews":false,"hideUnnecessaryRowSelectors":true,"overrideWordWrapUserPref":false,"wordWrap":false,"maxCharLimit":4000,"refreshRequested":"","recordSelectedTable":"","recordSelectedSysId":"","recordSelectedQuery":"","recordSelectedView":"","showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"showSparkline":false,"dataPassthrough":null,"bareBorder":false,"configVersion":"22.1.7","groupBy":null,"trendBy":null,"showMaximumRange":false,"applyDateRange":false,"scoreType":null,"showScoreUpdateTime":true}</component_props><h>15</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-03 13:30:09</sys_created_on><sys_id>ffa2386a83952110b4136dae75584bcd</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>par_dashboard_widget_ffa2386a83952110b4136dae75584bcd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-03 14:00:04</sys_updated_on><visualization/><w>12</w><x>0</x><y>17</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>2141168859</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0a41f0a687952110ffe11f4bbbbb3514</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 14:00:04</sys_created_on>
+        <sys_id>268974a287d52110ffe11f4bbbbb352b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186a7c5d2150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 14:00:04</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>6e8974a294d521109763cdc70067472a</update_guid>
+        <update_guid_history>6e8974a294d521109763cdc70067472a:2141168859,c1b2786a289521107bcfe3a3fc3cb2c6:1813814861,01b2786ab095211014af64a31a2f2dc5:1837063386</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d8dab8e287d52110ffe11f4bbbbb359b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 14:05:39</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>13c2bd5619b0496b84b70b67e07e4579</sys_id>
+        <sys_metadata>ffa2386a83952110b4136dae75584bcd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_ffa2386a83952110b4136dae75584bcd</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_ffa2386a83952110b4136dae75584bcd">268974a287d52110ffe11f4bbbbb352b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 14:05:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

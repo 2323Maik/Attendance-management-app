@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Import Employee data">ab2fd03c878a6d10ffe11f4bbbbb3593</map>
+        <reference_value_field/>
+        <source_field>u_emp_name</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_976191_attenda_0_emp_data</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-04 08:27:26</sys_created_on>
+        <sys_id>0a406c3c878a6d10ffe11f4bbbbb35f7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>u_emp_name</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_transform_entry_0a406c3c878a6d10ffe11f4bbbbb35f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-04 08:30:11</sys_updated_on>
+        <target_field>empname</target_field>
+        <target_table>x_976191_attenda_0_employee_table</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>sys_transform_entry_0a406c3c878a6d10ffe11f4bbbbb35f7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Import Employee data"&gt;ab2fd03c878a6d10ffe11f4bbbbb3593&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_emp_name&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_976191_attenda_0_emp_data&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-04 08:27:26&lt;/sys_created_on&gt;&lt;sys_id&gt;0a406c3c878a6d10ffe11f4bbbbb35f7&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_emp_name&lt;/sys_name&gt;&lt;sys_package display_value="Attendance Management" source="x_976191_attenda_0"&gt;3dc8bcfd87916110ffe11f4bbbbb35fe&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Attendance Management"&gt;3dc8bcfd87916110ffe11f4bbbbb35fe&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_0a406c3c878a6d10ffe11f4bbbbb35f7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-04 08:30:11&lt;/sys_updated_on&gt;&lt;target_field&gt;empname&lt;/target_field&gt;&lt;target_table&gt;x_976191_attenda_0_employee_table&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-124996174</payload_hash>
+        <record_name>u_emp_name</record_name>
+        <reverted_from/>
+        <source>f0a4f01b8729a110ffe11f4bbbbb352f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-04 08:30:11</sys_created_on>
+        <sys_id>1ee0683c878a6d10ffe11f4bbbbb358c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1874b634d210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-04 08:30:11</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>92e0683c1d8a6d102fae483a8d936d8c</update_guid>
+        <update_guid_history>92e0683c1d8a6d102fae483a8d936d8c:-124996174,d570e47c388a6d10c0fd6b60570d6b50:1767335567,4e406c3c698a6d10d5e1cc98cbd772f8:-124996174</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-04 09:01:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>94449ab6a6dd4a68af8212c85c4ed6c4</sys_id>
+        <sys_metadata>0a406c3c878a6d10ffe11f4bbbbb35f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_emp_name</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_0a406c3c878a6d10ffe11f4bbbbb35f7</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_0a406c3c878a6d10ffe11f4bbbbb35f7">1ee0683c878a6d10ffe11f4bbbbb358c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-04 09:01:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>1</order>
+        <sc_cat_item display_value="Copy of CLIENT INTAKE">6dcc400787e56110ffe11f4bbbbb35b7</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-17 10:17:10</sys_created_on>
+        <sys_id>c6ccc84787e56110ffe11f4bbbbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Name info.Copy of CLIENT INTAKE</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>io_set_item_c6ccc84787e56110ffe11f4bbbbb3594</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-17 10:17:10</sys_updated_on>
+        <variable_set display_value="Name info">11e29aaa87212110ffe11f4bbbbb35f2</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
+        <instance_name>dev111903</instance_name>
+        <name>io_set_item_c6ccc84787e56110ffe11f4bbbbb3594</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>1</order><sc_cat_item display_value="Copy of CLIENT INTAKE">6dcc400787e56110ffe11f4bbbbb35b7</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-17 10:17:10</sys_created_on><sys_id>c6ccc84787e56110ffe11f4bbbbb3594</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Name info.Copy of CLIENT INTAKE</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>io_set_item_c6ccc84787e56110ffe11f4bbbbb3594</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-17 10:17:10</sys_updated_on><variable_set display_value="Name info">11e29aaa87212110ffe11f4bbbbb35f2</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>80167589</payload_hash>
+        <record_name>Name info.Copy of CLIENT INTAKE</record_name>
+        <reverted_from/>
+        <source>c7e9f0bd87916110ffe11f4bbbbb35cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-17 10:17:10</sys_created_on>
+        <sys_id>c2ccc84787e56110ffe11f4bbbbb359a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186ef12c5d90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-17 10:17:10</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>0accc847c6e56110e498130b2c27e699</update_guid>
+        <update_guid_history>0accc847c6e56110e498130b2c27e699:80167589</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Name info.Copy of CLIENT INTAKE">ce81db8687312510ffe11f4bbbbb3548</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-27 08:18:34</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>290336a4ab5c442d8b25d137d2202e81</sys_id>
+        <sys_metadata>c6ccc84787e56110ffe11f4bbbbb3594</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Name info.Copy of CLIENT INTAKE</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>io_set_item_c6ccc84787e56110ffe11f4bbbbb3594</sys_update_name>
+        <sys_update_version display_value="io_set_item_c6ccc84787e56110ffe11f4bbbbb3594">c2ccc84787e56110ffe11f4bbbbb359a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-27 08:18:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
