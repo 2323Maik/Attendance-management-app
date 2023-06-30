@@ -14,7 +14,7 @@
         <license_model>none</license_model>
         <logo>dc7daf5787112110ffe11f4bbbbb35b9</logo>
         <menu/>
-        <name>Attendance Management</name>
+        <name>Employee Management</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -29,9 +29,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-01 06:01:17</sys_created_on>
         <sys_id>3dc8bcfd87916110ffe11f4bbbbb35fe</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-27 12:55:37</sys_updated_on>
+        <sys_updated_on>2023-06-26 11:29:19</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>

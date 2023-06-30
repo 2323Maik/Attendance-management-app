@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>attendance_sys</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 06:36:20</sys_created_on>
+        <sys_id>c526ac9347df21103580c4e2846d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attendance sys</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_ui_view_c526ac9347df21103580c4e2846d435c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 06:36:20</sys_updated_on>
+        <title>Attendance sys</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

@@ -7,9 +7,9 @@
         <sys_id>d5c51d868725a910ffe11f4bbbbb3517</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>absent_dates-FieldValue</sys_name>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name>sys_sg_view_config_element_d5c51d868725a910ffe11f4bbbbb3517</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 13:02:08</sys_updated_on>

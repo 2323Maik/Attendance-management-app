@@ -41,7 +41,7 @@
     </sys_app_module>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
         <file_path/>
         <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
         <instance_name>dev111903</instance_name>
@@ -65,7 +65,7 @@
         <update_guid_history>9627842eefd121105e743c197c2a3524:53881578,c93d8b160c112110184d7938f5601969:863319401</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="employee list">e63a26dc87ade110ffe11f4bbbbb358b</sys_audit_delete>
+        <sys_audit_delete display_value="">e63a26dc87ade110ffe11f4bbbbb358b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-09 08:41:46</sys_created_on>
@@ -74,10 +74,10 @@
         <sys_metadata>a2ec475687112110ffe11f4bbbbb3552</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>employee list</sys_name>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
         <sys_update_name>sys_app_module_a2ec475687112110ffe11f4bbbbb3552</sys_update_name>
         <sys_update_version display_value="sys_app_module_a2ec475687112110ffe11f4bbbbb3552">9e27842e87d12110ffe11f4bbbbb3524</sys_update_version>

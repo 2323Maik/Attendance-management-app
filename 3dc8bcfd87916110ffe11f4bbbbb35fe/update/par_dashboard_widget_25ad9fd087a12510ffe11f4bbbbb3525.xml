@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">defe625426ede110ed04c1116311b310</canvas>
-        <component display_value="">259e0221ff18a75c5f5f0fb28fa5d32f</component>
+        <component display_value="Calendar Report">259e0221ff18a75c5f5f0fb28fa5d32f</component>
         <component_props>{"table":"x_976191_attenda_0_attendance_table","reportSource":"","encodedQuery":"absent_datesISNOTEMPTY^NQabsent_reasonANYTHING","startDateField":"opened_at","endDateField":"closed_at","eventDisplayFields":"number,short_description,absent_reason","componentTitle":"","followFilters":true,"showFilterOverview":true,"showDescription":true,"componentDescription":"","viewType":"MONTH","eventColor":"","filterConfigurations":[]}</component_props>
         <h>21</h>
         <name/>
@@ -11,9 +11,9 @@
         <sys_id>25ad9fd087a12510ffe11f4bbbbb3525</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name>par_dashboard_widget_25ad9fd087a12510ffe11f4bbbbb3525</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-11 07:10:34</sys_updated_on>

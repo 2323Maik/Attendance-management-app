@@ -26,7 +26,7 @@ Your position is changed to ${positions}]]></message_text>
     </sysevent_email_template>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
         <file_path/>
         <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
         <instance_name>dev111903</instance_name>
@@ -60,10 +60,10 @@ Your position is changed to ${positions}]]&gt;&lt;/message_text&gt;&lt;name&gt;P
         <sys_metadata>d45f46f587196110ffe11f4bbbbb3586</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Position Change Notification</sys_name>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_parent display_value="Employee Table">da65413d87d16110ffe11f4bbbbb3507</sys_parent>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
         <sys_update_name>sysevent_email_template_d45f46f587196110ffe11f4bbbbb3586</sys_update_name>
         <sys_update_version display_value="sysevent_email_template_d45f46f587196110ffe11f4bbbbb3586">fb20d2b587196110ffe11f4bbbbb35f2</sys_update_version>

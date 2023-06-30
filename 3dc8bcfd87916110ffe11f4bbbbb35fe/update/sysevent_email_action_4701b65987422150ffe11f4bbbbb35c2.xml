@@ -66,9 +66,9 @@
         <sys_mod_count>6</sys_mod_count>
         <sys_name>Notify Overdue problem solution tasks</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name>sysevent_email_action_4701b65987422150ffe11f4bbbbb35c2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-04-06 08:55:56</sys_updated_on>

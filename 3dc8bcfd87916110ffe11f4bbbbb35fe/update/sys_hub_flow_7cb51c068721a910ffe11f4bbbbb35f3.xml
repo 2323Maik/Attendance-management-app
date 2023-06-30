@@ -29,15 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7cb51c068721a910ffe11f4bbbbb35f3</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Send Email Reminder before Due Date For Employee</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name>sys_hub_flow_7cb51c068721a910ffe11f4bbbbb35f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-14 09:20:34</sys_updated_on>
+        <sys_updated_on>2023-06-13 06:35:23</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=7cb51c068721a910ffe11f4bbbbb35f3"/>
@@ -57,7 +57,7 @@
         <sys_id>7e6798868721a910ffe11f4bbbbb355d</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 09:16:42</sys_updated_on>
         <time>1970-01-01 20:00:00</time>
@@ -70,11 +70,10 @@
         <condition/>
         <conditional>false</conditional>
         <entered_time/>
-        <max_drift/>
         <name>Trigger:7e6798868721a910ffe11f4bbbbb355d</name>
         <offset/>
         <offset_type>0</offset_type>
-        <run_as display_value="Mikias Tefera">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as display_value="Mikias Hailu">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek/>
@@ -91,7 +90,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 09:16:42</sys_updated_on>
@@ -167,10 +166,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-14 08:29:41</sys_created_on>
         <sys_id>8e6758868721a910ffe11f4bbbbb35bd</sys_id>
-        <sys_mod_count>30</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-03-24 19:00:06</sys_updated_on>
+        <sys_updated_on>2023-06-13 19:00:03</sys_updated_on>
         <ui_id>f543f5f0-9d62-4106-b1c0-0a4960218c2e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8e6758868721a910ffe11f4bbbbb35bd"/>
@@ -280,10 +279,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-14 08:29:40</sys_created_on>
         <sys_id>c26758868721a910ffe11f4bbbbb3598</sys_id>
-        <sys_mod_count>30</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-03-24 19:00:06</sys_updated_on>
+        <sys_updated_on>2023-06-13 19:00:03</sys_updated_on>
         <ui_id>aa716dfa-3a08-4395-be64-ec0c712c2547</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c26758868721a910ffe11f4bbbbb3598"/>
@@ -343,7 +342,7 @@
         <sys_created_on>2023-03-14 08:29:40</sys_created_on>
         <sys_id>466758868721a910ffe11f4bbbbb359b</sys_id>
         <sys_mod_count>13</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 09:20:34</sys_updated_on>
         <ui_id>049a3f1f-2dc2-42e3-a545-5c9c68b9a3bc</ui_id>
@@ -377,7 +376,7 @@
         <sys_created_on>2023-03-14 08:39:26</sys_created_on>
         <sys_id>01a9984a8721a910ffe11f4bbbbb354d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 08:39:26</sys_updated_on>
         <transform_compositions>[]</transform_compositions>
@@ -394,7 +393,7 @@
         <sys_created_on>2023-03-14 08:39:26</sys_created_on>
         <sys_id>4da9984a8721a910ffe11f4bbbbb354c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 08:39:26</sys_updated_on>
         <transform_compositions>[]</transform_compositions>
@@ -411,7 +410,7 @@
         <sys_created_on>2023-03-14 08:29:41</sys_created_on>
         <sys_id>5e6758868721a910ffe11f4bbbbb35c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 08:29:41</sys_updated_on>
         <transform_compositions>[]</transform_compositions>
@@ -428,7 +427,7 @@
         <sys_created_on>2023-03-14 08:39:26</sys_created_on>
         <sys_id>85a9984a8721a910ffe11f4bbbbb354c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 08:39:26</sys_updated_on>
         <transform_compositions>[]</transform_compositions>
@@ -445,7 +444,7 @@
         <sys_created_on>2023-03-14 08:29:41</sys_created_on>
         <sys_id>9a6758868721a910ffe11f4bbbbb35c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 08:29:41</sys_updated_on>
         <transform_compositions>[]</transform_compositions>
@@ -462,7 +461,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"7a6798868721a910ffe11f4bbbbb3560","name":"plan","plan_signature":null}}</plan>
         <plan_id>7cb51c068721a910ffe11f4bbbbb35f3</plan_id>
-        <snapshot>c2974a9987fd2110ffe11f4bbbbb3573</snapshot>
+        <snapshot>df50179f475be5103580c4e2846d43ef</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-14 08:29:43</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -509,7 +508,7 @@
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 09:20:33</sys_updated_on>
@@ -585,7 +584,7 @@
         <sys_created_on>2023-03-14 08:29:42</sys_created_on>
         <sys_id>6e6798868721a910ffe11f4bbbbb3530</sys_id>
         <sys_mod_count>22</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 09:20:32</sys_updated_on>
         <ui_id>f543f5f0-9d62-4106-b1c0-0a4960218c2e</ui_id>
@@ -698,7 +697,7 @@
         <sys_created_on>2023-03-14 08:29:42</sys_created_on>
         <sys_id>e66798868721a910ffe11f4bbbbb3528</sys_id>
         <sys_mod_count>22</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 09:20:32</sys_updated_on>
         <ui_id>aa716dfa-3a08-4395-be64-ec0c712c2547</ui_id>
@@ -760,7 +759,7 @@
         <sys_created_on>2023-03-14 08:29:42</sys_created_on>
         <sys_id>aa6798868721a910ffe11f4bbbbb351f</sys_id>
         <sys_mod_count>12</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 09:20:32</sys_updated_on>
         <ui_id>049a3f1f-2dc2-42e3-a545-5c9c68b9a3bc</ui_id>
@@ -794,7 +793,7 @@
         <sys_created_on>2023-03-14 08:29:42</sys_created_on>
         <sys_id>2e6798868721a910ffe11f4bbbbb3534</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 08:29:42</sys_updated_on>
         <transform_compositions>[]</transform_compositions>
@@ -811,7 +810,7 @@
         <sys_created_on>2023-03-14 08:39:28</sys_created_on>
         <sys_id>69a9984a8721a910ffe11f4bbbbb35d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 08:39:28</sys_updated_on>
         <transform_compositions>[]</transform_compositions>
@@ -828,7 +827,7 @@
         <sys_created_on>2023-03-14 08:39:28</sys_created_on>
         <sys_id>a5a9984a8721a910ffe11f4bbbbb35d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 08:39:28</sys_updated_on>
         <transform_compositions>[]</transform_compositions>
@@ -845,7 +844,7 @@
         <sys_created_on>2023-03-14 08:29:42</sys_created_on>
         <sys_id>aa6798868721a910ffe11f4bbbbb3534</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 08:29:42</sys_updated_on>
         <transform_compositions>[]</transform_compositions>
@@ -862,7 +861,7 @@
         <sys_created_on>2023-03-14 08:39:28</sys_created_on>
         <sys_id>e1a9984a8721a910ffe11f4bbbbb35d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 08:39:28</sys_updated_on>
         <transform_compositions>[]</transform_compositions>
@@ -877,6 +876,6 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>7cb51c068721a910ffe11f4bbbbb35f3</sys_id>
         <latest_snapshot>a66798868721a910ffe11f4bbbbb351b</latest_snapshot>
-        <compiler_build>glide-utah-12-21-2022__patch1-03-01-2023_03-13-2023_1716.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch4b-01-31-2023_02-07-2023_1702.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

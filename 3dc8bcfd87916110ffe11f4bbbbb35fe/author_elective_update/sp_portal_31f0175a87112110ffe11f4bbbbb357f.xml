@@ -40,7 +40,7 @@
     <sys_translated_text action="DELETE" query="documentkey=31f0175a87112110ffe11f4bbbbb357f"/>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
         <file_path/>
         <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
         <instance_name>dev111903</instance_name>
@@ -64,7 +64,7 @@
         <update_guid_history>e0c25f9a06112110c873f483c5d278f7:705588375</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="attendance management">54e9ffe387956110ffe11f4bbbbb35ce</sys_audit_delete>
+        <sys_audit_delete display_value="">54e9ffe387956110ffe11f4bbbbb35ce</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-07 06:34:20</sys_created_on>
@@ -73,10 +73,10 @@
         <sys_metadata>31f0175a87112110ffe11f4bbbbb357f</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>attendance management</sys_name>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
         <sys_update_name>sp_portal_31f0175a87112110ffe11f4bbbbb357f</sys_update_name>
         <sys_update_version display_value="sp_portal_31f0175a87112110ffe11f4bbbbb357f">a8c25f9a87112110ffe11f4bbbbb35f7</sys_update_version>

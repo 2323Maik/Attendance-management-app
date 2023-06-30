@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Client Onboarding Information" section_id="44e62c6b472b2d103580c4e2846d4324" sys_domain="global" table="x_976191_attenda_0_client_intake" version="3" view="Workspace-Employee-Management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cell_phone</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-26 11:33:43</sys_created_on>
+            <sys_id>40e62c6b472b2d103580c4e2846d4326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Client Onboarding Information" display_value="Client Onboarding Information" name="x_976191_attenda_0_client_intake" sys_domain="global" view="bfc6a46b2e2b2d10b00ae95f7e02b270">44e62c6b472b2d103580c4e2846d4324</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-26 11:33:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>home_phone</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-26 11:33:43</sys_created_on>
+            <sys_id>44e62c6b472b2d103580c4e2846d4326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Client Onboarding Information" display_value="Client Onboarding Information" name="x_976191_attenda_0_client_intake" sys_domain="global" view="bfc6a46b2e2b2d10b00ae95f7e02b270">44e62c6b472b2d103580c4e2846d4324</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-26 11:33:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_phone</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-26 11:33:43</sys_created_on>
+            <sys_id>48e62c6b472b2d103580c4e2846d4326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Client Onboarding Information" display_value="Client Onboarding Information" name="x_976191_attenda_0_client_intake" sys_domain="global" view="bfc6a46b2e2b2d10b00ae95f7e02b270">44e62c6b472b2d103580c4e2846d4324</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-26 11:33:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-26 11:33:43</sys_created_on>
+            <sys_id>4ce62c6b472b2d103580c4e2846d4326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Client Onboarding Information" display_value="Client Onboarding Information" name="x_976191_attenda_0_client_intake" sys_domain="global" view="bfc6a46b2e2b2d10b00ae95f7e02b270">44e62c6b472b2d103580c4e2846d4324</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-26 11:33:43</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_address</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-26 11:33:43</sys_created_on>
+            <sys_id>40e62c6b472b2d103580c4e2846d4327</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Client Onboarding Information" display_value="Client Onboarding Information" name="x_976191_attenda_0_client_intake" sys_domain="global" view="bfc6a46b2e2b2d10b00ae95f7e02b270">44e62c6b472b2d103580c4e2846d4324</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-26 11:33:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>home_address</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-26 11:33:43</sys_created_on>
+            <sys_id>44e62c6b472b2d103580c4e2846d4327</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Client Onboarding Information" display_value="Client Onboarding Information" name="x_976191_attenda_0_client_intake" sys_domain="global" view="bfc6a46b2e2b2d10b00ae95f7e02b270">44e62c6b472b2d103580c4e2846d4324</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-26 11:33:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-26 11:33:43</sys_created_on>
+            <sys_id>48e62c6b472b2d103580c4e2846d4327</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Client Onboarding Information" display_value="Client Onboarding Information" name="x_976191_attenda_0_client_intake" sys_domain="global" view="bfc6a46b2e2b2d10b00ae95f7e02b270">44e62c6b472b2d103580c4e2846d4324</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-26 11:33:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Client Onboarding Information</caption>
+            <header>false</header>
+            <name>x_976191_attenda_0_client_intake</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-26 11:33:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44e62c6b472b2d103580c4e2846d4324</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_976191_attenda_0_client_intake</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+            <sys_update_name>sys_ui_section_44e62c6b472b2d103580c4e2846d4324</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-26 11:33:43</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Employee Management 0" name="Workspace-Employee-Management-0">bfc6a46b2e2b2d10b00ae95f7e02b270</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

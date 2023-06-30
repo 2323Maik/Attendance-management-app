@@ -230,7 +230,7 @@
     <sys_translated_text action="DELETE" query="documentkey=73a2386ab0952110b803a8c2ad9aebcb"/>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
         <file_path/>
         <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
         <instance_name>dev111903</instance_name>
@@ -465,10 +465,10 @@
         <sys_metadata>73a2386ab0952110b803a8c2ad9aebcb</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>chrome_header</sys_name>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
         <sys_update_name>sys_ux_page_property_73a2386ab0952110b803a8c2ad9aebcb</sys_update_name>
         <sys_update_version display_value="sys_ux_page_property_73a2386ab0952110b803a8c2ad9aebcb">99b2b86a87952110ffe11f4bbbbb352f</sys_update_version>

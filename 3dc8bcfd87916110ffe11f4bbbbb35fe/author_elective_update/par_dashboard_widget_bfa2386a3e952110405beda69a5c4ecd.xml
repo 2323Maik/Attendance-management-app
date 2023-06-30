@@ -24,7 +24,7 @@
     </par_dashboard_widget>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
         <file_path/>
         <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
         <instance_name>dev111903</instance_name>
@@ -36,13 +36,13 @@
         <source>0c21c53087112110ffe11f4bbbbb356a</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-26 04:03:51</sys_created_on>
         <sys_id>d4dab8e287d52110ffe11f4bbbbb3591</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>1868be428580000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 06:36:08</sys_updated_on>
         <type>PAR Dashboard Widget</type>
         <update_guid>94dab8e257d52110fca6526b6e2c3791</update_guid>
         <update_guid_history>94dab8e257d52110fca6526b6e2c3791:-1816582692</update_guid_history>
@@ -57,10 +57,10 @@
         <sys_metadata>bfa2386a3e952110405beda69a5c4ecd</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
         <sys_update_name>par_dashboard_widget_bfa2386a3e952110405beda69a5c4ecd</sys_update_name>
         <sys_update_version display_value="par_dashboard_widget_bfa2386a3e952110405beda69a5c4ecd">d4dab8e287d52110ffe11f4bbbbb3591</sys_update_version>

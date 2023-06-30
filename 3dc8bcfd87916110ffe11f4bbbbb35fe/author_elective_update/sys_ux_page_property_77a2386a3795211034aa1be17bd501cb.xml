@@ -109,7 +109,7 @@
     </sys_ux_page_property>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
         <file_path/>
         <instance_id>ceeda4eddb632c10d5c911f8489619da</instance_id>
         <instance_name>dev111903</instance_name>
@@ -203,13 +203,13 @@
         <source>5c01a71387112110ffe11f4bbbbb35fd</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-06 10:07:11</sys_created_on>
         <sys_id>67354e18872de110ffe11f4bbbbb351a</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>186b663ac980000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 06:36:21</sys_updated_on>
         <type>UX Page Property</type>
         <update_guid>27354e18392de1102f97abee10858e1a</update_guid>
         <update_guid_history>27354e18392de1102f97abee10858e1a:385774876</update_guid_history>
@@ -224,10 +224,10 @@
         <sys_metadata>77a2386a3795211034aa1be17bd501cb</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>chrome_toolbar</sys_name>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
         <sys_update_name>sys_ux_page_property_77a2386a3795211034aa1be17bd501cb</sys_update_name>
         <sys_update_version display_value="sys_ux_page_property_77a2386a3795211034aa1be17bd501cb">67354e18872de110ffe11f4bbbbb351a</sys_update_version>

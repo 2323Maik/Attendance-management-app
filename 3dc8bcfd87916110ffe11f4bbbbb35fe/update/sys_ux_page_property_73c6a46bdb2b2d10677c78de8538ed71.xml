@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Ribbon Config ID</description>
+        <name>ribbonConfigId</name>
+        <page display_value="Employee Management">37c6a46b762b2d10113e79d3ec1f856e</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-26 11:33:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>73c6a46bdb2b2d10677c78de8538ed71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_ux_page_property_73c6a46bdb2b2d10677c78de8538ed71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-26 11:33:28</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_976191_attenda_0.37c6a46b762b2d10113e79d3ec1f856e.root.ribbonConfigId</unique_name>
+        <value>7bc6a46ba92b2d10ed527f9cd6a5f26d</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=73c6a46bdb2b2d10677c78de8538ed71"/>
+</record_update>

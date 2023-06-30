@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_related sys_domain="global" table="x_976191_attenda_0_attendance_table" version="2" view="workspace-attendance-management-0">
+    <sys_ui_related sys_domain="global" table="x_976191_attenda_0_attendance_table" version="2" view="Workspace-Employee-Management-0">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Attendance Table - Workspace Attendance Management 0" name="x_976191_attenda_0_attendance_table" related_list="NULL" sys_domain="global" view="96fe625462ede110cd687987b9378615">010f265487ede110ffe11f4bbbbb3541</list_id>
+            <list_id display_value="Attendance Table - Workspace Employee Management 0" name="x_976191_attenda_0_attendance_table" related_list="NULL" sys_domain="global" view="bfc6a46b2e2b2d10b00ae95f7e02b270">c4e62c6b472b2d103580c4e2846d43d2</list_id>
             <order_by/>
             <position>0</position>
             <related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-09 09:02:41</sys_created_on>
-            <sys_id>090f265487ede110ffe11f4bbbbb3542</sys_id>
+            <sys_created_on>2023-06-26 11:33:44</sys_created_on>
+            <sys_id>cce62c6b472b2d103580c4e2846d43d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-09 09:02:41</sys_updated_on>
+            <sys_updated_on>2023-06-26 11:33:44</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Attendance Table - Workspace Attendance Management 0</calculated_name>
+            <calculated_name>Attendance Table - Workspace Employee Management 0</calculated_name>
             <filter/>
             <name>x_976191_attenda_0_attendance_table</name>
             <order_by/>
@@ -23,20 +23,20 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-09 09:02:41</sys_created_on>
+            <sys_created_on>2023-06-26 11:33:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>010f265487ede110ffe11f4bbbbb3541</sys_id>
+            <sys_id>c4e62c6b472b2d103580c4e2846d43d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Attendance Table - Workspace-x 976191 attenda 0-1</sys_name>
-            <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+            <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+            <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
             <sys_update_name>sys_ui_related_x_976191_attenda_0_attendance_table_Workspace-x_976191_attenda_0-1</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-09 09:02:41</sys_updated_on>
+            <sys_updated_on>2023-06-26 11:33:44</sys_updated_on>
             <sys_user/>
-            <view display_value="Workspace Attendance Management 0" name="workspace-attendance-management-0">96fe625462ede110cd687987b9378615</view>
+            <view display_value="Workspace Employee Management 0" name="Workspace-Employee-Management-0">bfc6a46b2e2b2d10b00ae95f7e02b270</view>
             <view_name/>
         </sys_ui_related_list>
     </sys_ui_related>

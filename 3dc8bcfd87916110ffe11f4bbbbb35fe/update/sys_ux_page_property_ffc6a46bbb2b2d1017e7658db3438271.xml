@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Employee Management">37c6a46b762b2d10113e79d3ec1f856e</page>
+        <required_translations>[ {
+  "message" : "New Attendance Table",
+  "comment" : ""
+}, {
+  "message" : "New Client Intake",
+  "comment" : ""
+}, {
+  "message" : "New Employee Problem",
+  "comment" : ""
+}, {
+  "message" : "New Employee Request",
+  "comment" : ""
+}, {
+  "message" : "New Employee Table",
+  "comment" : ""
+}, {
+  "message" : "New Incident",
+  "comment" : ""
+}, {
+  "message" : "New Interaction",
+  "comment" : ""
+}, {
+  "message" : "New Problem Table",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-26 11:33:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>ffc6a46bbb2b2d1017e7658db3438271</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_ux_page_property_ffc6a46bbb2b2d1017e7658db3438271</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-26 11:33:39</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_976191_attenda_0.37c6a46b762b2d10113e79d3ec1f856e.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Interaction"},"routeInfo":{"route":"record","fields":{"table":"interaction","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"interaction","canCreate":true}}},{"label":{"translatable":true,"message":"New Incident"},"routeInfo":{"route":"record","fields":{"table":"incident","sysId":"-1"},"multiInstField":"sysId"}},{"label":{"translatable":true,"message":"New Client Intake"},"routeInfo":{"route":"record","fields":{"table":"x_976191_attenda_0_client_intake","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_976191_attenda_0_client_intake","canCreate":true}}},{"label":{"translatable":true,"message":"New Employee Problem"},"routeInfo":{"route":"record","fields":{"table":"x_976191_attenda_0_employee_problem","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_976191_attenda_0_employee_problem","canCreate":true}}},{"label":{"translatable":true,"message":"New Employee Request"},"routeInfo":{"route":"record","fields":{"table":"x_976191_attenda_0_employee_request","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_976191_attenda_0_employee_request","canCreate":true}}},{"label":{"translatable":true,"message":"New Employee Table"},"routeInfo":{"route":"record","fields":{"table":"x_976191_attenda_0_employee_table","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_976191_attenda_0_employee_table","canCreate":true}}},{"label":{"translatable":true,"message":"New Problem Table"},"routeInfo":{"route":"record","fields":{"table":"x_976191_attenda_0_problem_table","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_976191_attenda_0_problem_table","canCreate":true}}},{"label":{"translatable":true,"message":"New Attendance Table"},"routeInfo":{"route":"record","fields":{"table":"x_976191_attenda_0_attendance_table","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_976191_attenda_0_attendance_table","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=ffc6a46bbb2b2d1017e7658db3438271"/>
+</record_update>

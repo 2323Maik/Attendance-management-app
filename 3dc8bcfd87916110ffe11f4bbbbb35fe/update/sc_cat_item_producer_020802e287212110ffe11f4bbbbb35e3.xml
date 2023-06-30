@@ -47,7 +47,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Mikias Tefera">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner display_value="Mikias Hailu">6816f79cc0a8016401c5a33be04be441</owner>
         <picture>1e91548b87e56110ffe11f4bbbbb3589</picture>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 
@@ -109,9 +109,9 @@ current.comment = producer.discribe_previous_work_comments;]]></script>
         <sys_id>020802e287212110ffe11f4bbbbb35e3</sys_id>
         <sys_mod_count>9</sys_mod_count>
         <sys_name>CLIENT INTAKE</sys_name>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name>sc_cat_item_producer_020802e287212110ffe11f4bbbbb35e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-20 09:41:52</sys_updated_on>

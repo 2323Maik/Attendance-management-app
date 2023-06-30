@@ -13,9 +13,9 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>c0bdb4a687d52110ffe11f4bbbbb35d5</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name>pa_m2m_dashboard_tabs_a32efca687d52110ffe11f4bbbbb3518</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-03 14:20:21</sys_updated_on>

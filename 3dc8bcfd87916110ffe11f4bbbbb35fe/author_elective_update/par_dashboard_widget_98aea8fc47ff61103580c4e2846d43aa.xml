@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">b3c6a46b412b2d101508b1635165816f</canvas>
+        <component display_value="Vertical bar">23051643b7e03010097cb81cde11a910</component>
+        <component_props>{"configVersion":"22.1.7","chartVariation":"stacked","yAxisHidden":false,"yAxisTitle":"Absent date","yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisTitle":"","xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"xAxisTruncationType":"end","yAxisStyle":"default","showLegend":true,"showLegendValue":true,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":true,"dataLabelPosition":"middle","showStackedValues":"none","showOverlappingLabels":false,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Attendance Table","sourceType":"table","tableOrViewName":"x_976191_attenda_0_attendance_table","id":"dGFibGV4Xzk3NjE5MV9hdHRlbmRhXzBfYXR0ZW5kYW5jZV90YWJsZTE2ODgxMTY1MDI5NDc=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Attendance Bar","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4Xzk3NjE5MV9hdHRlbmRhXzBfYXR0ZW5kYW5jZV90YWJsZTE2ODgxMTY1MDI5NDc=","id":"ZEdGaWJHVjRYemszTmpFNU1WOWhkSFJsYm1SaFh6QmZZWFIwWlc1a1lXNWpaVjkwWVdKc1pURTJPRGd4TVRZMU1ESTVORGM9MTY4ODExNjUwNDQ1Ng==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4Xzk3NjE5MV9hdHRlbmRhXzBfYXR0ZW5kYW5jZV90YWJsZTE2ODgxMTY1MDI5NDc=","groupByField":"absent_dates","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false},{"groupBy":[{"dataSource":"dGFibGV4Xzk3NjE5MV9hdHRlbmRhXzBfYXR0ZW5kYW5jZV90YWJsZTE2ODgxMTY1MDI5NDc=","groupByField":"empname","isRange":false,"isChoice":false,"isPaBucket":false}]}],"sortBy":"name","sortByOrder":"asc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"filterConfigurations":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","period":"M","dateFormat":"default"}</component_props>
+        <h>10</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-30 09:19:59</sys_created_on>
+        <sys_id>98aea8fc47ff61103580c4e2846d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>par_dashboard_widget_98aea8fc47ff61103580c4e2846d43aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-30 09:19:59</sys_updated_on>
+        <visualization/>
+        <w>7</w>
+        <x>0</x>
+        <y>12</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>220d0332db483010431011f8489619e0</instance_id>
+        <instance_name>dev116529</instance_name>
+        <name>par_dashboard_widget_98aea8fc47ff61103580c4e2846d43aa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">b3c6a46b412b2d101508b1635165816f</canvas><component display_value="Vertical bar">23051643b7e03010097cb81cde11a910</component><component_props>{"configVersion":"22.1.7","chartVariation":"stacked","yAxisHidden":false,"yAxisTitle":"Absent date","yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisTitle":"","xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"xAxisTruncationType":"end","yAxisStyle":"default","showLegend":true,"showLegendValue":true,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":true,"dataLabelPosition":"middle","showStackedValues":"none","showOverlappingLabels":false,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Attendance Table","sourceType":"table","tableOrViewName":"x_976191_attenda_0_attendance_table","id":"dGFibGV4Xzk3NjE5MV9hdHRlbmRhXzBfYXR0ZW5kYW5jZV90YWJsZTE2ODgxMTY1MDI5NDc=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Attendance Bar","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4Xzk3NjE5MV9hdHRlbmRhXzBfYXR0ZW5kYW5jZV90YWJsZTE2ODgxMTY1MDI5NDc=","id":"ZEdGaWJHVjRYemszTmpFNU1WOWhkSFJsYm1SaFh6QmZZWFIwWlc1a1lXNWpaVjkwWVdKc1pURTJPRGd4TVRZMU1ESTVORGM9MTY4ODExNjUwNDQ1Ng==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4Xzk3NjE5MV9hdHRlbmRhXzBfYXR0ZW5kYW5jZV90YWJsZTE2ODgxMTY1MDI5NDc=","groupByField":"absent_dates","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false},{"groupBy":[{"dataSource":"dGFibGV4Xzk3NjE5MV9hdHRlbmRhXzBfYXR0ZW5kYW5jZV90YWJsZTE2ODgxMTY1MDI5NDc=","groupByField":"empname","isRange":false,"isChoice":false,"isPaBucket":false}]}],"sortBy":"name","sortByOrder":"asc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"filterConfigurations":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","period":"M","dateFormat":"default"}</component_props><h>10</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-30 09:19:59</sys_created_on><sys_id>98aea8fc47ff61103580c4e2846d43aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>par_dashboard_widget_98aea8fc47ff61103580c4e2846d43aa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-30 09:19:59</sys_updated_on><visualization/><w>7</w><x>0</x><y>12</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>2000633066</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6385202b472b2d103580c4e2846d4334</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-30 09:19:59</sys_created_on>
+        <sys_id>50aea8fc47ff61103580c4e2846d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1890b9a29e10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-30 09:19:59</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>98aea8fce1ff6110af29aa51df1bb4ab</update_guid>
+        <update_guid_history>98aea8fce1ff6110af29aa51df1bb4ab:2000633066</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8f2f6c704733a1103580c4e2846d4388</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-30 09:22:22</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>1cf8aeef832847f495fc25e61951b990</sys_id>
+        <sys_metadata>98aea8fc47ff61103580c4e2846d43aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_98aea8fc47ff61103580c4e2846d43aa</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_98aea8fc47ff61103580c4e2846d43aa">50aea8fc47ff61103580c4e2846d43ac</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-30 09:22:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

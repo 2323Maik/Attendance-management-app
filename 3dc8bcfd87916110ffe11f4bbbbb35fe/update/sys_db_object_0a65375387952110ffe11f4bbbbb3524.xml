@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
         <access>package_private</access>
-        <actions_access>false</actions_access>
-        <alter_access>false</alter_access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
         <caller_access/>
-        <client_scripts_access>false</client_scripts_access>
+        <client_scripts_access>true</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <is_extendable>true</is_extendable>
@@ -15,23 +15,23 @@
         <name>x_976191_attenda_0_ceo_table</name>
         <number_ref display_value="REC">be58fbac87a16510ffe11f4bbbbb35e7</number_ref>
         <provider_class/>
-        <read_access>false</read_access>
+        <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Employee" name="x_976191_employee_employee">2aa707cc87516110ffe11f4bbbbb3533</super_class>
+        <super_class display_value="label" name="x_976191_employee_employee">97c5601347df21103580c4e2846d4305</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-06 11:37:21</sys_created_on>
         <sys_id>0a65375387952110ffe11f4bbbbb3524</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name>Record Store</sys_name>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name>sys_db_object_0a65375387952110ffe11f4bbbbb3524</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-04-06 13:12:02</sys_updated_on>
-        <update_access>false</update_access>
+        <update_access>true</update_access>
         <user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</user_role>
-        <ws_access>false</ws_access>
+        <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

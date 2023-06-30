@@ -17,16 +17,16 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Import Set Row" name="sys_import_set_row">a5efc2e0f90211108c8bd16244dfe716</super_class>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">b82940c3243021108c8bc6863d3fad39</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-04 08:22:13</sys_created_on>
         <sys_id>b91f503c878a6d10ffe11f4bbbbb3514</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Emp Data</sys_name>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name>sys_db_object_b91f503c878a6d10ffe11f4bbbbb3514</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-04-11 06:40:11</sys_updated_on>

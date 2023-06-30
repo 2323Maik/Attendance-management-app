@@ -14,7 +14,6 @@
         <item_view/>
         <name>attendance Form Screen</name>
         <override_context_with_data_item>false</override_context_with_data_item>
-        <parameter_screen/>
         <roles_override/>
         <segments_height>medium</segments_height>
         <segments_min_width>medium</segments_min_width>
@@ -24,9 +23,9 @@
         <sys_id>75c55d868725a910ffe11f4bbbbb3578</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>attendance Form Screen</sys_name>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name>sys_sg_form_screen_75c55d868725a910ffe11f4bbbbb3578</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-14 13:02:10</sys_updated_on>

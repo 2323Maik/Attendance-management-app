@@ -8,9 +8,9 @@
         <sys_id>e00fe25487ede110ffe11f4bbbbb354e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>attendance-management search profile.Employee Table</sys_name>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name>ais_search_profile_ais_search_source_m2m_e00fe25487ede110ffe11f4bbbbb354e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-09 09:02:39</sys_updated_on>

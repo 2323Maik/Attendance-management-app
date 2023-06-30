@@ -12,7 +12,7 @@
         <name>Attendance Dashboard</name>
         <no_tabs>false</no_tabs>
         <order>100</order>
-        <owner display_value="Mikias Tefera">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner display_value="Mikias Hailu">6816f79cc0a8016401c5a33be04be441</owner>
         <restrict_to_roles/>
         <role_override>true</role_override>
         <roles/>
@@ -26,9 +26,9 @@
         <sys_mod_count>4</sys_mod_count>
         <sys_name>Attendance Dashboard</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name>pa_dashboards_c0bdb4a687d52110ffe11f4bbbbb35d5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-09 06:04:53</sys_updated_on>

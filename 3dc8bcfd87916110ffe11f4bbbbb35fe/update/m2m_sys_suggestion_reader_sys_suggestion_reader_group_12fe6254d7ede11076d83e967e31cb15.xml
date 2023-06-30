@@ -9,9 +9,9 @@
         <sys_id>12fe6254d7ede11076d83e967e31cb15</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_suggestion_reader_group_id display_value="User History Reader Group for Starter Workspace - Workspace Search">c6fe62541aede110047f4eff2c0a6a0f</sys_suggestion_reader_group_id>
         <sys_suggestion_reader_id display_value="User Search Term Reader">4b1cb27053231010dda1ddeeff7b12b8</sys_suggestion_reader_id>
         <sys_update_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group_12fe6254d7ede11076d83e967e31cb15</sys_update_name>

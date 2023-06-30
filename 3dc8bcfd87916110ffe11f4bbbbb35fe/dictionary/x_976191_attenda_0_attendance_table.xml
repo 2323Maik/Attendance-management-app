@@ -4,7 +4,6 @@
         <element attributes="edge_encryption_enabled=true" label="Absent Reason" max_length="1000" name="absent_reason" type="string"/>
         <element label="Due Date" max_length="40" name="due_date" type="glide_date"/>
         <element attributes="encode_utf8=false" label="EmpId" max_length="32" name="empid" reference="x_976191_attenda_0_employee_table" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Employment Start Date" max_length="40" name="employment_start_date" type="glide_date"/>
         <element attributes="ref_ac_columns=empid,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter" label="EmpName" mandatory="true" max_length="32" name="empname" reference="x_976191_attenda_0_employee_table" type="reference"/>
         <element choice="1" choice_field="importance" choice_table="x_976191_to_do_to_do" label="Importance" max_length="40" name="importance" type="choice">
             <choice>
@@ -34,5 +33,6 @@
         <index name="index3">
             <element name="sys_class_name"/>
         </index>
+        <element attributes="edge_encryption_enabled=true" label="Employment Start Date" max_length="40" name="employment_start_date" type="glide_date"/>
     </element>
 </database>
