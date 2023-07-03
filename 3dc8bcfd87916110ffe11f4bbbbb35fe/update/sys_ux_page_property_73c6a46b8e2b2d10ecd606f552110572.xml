@@ -13,17 +13,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>73c6a46b8e2b2d10ecd606f552110572</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>view</sys_name>
         <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name>sys_ux_page_property_73c6a46b8e2b2d10ecd606f552110572</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-26 11:33:44</sys_updated_on>
+        <sys_updated_on>2023-06-30 11:33:05</sys_updated_on>
         <type>string</type>
         <unique_name>x_976191_attenda_0.37c6a46b762b2d10113e79d3ec1f856e.root.view</unique_name>
-        <value>Workspace-Employee-Management-0</value>
+        <value>2fe7c5f84773a1103580c4e2846d43cc</value>
     </sys_ux_page_property>
     <sys_translated_text action="delete_multiple" query="documentkey=73c6a46b8e2b2d10ecd606f552110572"/>
 </record_update>

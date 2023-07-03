@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_workspace_view_rule_ux_view_rule_config">
+    <sys_ux_m2m_workspace_view_rule_ux_view_rule_config action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-30 11:12:09</sys_created_on>
+        <sys_id>4b48413c4773a1103580c4e2846d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Management for emp request.Employee Managment view rule</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config_4b48413c4773a1103580c4e2846d430e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-30 11:12:09</sys_updated_on>
+        <view_rules_configuration display_value="Employee Managment view rule">2fe7c5f84773a1103580c4e2846d43cc</view_rules_configuration>
+        <workspace_view_rule display_value="Employee Management for emp request">979645784773a1103580c4e2846d43dd</workspace_view_rule>
+    </sys_ux_m2m_workspace_view_rule_ux_view_rule_config>
+</record_update>
