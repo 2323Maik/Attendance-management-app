@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_ribbon_setting">
+    <sys_aw_ribbon_setting action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attrs/>
+        <component display_value="Timeline">d07a00648710230084aca571d5cb0b4a</component>
+        <experience_restricted>false</experience_restricted>
+        <is_inheritable>false</is_inheritable>
+        <name>Emp Request Timeline</name>
+        <order>20</order>
+        <sys_class_name>sys_aw_ribbon_setting</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-30 11:49:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3a0d97447b3a1103580c4e2846d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emp Request Timeline</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_aw_ribbon_setting_e3a0d97447b3a1103580c4e2846d4391</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-30 11:49:52</sys_updated_on>
+        <table>x_976191_attenda_0_employee_request</table>
+        <tag>sn-component-workspace-timeline</tag>
+        <width>6</width>
+        <workspace/>
+    </sys_aw_ribbon_setting>
+    <sys_variable_value action="delete_multiple" query="document_key=e3a0d97447b3a1103580c4e2846d4391"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>e3a0d97447b3a1103580c4e2846d4391</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-30 11:49:52</sys_created_on>
+        <sys_id>6be01db447b3a1103580c4e2846d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-30 11:49:52</sys_updated_on>
+        <value>79f6671b0a0a0b8f00481621488887ff</value>
+        <variable display_value="Fulfiller Role">af1219a9539033009925ddeeff7b1279</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>e3a0d97447b3a1103580c4e2846d4391</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-30 11:49:52</sys_created_on>
+        <sys_id>6fe01db447b3a1103580c4e2846d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-30 11:49:52</sys_updated_on>
+        <value/>
+        <variable display_value="Requester">dafb48648710230084aca571d5cb0b31</variable>
+    </sys_variable_value>
+</record_update>

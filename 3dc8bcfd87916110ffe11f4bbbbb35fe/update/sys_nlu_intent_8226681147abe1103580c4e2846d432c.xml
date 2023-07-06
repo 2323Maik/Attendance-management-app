@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_intent">
+    <sys_nlu_intent action="INSERT_OR_UPDATE">
+        <confidence_threshold>0.6</confidence_threshold>
+        <description>Issues that can be happen on an employment process </description>
+        <enable>true</enable>
+        <model display_value="IT Issues">6ca0e41d476be1103580c4e2846d43d0</model>
+        <name>Employment Issues</name>
+        <origin/>
+        <override_confidence_threshold>false</override_confidence_threshold>
+        <primary_intent/>
+        <status>draft</status>
+        <sys_class_name>sys_nlu_intent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-19 11:44:15</sys_created_on>
+        <sys_id>8226681147abe1103580c4e2846d432c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employment Issues</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_nlu_intent_8226681147abe1103580c4e2846d432c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-19 11:44:15</sys_updated_on>
+    </sys_nlu_intent>
+</record_update>

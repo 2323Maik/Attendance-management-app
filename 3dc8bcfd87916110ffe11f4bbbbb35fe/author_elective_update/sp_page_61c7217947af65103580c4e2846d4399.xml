@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>other</category>
+        <css>/*
+main.page, main.body {
+  height: 99vh;
+  min-height: 100%;
+  padding-top: 0px !important;
+  position: relative;
+}
+
+@media(max-width: 767px) {
+  main.page, main.body {
+    height: auto;
+  }
+}
+.padding {
+	padding: 20px 0 20px 20px;
+}
+
+section.page {
+  background-image: url('la_jolla_sp_login_background.png'); 
+  	background-color: #3A3F50;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+section.page main.body:before {
+  display: block;
+  background-color: #3A3F50; 
+  opacity: 0.75;
+  position: relative;
+}
+
+footer {
+  margin-top: 150px;
+  position: relative;
+}  */
+
+.padding {
+	padding: 20px 0 20px 20px;
+  margin-top: -10px;
+}
+.hight {
+	height:300px;
+  padding: 120px 40px 30px 100px;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>my_landing_page</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles/>
+        <seo_script/>
+        <short_description>Custom landing page</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-21 05:47:54</sys_created_on>
+        <sys_id>61c7217947af65103580c4e2846d4399</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>my_landing_page</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sp_page_61c7217947af65103580c4e2846d4399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-21 06:18:21</sys_updated_on>
+        <title>My Landing Page</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=61c7217947af65103580c4e2846d4399"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>220d0332db483010431011f8489619e0</instance_id>
+        <instance_name>dev116529</instance_name>
+        <name>sp_page_61c7217947af65103580c4e2846d4399</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>other</category><css>/*
+main.page, main.body {
+  height: 99vh;
+  min-height: 100%;
+  padding-top: 0px !important;
+  position: relative;
+}
+
+@media(max-width: 767px) {
+  main.page, main.body {
+    height: auto;
+  }
+}
+.padding {
+	padding: 20px 0 20px 20px;
+}
+
+section.page {
+  background-image: url('la_jolla_sp_login_background.png'); 
+  	background-color: #3A3F50;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+section.page main.body:before {
+  display: block;
+  background-color: #3A3F50; 
+  opacity: 0.75;
+  position: relative;
+}
+
+footer {
+  margin-top: 150px;
+  position: relative;
+}  */
+
+.padding {
+	padding: 20px 0 20px 20px;
+  margin-top: -10px;
+}
+.hight {
+	height:300px;
+  padding: 120px 40px 30px 100px;
+}</css><draft>false</draft><dynamic_title_structure/><id>my_landing_page</id><internal>false</internal><omit_watcher>false</omit_watcher><public>true</public><roles/><seo_script/><short_description>Custom landing page</short_description><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-21 05:47:54</sys_created_on><sys_id>61c7217947af65103580c4e2846d4399</sys_id><sys_mod_count>2</sys_mod_count><sys_name>my_landing_page</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sp_page_61c7217947af65103580c4e2846d4399</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-21 06:18:21</sys_updated_on><title>My Landing Page</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=61c7217947af65103580c4e2846d4399"/></record_update>]]></payload>
+        <payload_hash>-1429629697</payload_hash>
+        <record_name>my_landing_page</record_name>
+        <reverted_from/>
+        <source>5ab66861476b25103580c4e2846d43bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-21 06:18:21</sys_created_on>
+        <sys_id>a7bead3947ef65103580c4e2846d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188dc9aa2e40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-21 06:18:21</sys_updated_on>
+        <type>Page</type>
+        <update_guid>afbead39a6ef6510bfb73427268d5020</update_guid>
+        <update_guid_history>afbead39a6ef6510bfb73427268d5020:-1429629697,83f72df9fbaf65103e9fc02a840732f1:-613742050,a5c721792aaf651016e2e65f6e3bec9b:1685814072</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="my_landing_page">4ea57a754767a5103580c4e2846d43f7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-21 11:28:11</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>12707bb337cc4a2a822b9ec9bb4d4df9</sys_id>
+        <sys_metadata>61c7217947af65103580c4e2846d4399</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>my_landing_page</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sp_page_61c7217947af65103580c4e2846d4399</sys_update_name>
+        <sys_update_version display_value="sp_page_61c7217947af65103580c4e2846d4399">a7bead3947ef65103580c4e2846d4321</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:28:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

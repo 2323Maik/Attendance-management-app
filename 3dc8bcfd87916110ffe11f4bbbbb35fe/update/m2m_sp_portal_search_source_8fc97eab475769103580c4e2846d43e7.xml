@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source">
+    <m2m_sp_portal_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_portal display_value="Custom Portal">be88e85747df21103580c4e2846d4307</sp_portal>
+        <sp_search_source display_value="Catalogs">c96eb1686721220023c82e08f585efff</sp_search_source>
+        <sys_class_name>m2m_sp_portal_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 11:59:56</sys_created_on>
+        <sys_id>8fc97eab475769103580c4e2846d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Portal.Catalogs</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>m2m_sp_portal_search_source_8fc97eab475769103580c4e2846d43e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 11:59:56</sys_updated_on>
+    </m2m_sp_portal_search_source>
+</record_update>

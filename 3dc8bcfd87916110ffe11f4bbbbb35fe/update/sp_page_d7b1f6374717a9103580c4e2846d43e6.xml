@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>other</category>
+        <css>main.page, main.body {
+  height: 99vh;
+  min-height: 100%;
+  padding-top: 0px !important;
+  position: relative;
+}
+
+@media(max-width: 767px) {
+  main.page, main.body {
+    height: auto;
+  }
+}
+.padding {
+	padding-top: 20px;
+  margin-bottom: 0px;
+  background-color: #ffffff;
+}
+
+section.page {
+  background-image: url('la_jolla_sp_login_background.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #3A3F50;
+  position: relative;
+}
+
+section.page main.body:before {
+  display: block;
+  background-color: #3A3F50;
+  opacity: 0.75;
+  position: relative;
+}
+
+footer {
+  margin-top: 100px;
+  position: relative;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>custom_landing2</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-15 06:03:12</sys_created_on>
+        <sys_id>d7b1f6374717a9103580c4e2846d43e6</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>custom_landing2</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sp_page_d7b1f6374717a9103580c4e2846d43e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-15 08:34:41</sys_updated_on>
+        <title>Custom Landing </title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=d7b1f6374717a9103580c4e2846d43e6"/>
+</record_update>

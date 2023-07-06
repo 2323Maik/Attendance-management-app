@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>.position {
+	margin-top: -10px;
+  padding: 15px 0px;
+  background: b0a48e;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>my_request_custom</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles>user</roles>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-20 09:33:21</sys_created_on>
+        <sys_id>dec11565476f25103580c4e2846d4337</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>my_request_custom</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sp_page_dec11565476f25103580c4e2846d4337</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-01 06:41:43</sys_updated_on>
+        <title>My request custom</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=dec11565476f25103580c4e2846d4337"/>
+</record_update>

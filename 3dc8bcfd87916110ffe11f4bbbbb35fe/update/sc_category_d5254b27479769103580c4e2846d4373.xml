@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Laptop computers for mobile workers.</description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent display_value="Hardware">d258b953c611227a0146101fb1be7c31</parent>
+        <roles/>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 12:49:31</sys_created_on>
+        <sys_id>d5254b27479769103580c4e2846d4373</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Laptops</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sc_category_d5254b27479769103580c4e2846d4373</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 12:55:09</sys_updated_on>
+        <title>Laptops</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=d5254b27479769103580c4e2846d4373"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>homepage_image</file_name>
+        <hash/>
+        <image_height/>
+        <image_width/>
+        <size_bytes>503</size_bytes>
+        <size_compressed>518</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 12:49:31</sys_created_on>
+        <sys_id>55258f6b479769103580c4e2846d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 12:49:31</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>d5254b27479769103580c4e2846d4373</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="homepage_image" sys_id="55258f6b479769103580c4e2846d439f">55258f6b479769103580c4e2846d439f</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 12:49:31</sys_created_on>
+        <sys_id>e5258f6b479769103580c4e2846d43b8</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSnkDswcEGJHfp36gEUpIlrhElwflpJeWJRakMjin5SakKnrmJ6alBqYkplYUnU20YGBhnero4hlTcejPbNuiQg4SDuSR/g7rBNzEZRyltaT8Fk21J4lpLJhlHFDIHBWuYT2iSy1NwfxCt1mpw8Gx/zqF31cbWmpMMTj7+fdPHzIuRAQQcLnN+kpM4ftjDbGIz37bJJ39v2qQieGXS2Si30xcTXnaveLlybuI5+UxrHY+ZRiohCSyeHr/k12nNu7/zQHXdpIub1TytDj26xOO5fJ/63RWeHk5CkyawgMkWFRVFTs8GMAkSYACTUp5LzXek3msza5BePalF/xIvUN2G7sKvb+/+eexrpswf8yWc//zlQy/Vmr503Rb3Z0oL2abGO+W29+R6Yc+AL1xLo6VczcR25F9K3MNZ+k9fyGxS0XZXtclmizK0FyuLp01RqZ8l9qX2WfYt98uFuVzZ61wf2zSZvCx8bJUVHJDsfjnwim7hvTNOLfIluxYci7qSwpcV/KLS/fTVl5u4ypWSD9pUx/NtUrWtW1cqnvnYQzfcyM816MnJ5I7O6/uzhFaWPVEs5hI4flj+fPf2f3rfb315M61CzpWzk4WBIW+zcAKD8aeQY91KnldAgerp6ueyzimhCQBZ8E169wEAAA==
+		</data>
+        <length>680</length>
+        <position>1</position>
+        <sys_attachment display_value="homepage_image" sys_id="55258f6b479769103580c4e2846d439f">55258f6b479769103580c4e2846d439f</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 12:49:31</sys_created_on>
+        <sys_id>69258f6b479769103580c4e2846d43b8</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_server_url">
+    <ldap_server_url action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <operational_status>true</operational_status>
+        <order>100</order>
+        <server display_value="ServiceNow LDAP Server">c9e2cf2e4733a1103580c4e2846d430d</server>
+        <sys_class_name>ldap_server_url</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-06 06:38:13</sys_created_on>
+        <sys_id>0d230bee47ff61103580c4e2846d435a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ldap://</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>ldap_server_url_0d230bee47ff61103580c4e2846d435a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-06 06:38:13</sys_updated_on>
+        <url>ldap://</url>
+    </ldap_server_url>
+</record_update>

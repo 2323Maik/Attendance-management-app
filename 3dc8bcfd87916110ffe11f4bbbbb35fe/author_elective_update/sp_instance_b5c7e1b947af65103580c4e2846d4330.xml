@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b1c7e1b947af65103580c4e2846d432b</sp_column>
+        <sp_widget display_value="KB Top Rated">3c817b52cb30020000f8d856634c9cfb</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-21 05:47:55</sys_created_on>
+        <sys_id>b5c7e1b947af65103580c4e2846d4330</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Employee Top Rated</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sp_instance_b5c7e1b947af65103580c4e2846d4330</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-21 06:16:34</sys_updated_on>
+        <title>Employee Top Rated</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"max_number": {
+		"value": null,
+		"displayValue": ""
+	},
+	"kb_category": {
+		"value": "219e4fe347d769103580c4e2846d4382",
+		"displayValue": "Employee data"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=b5c7e1b947af65103580c4e2846d4330"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>220d0332db483010431011f8489619e0</instance_id>
+        <instance_name>dev116529</instance_name>
+        <name>sp_instance_b5c7e1b947af65103580c4e2846d4330</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;b1c7e1b947af65103580c4e2846d432b&lt;/sp_column&gt;&lt;sp_widget display_value="KB Top Rated"&gt;3c817b52cb30020000f8d856634c9cfb&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-21 05:47:55&lt;/sys_created_on&gt;&lt;sys_id&gt;b5c7e1b947af65103580c4e2846d4330&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Employee Top Rated&lt;/sys_name&gt;&lt;sys_package display_value="Attendance Management" source="x_976191_attenda_0"&gt;3dc8bcfd87916110ffe11f4bbbbb35fe&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Attendance Management"&gt;3dc8bcfd87916110ffe11f4bbbbb35fe&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_b5c7e1b947af65103580c4e2846d4330&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-21 06:16:34&lt;/sys_updated_on&gt;&lt;title&gt;Employee Top Rated&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"max_number": {
+		"value": null,
+		"displayValue": ""
+	},
+	"kb_category": {
+		"value": "219e4fe347d769103580c4e2846d4382",
+		"displayValue": "Employee data"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b5c7e1b947af65103580c4e2846d4330"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-224591005</payload_hash>
+        <record_name>Employee Top Rated</record_name>
+        <reverted_from/>
+        <source>5ab66861476b25103580c4e2846d43bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-21 06:16:34</sys_created_on>
+        <sys_id>a55e61f947ef65103580c4e2846d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188dc9900760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-21 06:16:34</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>ad5e61f9caef65108003d4d6bf162d8f</update_guid>
+        <update_guid_history>ad5e61f9caef65108003d4d6bf162d8f:-224591005,95c9a971adef651041ff09bc0f434df2:363993725,f899e531ebef6510e2a18e87882796bc:-224591005,ec792131bfef651002701c9727de4236:-97747388,f9c7e1b9e0af651070d05364e20a7e31:-224591005</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Employee Top Rated">8ea57a754767a5103580c4e2846d43ba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-21 11:28:11</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>148f0f0d023348f0832e43fc0fff4040</sys_id>
+        <sys_metadata>b5c7e1b947af65103580c4e2846d4330</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Top Rated</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sp_instance_b5c7e1b947af65103580c4e2846d4330</sys_update_name>
+        <sys_update_version display_value="sp_instance_b5c7e1b947af65103580c4e2846d4330">a55e61f947ef65103580c4e2846d4390</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-21 11:28:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

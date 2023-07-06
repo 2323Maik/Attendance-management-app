@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>great job!!�?��  �?��  �?��</key>
+        <language>en</language>
+        <message>Great job!!👍  👍  👍</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-19 07:23:33</sys_created_on>
+        <sys_id>d77aef4147a7e1103580c4e2846d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>great job!!�?��  �?��  �?��</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_ui_message_d77aef4147a7e1103580c4e2846d43c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-19 07:23:33</sys_updated_on>
+    </sys_ui_message>
+</record_update>

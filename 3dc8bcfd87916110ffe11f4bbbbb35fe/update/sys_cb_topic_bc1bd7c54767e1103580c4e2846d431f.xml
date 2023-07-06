@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>140e2eda0b203300a1b16c2367673af4,bfdd66da0b203300a1b16c2367673a1f</category>
+        <channels/>
+        <connect_queue/>
+        <description>This will help user to solve issues related with employee</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.41",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "2b86ec275f9f41f1a2ae0dfc559364e1": {
+          "id": "2b86ec275f9f41f1a2ae0dfc559364e1",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hi "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.first_name}}",
+                      "displayValue": "Input Variables➛User➛First name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": "!  Welcome to Employee Issue topics. "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "408a582c622e4f41a822865c447c6822": {
+          "id": "408a582c622e4f41a822865c447c6822",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "ce0e1bd7e4ad4b3e90d233bae235243f": {
+          "stepType": "ChoicePrompt",
+          "name": "Employee Issues",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Let me know how I can help you with this issue.  What's your issue or request?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "393b7e778ba74208a7b1e150108d99fe",
+          "id": "ce0e1bd7e4ad4b3e90d233bae235243f",
+          "hasCardHeader": true,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "Large image with text",
+            "cardFields": {
+              "1c617fa17313101081e06502edf6a780_title": {
+                "value": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Employee Issues"
+                      }
+                    ]
+                  }
+                ],
+                "mode": "simple"
+              },
+              "1c617fa17313101081e06502edf6a780_description": {
+                "value": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Welcome to Employee topic. Solve your issues by using our Employee support Bot."
+                      }
+                    ]
+                  }
+                ],
+                "mode": "simple"
+              },
+              "1c617fa17313101081e06502edf6a780_image": {
+                "value": "employees_1686919795613.png",
+                "mode": "db_image"
+              },
+              "1c617fa17313101081e06502edf6a780_imageAlt": {
+                "value": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  }
+                ],
+                "mode": "simple"
+              }
+            },
+            "cardDefinition": {
+              "sys_id": "1c617fa17313101081e06502edf6a780",
+              "name": "Large image with text",
+              "sys_name": "Large image with text",
+              "thumbnail.name": "Large image with text.svg",
+              "fields": [
+                {
+                  "label": "Title",
+                  "position": "1",
+                  "mandatory": true,
+                  "name": "title",
+                  "id": "1c617fa17313101081e06502edf6a780_title"
+                },
+                {
+                  "label": "Description",
+                  "position": "2",
+                  "mandatory": false,
+                  "name": "description",
+                  "id": "1c617fa17313101081e06502edf6a780_description"
+                },
+                {
+                  "label": "Image URL link",
+                  "position": "3",
+                  "mandatory": true,
+                  "type": "image",
+                  "name": "image",
+                  "id": "1c617fa17313101081e06502edf6a780_image"
+                },
+                {
+                  "label": "Image alt text",
+                  "position": "4",
+                  "mandatory": false,
+                  "name": "imageAlt",
+                  "id": "1c617fa17313101081e06502edf6a780_imageAlt"
+                }
+              ],
+              "value": "Large image with text",
+              "hasTemplateError": false
+            }
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "b442b2b54bc149678025ad8c47018ac5": {
+          "id": "b442b2b54bc149678025ad8c47018ac5",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "bb42bed9e4ca4226bc7fcafed20a1bcd": {
+          "id": "bb42bed9e4ca4226bc7fcafed20a1bcd",
+          "stepType": "LinkOutput",
+          "name": "Need Emergency Time Off",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://dev116529.service-now.com/cp?id=kb_article_view&amp;sysparm_article=KB0010003"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Need Emergency Time Off"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please click on the bellow link to get the steps to solve your issues"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "3f7edfc8f9284fe694584a3e30285ab7": {
+          "id": "3f7edfc8f9284fe694584a3e30285ab7",
+          "stepType": "LinkOutput",
+          "name": "What to Do When You Are Late for a Job",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://dev116529.service-now.com/cp?id=kb_article_view&amp;sysparm_article=KB0010004"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "What to Do When You Are Late for a Job"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please click on the bellow link to get the steps to solve your issues"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "780085c7fed944078748e04f1e2de312": {
+          "id": "780085c7fed944078748e04f1e2de312",
+          "stepType": "LinkOutput",
+          "name": "Resetting my password",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://dev116529.service-now.com/cp?id=kb_article_view&amp;sysparm_article=KB0010002"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Resetting my password"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please click on the bellow link to get the steps to solve your issues"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "5640db60d2e44ae488805f52fd8a98bd": {
+          "id": "5640db60d2e44ae488805f52fd8a98bd",
+          "stepType": "LinkOutput",
+          "name": "Job Elimination",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://dev116529.service-now.com/cp?id=kb_article_view&amp;sysparm_article=KB0010001"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "How to Inform Someone of a Job Elimination"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please click on the bellow link to get the steps to solve your issues"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "0c4cfc6330af400cbde5b656346c3613": {
+          "id": "0c4cfc6330af400cbde5b656346c3613",
+          "stepType": "Prompt",
+          "name": "Issues solved",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Is this solved your issues?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "ca5f79ec572f4634976fbbe14f553981"
+        },
+        "35eea21e7c5c4917b2a86585d1bf728e": {
+          "id": "35eea21e7c5c4917b2a86585d1bf728e",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "68e47789e43249759ede2f8f10740a56": {
+          "id": "68e47789e43249759ede2f8f10740a56",
+          "stepType": "TextOutput",
+          "name": "Great",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Great job!!"
+                    },
+                    {
+                      "type": "emoji",
+                      "emoji": {
+                        "id": "+1",
+                        "name": "Thumbs Up Sign",
+                        "short_names": [
+                          "+1",
+                          "thumbsup"
+                        ],
+                        "colons": ":+1:",
+                        "emoticons": [],
+                        "unified": "1f44d",
+                        "skin": 1,
+                        "native": "👍"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "emoji": {
+                        "id": "+1",
+                        "name": "Thumbs Up Sign",
+                        "short_names": [
+                          "+1",
+                          "thumbsup"
+                        ],
+                        "colons": ":+1:",
+                        "emoticons": [],
+                        "unified": "1f44d",
+                        "skin": 1,
+                        "native": "👍"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "emoji": {
+                        "id": "+1",
+                        "name": "Thumbs Up Sign",
+                        "short_names": [
+                          "+1",
+                          "thumbsup"
+                        ],
+                        "colons": ":+1:",
+                        "emoticons": [],
+                        "unified": "1f44d",
+                        "skin": 1,
+                        "native": "👍"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "4cc1f1ae06464255a449e85887beded5"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "2d5d37fd44134e1c801c45111f190b4e": {
+          "stepType": "ChoicePrompt",
+          "name": "Help",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please choose the bellow option for the further help"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "20044f91ed0f4f039b3053b84754c3c0",
+          "id": "2d5d37fd44134e1c801c45111f190b4e",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "ea7327e6e2a140cc8fad0edf62deb956": {
+          "id": "ea7327e6e2a140cc8fad0edf62deb956",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "9ecdb30601024cc487c70896538b10ce": {
+          "id": "9ecdb30601024cc487c70896538b10ce",
+          "stepType": "ImplicitEnd"
+        },
+        "42781bd471ed4c37bb79a57fffd99c68": {
+          "id": "42781bd471ed4c37bb79a57fffd99c68",
+          "stepType": "ReusableTopic",
+          "name": "Create INC for Employee issues",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "reusableTopicChoice": "Create INC for Employee issues",
+          "reusableTopicId": "e12af3c547e7e1103580c4e2846d43bb",
+          "inputs": {
+            "caller": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.user.sys_id}}",
+                        "displayValue": "Input Variables➛User➛Sys ID"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "short_description": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.description}}",
+                        "displayValue": "Input Variables➛Description"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "urgency": {
+              "value": "3",
+              "mode": "simple",
+              "type": "String"
+            },
+            "description": {
+              "value": "",
+              "mode": "simple",
+              "type": "String"
+            },
+            "cmdb_ci": {
+              "value": "",
+              "mode": "simple",
+              "type": "String"
+            }
+          },
+          "outputs": [
+            {
+              "id": "2cf9f75cfae546298bacdbcc383928d6",
+              "value": "created_incident_sys_id",
+              "mapping": "created_incident_sys_id",
+              "preventDisable": false
+            }
+          ],
+          "variableIds": [
+            "2cf9f75cfae546298bacdbcc383928d6"
+          ],
+          "outdatedNote": false,
+          "loading": false
+        },
+        "3ba66de718ea496ca735564f7cc8f47c": {
+          "id": "3ba66de718ea496ca735564f7cc8f47c",
+          "stepType": "Prompt",
+          "name": "Description",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please describe the issues that you are facing?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "96ef9c56839a46a28cc213494cb25cb5",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "1814549812754d6b96200cf3138610e0",
+          "edgeType": "Branch",
+          "source": "b442b2b54bc149678025ad8c47018ac5",
+          "target": "2d5d37fd44134e1c801c45111f190b4e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.employee_issues=Other",
+            "mode": "query"
+          },
+          "label": "Others"
+        },
+        {
+          "id": "291de1406c8244f88bfa01de9ea2018d",
+          "edgeType": "Edge",
+          "source": "780085c7fed944078748e04f1e2de312",
+          "target": "0c4cfc6330af400cbde5b656346c3613",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "94ae7520c3304f89a627b0db84e9de39",
+          "edgeType": "Edge",
+          "source": "3f7edfc8f9284fe694584a3e30285ab7",
+          "target": "0c4cfc6330af400cbde5b656346c3613",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "87d44e5d671c4a4c928cd1021a75eec3",
+          "edgeType": "Edge",
+          "source": "bb42bed9e4ca4226bc7fcafed20a1bcd",
+          "target": "0c4cfc6330af400cbde5b656346c3613",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "da70abc2e0c34ef8be86fdd2749ecbe3",
+          "edgeType": "Edge",
+          "source": "2b86ec275f9f41f1a2ae0dfc559364e1",
+          "target": "ce0e1bd7e4ad4b3e90d233bae235243f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0886d106c63549d5b768481fe9463ff2",
+          "edgeType": "Edge",
+          "source": "ce0e1bd7e4ad4b3e90d233bae235243f",
+          "target": "b442b2b54bc149678025ad8c47018ac5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "07a516f9bad24f29a57789f2f5eb7458",
+          "edgeType": "Branch",
+          "source": "b442b2b54bc149678025ad8c47018ac5",
+          "target": "bb42bed9e4ca4226bc7fcafed20a1bcd",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.employee_issues=Need Emergency Time Off",
+            "mode": "query"
+          },
+          "label": "Need Emergency Time Off"
+        },
+        {
+          "id": "e5840964d96f48ce8ce0e0aceaa6ed8a",
+          "edgeType": "Branch",
+          "source": "b442b2b54bc149678025ad8c47018ac5",
+          "target": "3f7edfc8f9284fe694584a3e30285ab7",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.employee_issues=What to Do When You Are Late for a Job",
+            "mode": "query"
+          },
+          "label": "What to Do When You Are Late for a Job"
+        },
+        {
+          "id": "bb47275374514db4811ce1da99ca3adc",
+          "edgeType": "Branch",
+          "source": "b442b2b54bc149678025ad8c47018ac5",
+          "target": "780085c7fed944078748e04f1e2de312",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.employee_issues=I'm having trouble resetting my password",
+            "mode": "query"
+          },
+          "label": "I'm having trouble resetting my password"
+        },
+        {
+          "id": "a0cddc825b1646fca158b6cc1038fad5",
+          "edgeType": "Branch",
+          "source": "b442b2b54bc149678025ad8c47018ac5",
+          "target": "5640db60d2e44ae488805f52fd8a98bd",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.employee_issues=Inform Someone of a Job Elimination",
+            "mode": "query"
+          },
+          "label": "Inform Someone of a Job Elimination"
+        },
+        {
+          "id": "653561e56b39431c8b882aaa0c9fd216",
+          "edgeType": "Edge",
+          "source": "5640db60d2e44ae488805f52fd8a98bd",
+          "target": "0c4cfc6330af400cbde5b656346c3613",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "29a6e35fe0b84a8898c7fd8d5669ef49",
+          "edgeType": "Edge",
+          "source": "0c4cfc6330af400cbde5b656346c3613",
+          "target": "35eea21e7c5c4917b2a86585d1bf728e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "2c769d49281a4b8d9d05080aa0fc7b27",
+          "edgeType": "Branch",
+          "source": "35eea21e7c5c4917b2a86585d1bf728e",
+          "target": "68e47789e43249759ede2f8f10740a56",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.issues_solved=true",
+            "mode": "query"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "44383573b200463eb7707de6f8865cae",
+          "edgeType": "Edge",
+          "source": "68e47789e43249759ede2f8f10740a56",
+          "target": "408a582c622e4f41a822865c447c6822",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "de3726b6cca94ac8914e33c27e5b5988",
+          "edgeType": "Branch",
+          "source": "35eea21e7c5c4917b2a86585d1bf728e",
+          "target": "2d5d37fd44134e1c801c45111f190b4e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.issues_solved=",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "d2322e38204343149c6a998db6b680cd",
+          "edgeType": "Edge",
+          "source": "2d5d37fd44134e1c801c45111f190b4e",
+          "target": "ea7327e6e2a140cc8fad0edf62deb956",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1fe50216c96f4d9f8dd1c84a36ea1a9a",
+          "edgeType": "Branch",
+          "source": "ea7327e6e2a140cc8fad0edf62deb956",
+          "target": "9ecdb30601024cc487c70896538b10ce",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.help_3=Live agent support",
+            "mode": "query"
+          },
+          "label": "Live agent support"
+        },
+        {
+          "id": "2283aa68f0b747d69c301bb10ae84e13",
+          "edgeType": "Edge",
+          "source": "42781bd471ed4c37bb79a57fffd99c68",
+          "target": "408a582c622e4f41a822865c447c6822",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "27e0700d92df4dd799303a1451a4807f",
+          "edgeType": "Branch",
+          "source": "ea7327e6e2a140cc8fad0edf62deb956",
+          "target": "3ba66de718ea496ca735564f7cc8f47c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.help_3=Create ticket",
+            "mode": "query"
+          },
+          "label": "Create ticket"
+        },
+        {
+          "id": "59402ae0db9f4653991957e58e5b219c",
+          "edgeType": "Edge",
+          "source": "3ba66de718ea496ca735564f7cc8f47c",
+          "target": "42781bd471ed4c37bb79a57fffd99c68",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "b753567b15b64eb3bd5eb45d5cb96942": {
+      "id": "b753567b15b64eb3bd5eb45d5cb96942",
+      "name": "LiveAgent_portal",
+      "value": {
+        "mode": "simple",
+        "value": null
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "ad8ddf38d4ef4eaaad7bf275be224dd3": {
+      "category": "vaInputs",
+      "id": "ad8ddf38d4ef4eaaad7bf275be224dd3",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "393b7e778ba74208a7b1e150108d99fe": {
+      "id": "393b7e778ba74208a7b1e150108d99fe",
+      "name": "employee_issues",
+      "label": "Employee Issues",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Need Emergency Time Off",
+          "value": "Need Emergency Time Off"
+        },
+        {
+          "label": "What to Do When You Are Late for a Job",
+          "value": "What to Do When You Are Late for a Job",
+          "checked": true
+        },
+        {
+          "label": "I'm having trouble resetting my password",
+          "value": "I'm having trouble resetting my password",
+          "checked": true
+        },
+        {
+          "label": "Inform Someone of a Job Elimination",
+          "value": "Inform Someone of a Job Elimination",
+          "checked": true
+        },
+        {
+          "label": "Other",
+          "value": "Other",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "ca5f79ec572f4634976fbbe14f553981": {
+      "id": "ca5f79ec572f4634976fbbe14f553981",
+      "name": "issues_solved",
+      "label": "Issues Solved",
+      "varType": "boolean",
+      "secure": false,
+      "category": "vaInputs"
+    },
+    "20044f91ed0f4f039b3053b84754c3c0": {
+      "id": "20044f91ed0f4f039b3053b84754c3c0",
+      "name": "help_3",
+      "label": "Help (3)",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Create ticket",
+          "value": "Create ticket"
+        },
+        {
+          "label": "Live agent support",
+          "value": "Live agent support"
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "96ef9c56839a46a28cc213494cb25cb5": {
+      "id": "96ef9c56839a46a28cc213494cb25cb5",
+      "name": "description",
+      "label": "Description",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTY4NzE2NDAwNzAxOSBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      }
+    },
+    "2cf9f75cfae546298bacdbcc383928d6": {
+      "id": "2cf9f75cfae546298bacdbcc383928d6",
+      "name": "created_incident_sys_id",
+      "label": "Created_incident_sys_id",
+      "defaultValue": "created_incident_sys_id",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false
+    }
+  }
+}</graph>
+        <key_phrases>Employee Issue,Employee Issues,Employee leave request,employee,leave request,leave,attendance problem,Attendance,Password problem,password</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Employee Issue</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>virtual_agent_admin,catalog_admin,admin</roles>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id>30729d94472321103580c4e2846d430f</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-19 06:16:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bc1bd7c54767e1103580c4e2846d431f</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Employee Issue</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_cb_topic_bc1bd7c54767e1103580c4e2846d431f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-19 14:05:01</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=bc1bd7c54767e1103580c4e2846d431f"/>
+</record_update>

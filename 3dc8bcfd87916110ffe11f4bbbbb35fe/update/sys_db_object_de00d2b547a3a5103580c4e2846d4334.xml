@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access>1</caller_access>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>true</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>true</is_extendable>
+        <label>Employee Request</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_976191_attenda_0_employee_request</name>
+        <number_ref display_value="EMR">b9751efd47a3a5103580c4e2846d43d7</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Task" name="task">1d998c87243021108c8bc6863d3faddf</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-21 08:45:02</sys_created_on>
+        <sys_id>de00d2b547a3a5103580c4e2846d4334</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Employee Request</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_db_object_de00d2b547a3a5103580c4e2846d4334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-21 12:25:48</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="x_976191_attenda_0.employee_request_user" name="x_976191_attenda_0.employee_request_user">c05092b547a3a5103580c4e2846d432c</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

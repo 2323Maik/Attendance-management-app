@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>This will help users to see their request state</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.41",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "1ce334915f784ac48942846864db0c8d": {
+          "id": "1ce334915f784ac48942846864db0c8d",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hello  "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.first_name}}",
+                      "displayValue": "Input Variables➛User➛First name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": "!!  Welcom to Requested Item topics."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "885d489bdfa3449abfc46958d93b2ce9": {
+          "id": "885d489bdfa3449abfc46958d93b2ce9",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "70ca93c1fff14bfc8c768b4318f654f6": {
+          "stepType": "ChoicePrompt",
+          "name": "Requested Items",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Welcome to Requested Item  topic. Solve your issues by using our Employee support Bot."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "e3ebdeb2a689492483c55e3d87fe2241",
+          "id": "70ca93c1fff14bfc8c768b4318f654f6",
+          "hasCardHeader": true,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "Large image with text",
+            "cardFields": {
+              "1c617fa17313101081e06502edf6a780_title": {
+                "value": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Requested Items"
+                      }
+                    ]
+                  }
+                ],
+                "mode": "simple"
+              },
+              "1c617fa17313101081e06502edf6a780_image": {
+                "value": "requested_items_1687178859543.jpg",
+                "mode": "db_image"
+              }
+            },
+            "cardDefinition": {
+              "sys_id": "1c617fa17313101081e06502edf6a780",
+              "name": "Large image with text",
+              "sys_name": "Large image with text",
+              "thumbnail.name": "Large image with text.svg",
+              "fields": [
+                {
+                  "label": "Title",
+                  "position": "1",
+                  "mandatory": true,
+                  "name": "title",
+                  "id": "1c617fa17313101081e06502edf6a780_title"
+                },
+                {
+                  "label": "Description",
+                  "position": "2",
+                  "mandatory": false,
+                  "name": "description",
+                  "id": "1c617fa17313101081e06502edf6a780_description"
+                },
+                {
+                  "label": "Image URL link",
+                  "position": "3",
+                  "mandatory": true,
+                  "type": "image",
+                  "name": "image",
+                  "id": "1c617fa17313101081e06502edf6a780_image"
+                },
+                {
+                  "label": "Image alt text",
+                  "position": "4",
+                  "mandatory": false,
+                  "name": "imageAlt",
+                  "id": "1c617fa17313101081e06502edf6a780_imageAlt"
+                }
+              ],
+              "value": "Large image with text",
+              "hasTemplateError": false
+            }
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "5fcaf05d18f944af82baf1a1f34446c6": {
+          "id": "5fcaf05d18f944af82baf1a1f34446c6",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "be5f3718ff9549938fefcc8feed2880e": {
+          "id": "be5f3718ff9549938fefcc8feed2880e",
+          "stepType": "LinkOutput",
+          "name": "Link for Items",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.requested_items}}",
+                      "displayValue": "Input Variables➛Requested Items"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "link for items"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Here is your requested items"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        }
+      },
+      "edges": [
+        {
+          "id": "7acb5735e593487cb400e8985a004b9f",
+          "edgeType": "Edge",
+          "source": "be5f3718ff9549938fefcc8feed2880e",
+          "target": "885d489bdfa3449abfc46958d93b2ce9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "71acee63554344bc9177893d81cf003b",
+          "edgeType": "Branch",
+          "source": "5fcaf05d18f944af82baf1a1f34446c6",
+          "target": "be5f3718ff9549938fefcc8feed2880e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.requested_items=What is the status of my tickets",
+            "mode": "query"
+          },
+          "label": "Status of my tickets?",
+          "fromNode": "Decision",
+          "toNode": "cb3b88ef87b644ff8a27c1f9f42ca75b",
+          "toEdge": "71acee63554344bc9177893d81cf003b",
+          "addNode": {}
+        },
+        {
+          "id": "a0954a4570894ea5b315c902c60d0a9f",
+          "edgeType": "Branch",
+          "source": "5fcaf05d18f944af82baf1a1f34446c6",
+          "target": "be5f3718ff9549938fefcc8feed2880e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.requested_items=What is the status of my requested items?",
+            "mode": "query"
+          },
+          "label": "Status of my requested items?",
+          "fromNode": "Decision",
+          "toNode": "172ead4b30fa4ee48970ae83699f69b6",
+          "toEdge": "a0954a4570894ea5b315c902c60d0a9f",
+          "addNode": {}
+        },
+        {
+          "id": "cfa5dc9938e7498a89a4e9c10a1b444b",
+          "edgeType": "Edge",
+          "source": "1ce334915f784ac48942846864db0c8d",
+          "target": "70ca93c1fff14bfc8c768b4318f654f6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "cea5afe9679d4f73b04209a423b3f25c",
+          "edgeType": "Edge",
+          "source": "70ca93c1fff14bfc8c768b4318f654f6",
+          "target": "5fcaf05d18f944af82baf1a1f34446c6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d576e8b4aba649c69d9d634aab8153a2",
+          "edgeType": "Branch",
+          "source": "5fcaf05d18f944af82baf1a1f34446c6",
+          "target": "be5f3718ff9549938fefcc8feed2880e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.requested_items=Is my issues fixed yet?",
+            "mode": "query"
+          },
+          "label": "Is my issues fixed yet?",
+          "fromNode": "Decision",
+          "toNode": "885d489bdfa3449abfc46958d93b2ce9",
+          "toEdge": "d576e8b4aba649c69d9d634aab8153a2",
+          "addNode": {}
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "e3ebdeb2a689492483c55e3d87fe2241": {
+      "id": "e3ebdeb2a689492483c55e3d87fe2241",
+      "name": "requested_items",
+      "label": "Requested Items",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "What is the status of my tickets?",
+          "value": "What is the status of my tickets"
+        },
+        {
+          "label": "Is my issues fixed yet?",
+          "value": "Is my issues fixed yet?"
+        },
+        {
+          "label": "What is the status of my requested items?",
+          "value": "What is the status of my requested items?",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Requested items</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Requested items</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-19 12:33:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1061705d47abe1103580c4e2846d43bd</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Requested items</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_cb_topic_1061705d47abe1103580c4e2846d43bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-19 13:26:04</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=1061705d47abe1103580c4e2846d43bd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>220d0332db483010431011f8489619e0</instance_id>
+        <instance_name>dev116529</instance_name>
+        <name>sys_cb_topic_1061705d47abe1103580c4e2846d43bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><applicability_mode>query</applicability_mode><autopilot_topic>false</autopilot_topic><category/><channels/><connect_queue/><description>This will help users to see their request state</description><expose_on_palette>false</expose_on_palette><flexible_conversation_switching>false</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.41",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "1ce334915f784ac48942846864db0c8d": {
+          "id": "1ce334915f784ac48942846864db0c8d",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hello  "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.first_name}}",
+                      "displayValue": "Input Variables➛User➛First name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": "!!  Welcom to Requested Item topics."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "885d489bdfa3449abfc46958d93b2ce9": {
+          "id": "885d489bdfa3449abfc46958d93b2ce9",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "70ca93c1fff14bfc8c768b4318f654f6": {
+          "stepType": "ChoicePrompt",
+          "name": "Requested Items",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Welcome to Requested Item  topic. Solve your issues by using our Employee support Bot."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "e3ebdeb2a689492483c55e3d87fe2241",
+          "id": "70ca93c1fff14bfc8c768b4318f654f6",
+          "hasCardHeader": true,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "Large image with text",
+            "cardFields": {
+              "1c617fa17313101081e06502edf6a780_title": {
+                "value": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Requested Items"
+                      }
+                    ]
+                  }
+                ],
+                "mode": "simple"
+              },
+              "1c617fa17313101081e06502edf6a780_image": {
+                "value": "requested_items_1687178859543.jpg",
+                "mode": "db_image"
+              }
+            },
+            "cardDefinition": {
+              "sys_id": "1c617fa17313101081e06502edf6a780",
+              "name": "Large image with text",
+              "sys_name": "Large image with text",
+              "thumbnail.name": "Large image with text.svg",
+              "fields": [
+                {
+                  "label": "Title",
+                  "position": "1",
+                  "mandatory": true,
+                  "name": "title",
+                  "id": "1c617fa17313101081e06502edf6a780_title"
+                },
+                {
+                  "label": "Description",
+                  "position": "2",
+                  "mandatory": false,
+                  "name": "description",
+                  "id": "1c617fa17313101081e06502edf6a780_description"
+                },
+                {
+                  "label": "Image URL link",
+                  "position": "3",
+                  "mandatory": true,
+                  "type": "image",
+                  "name": "image",
+                  "id": "1c617fa17313101081e06502edf6a780_image"
+                },
+                {
+                  "label": "Image alt text",
+                  "position": "4",
+                  "mandatory": false,
+                  "name": "imageAlt",
+                  "id": "1c617fa17313101081e06502edf6a780_imageAlt"
+                }
+              ],
+              "value": "Large image with text",
+              "hasTemplateError": false
+            }
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "5fcaf05d18f944af82baf1a1f34446c6": {
+          "id": "5fcaf05d18f944af82baf1a1f34446c6",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "be5f3718ff9549938fefcc8feed2880e": {
+          "id": "be5f3718ff9549938fefcc8feed2880e",
+          "stepType": "LinkOutput",
+          "name": "Link for Items",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.requested_items}}",
+                      "displayValue": "Input Variables➛Requested Items"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "link for items"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Here is your requested items"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        }
+      },
+      "edges": [
+        {
+          "id": "7acb5735e593487cb400e8985a004b9f",
+          "edgeType": "Edge",
+          "source": "be5f3718ff9549938fefcc8feed2880e",
+          "target": "885d489bdfa3449abfc46958d93b2ce9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "71acee63554344bc9177893d81cf003b",
+          "edgeType": "Branch",
+          "source": "5fcaf05d18f944af82baf1a1f34446c6",
+          "target": "be5f3718ff9549938fefcc8feed2880e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.requested_items=What is the status of my tickets",
+            "mode": "query"
+          },
+          "label": "Status of my tickets?",
+          "fromNode": "Decision",
+          "toNode": "cb3b88ef87b644ff8a27c1f9f42ca75b",
+          "toEdge": "71acee63554344bc9177893d81cf003b",
+          "addNode": {}
+        },
+        {
+          "id": "a0954a4570894ea5b315c902c60d0a9f",
+          "edgeType": "Branch",
+          "source": "5fcaf05d18f944af82baf1a1f34446c6",
+          "target": "be5f3718ff9549938fefcc8feed2880e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.requested_items=What is the status of my requested items?",
+            "mode": "query"
+          },
+          "label": "Status of my requested items?",
+          "fromNode": "Decision",
+          "toNode": "172ead4b30fa4ee48970ae83699f69b6",
+          "toEdge": "a0954a4570894ea5b315c902c60d0a9f",
+          "addNode": {}
+        },
+        {
+          "id": "cfa5dc9938e7498a89a4e9c10a1b444b",
+          "edgeType": "Edge",
+          "source": "1ce334915f784ac48942846864db0c8d",
+          "target": "70ca93c1fff14bfc8c768b4318f654f6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "cea5afe9679d4f73b04209a423b3f25c",
+          "edgeType": "Edge",
+          "source": "70ca93c1fff14bfc8c768b4318f654f6",
+          "target": "5fcaf05d18f944af82baf1a1f34446c6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d576e8b4aba649c69d9d634aab8153a2",
+          "edgeType": "Branch",
+          "source": "5fcaf05d18f944af82baf1a1f34446c6",
+          "target": "be5f3718ff9549938fefcc8feed2880e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.requested_items=Is my issues fixed yet?",
+            "mode": "query"
+          },
+          "label": "Is my issues fixed yet?",
+          "fromNode": "Decision",
+          "toNode": "885d489bdfa3449abfc46958d93b2ce9",
+          "toEdge": "d576e8b4aba649c69d9d634aab8153a2",
+          "addNode": {}
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "e3ebdeb2a689492483c55e3d87fe2241": {
+      "id": "e3ebdeb2a689492483c55e3d87fe2241",
+      "name": "requested_items",
+      "label": "Requested Items",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "What is the status of my tickets?",
+          "value": "What is the status of my tickets"
+        },
+        {
+          "label": "Is my issues fixed yet?",
+          "value": "Is my issues fixed yet?"
+        },
+        {
+          "label": "What is the status of my requested items?",
+          "value": "What is the status of my requested items?",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    }
+  }
+}</graph><key_phrases>Requested items</key_phrases><library>false</library><live_agent>false</live_agent><name>Requested items</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><palette_label/><roles/><secure_custom_input_control>false</secure_custom_input_control><source_topic_id/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-19 12:33:17</sys_created_on><sys_domain>global</sys_domain><sys_id>1061705d47abe1103580c4e2846d43bd</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Requested items</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sys_cb_topic_1061705d47abe1103580c4e2846d43bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-19 13:26:04</sys_updated_on><triggerable_by_notification>false</triggerable_by_notification><type>STANDARD</type><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=1061705d47abe1103580c4e2846d43bd"/></record_update>]]></payload>
+        <payload_hash>404484516</payload_hash>
+        <record_name>Requested items</record_name>
+        <reverted_from/>
+        <source>ffd793054767e1103580c4e2846d430d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-19 13:26:04</sys_created_on>
+        <sys_id>257df4d547ebe1103580c4e2846d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188d3d580840000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-19 13:26:04</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>e97df4d5a1ebe11039c813574a26cc9d</update_guid>
+        <update_guid_history>e97df4d5a1ebe11039c813574a26cc9d:404484516,bc5a7c554eebe110ba74f0c5c1d81586:629925841,f53af0d1bbebe1101a894e7fc684c6b9:-2029917073,a648b491c4ebe110825814aa8983ad43:-740655,f027b0d1feebe110afa075b5c9cddd9e:1741299618,98613c5debabe1102b5ed76469251853:-1779572662</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-19 13:40:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>1af418edd7b143dc905732f6b6aff361</sys_id>
+        <sys_metadata>1061705d47abe1103580c4e2846d43bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested items</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_1061705d47abe1103580c4e2846d43bd</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_1061705d47abe1103580c4e2846d43bd">257df4d547ebe1103580c4e2846d439e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-19 13:40:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

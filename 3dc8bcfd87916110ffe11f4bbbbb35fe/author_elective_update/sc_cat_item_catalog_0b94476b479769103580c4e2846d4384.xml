@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Development Laptop (PC)">0f4483a7479769103580c4e2846d4304</sc_cat_item>
+        <sc_catalog display_value="Employee Catalog">6ca99e6b47d369103580c4e2846d436f</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 12:47:11</sys_created_on>
+        <sys_id>0b94476b479769103580c4e2846d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Catalog.Development Laptop (PC)</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_0b94476b479769103580c4e2846d4384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 12:47:11</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>220d0332db483010431011f8489619e0</instance_id>
+        <instance_name>dev116529</instance_name>
+        <name>sc_cat_item_catalog_0b94476b479769103580c4e2846d4384</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Development Laptop (PC)">0f4483a7479769103580c4e2846d4304</sc_cat_item><sc_catalog display_value="Employee Catalog">6ca99e6b47d369103580c4e2846d436f</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-14 12:47:11</sys_created_on><sys_id>0b94476b479769103580c4e2846d4384</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employee Catalog.Development Laptop (PC)</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sc_cat_item_catalog_0b94476b479769103580c4e2846d4384</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-14 12:47:11</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>2032236784</payload_hash>
+        <record_name>Employee Catalog.Development Laptop (PC)</record_name>
+        <reverted_from/>
+        <source>db693aab475769103580c4e2846d43d0</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 12:47:11</sys_created_on>
+        <sys_id>c794476b479769103580c4e2846d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b9f218d40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 12:47:11</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>0394476b25976910fd3a270cab547a89</update_guid>
+        <update_guid_history>0394476b25976910fd3a270cab547a89:2032236784</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Employee Catalog.Development Laptop (PC)">8476c3eb479769103580c4e2846d436e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 12:55:09</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>201fac2577264bd397991697ca74ee91</sys_id>
+        <sys_metadata>0b94476b479769103580c4e2846d4384</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Catalog.Development Laptop (PC)</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent display_value="Development Laptop (PC)">0f4483a7479769103580c4e2846d4304</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_0b94476b479769103580c4e2846d4384</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_0b94476b479769103580c4e2846d4384">c794476b479769103580c4e2846d4389</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 12:55:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_976191_attenda_0.My custom prop</name>
+        <read_roles/>
+        <suffix>My custom prop</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 09:14:02</sys_created_on>
+        <sys_id>94b2550e47f36d103580c4e2846d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_976191_attenda_0.My custom prop</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_properties_94b2550e47f36d103580c4e2846d4382</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 09:14:02</sys_updated_on>
+        <type>string</type>
+        <value>51f2990e47f36d103580c4e2846d43e7</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=94b2550e47f36d103580c4e2846d4382"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>220d0332db483010431011f8489619e0</instance_id>
+        <instance_name>dev116529</instance_name>
+        <name>sys_properties_94b2550e47f36d103580c4e2846d4382</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_976191_attenda_0.My custom prop</name><read_roles/><suffix>My custom prop</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-04 09:14:02</sys_created_on><sys_id>94b2550e47f36d103580c4e2846d4382</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_976191_attenda_0.My custom prop</sys_name><sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sys_properties_94b2550e47f36d103580c4e2846d4382</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-04 09:14:02</sys_updated_on><type>string</type><value>51f2990e47f36d103580c4e2846d43e7</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=94b2550e47f36d103580c4e2846d4382"/></record_update>]]></payload>
+        <payload_hash>-990412368</payload_hash>
+        <record_name>x_976191_attenda_0.My custom prop</record_name>
+        <reverted_from/>
+        <source>30b245f6472f69103580c4e2846d4372</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 09:14:03</sys_created_on>
+        <sys_id>c8a3990e47f36d103580c4e2846d43ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189202e288f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 09:14:03</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>04a3990e8ef36d10e7c6004a5ebeb9ee</update_guid>
+        <update_guid_history>04a3990e8ef36d10e7c6004a5ebeb9ee:-990412368</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 09:22:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>42ad3f247430489d9024a8fb987dd7f9</sys_id>
+        <sys_metadata>94b2550e47f36d103580c4e2846d4382</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_976191_attenda_0.My custom prop</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sys_properties_94b2550e47f36d103580c4e2846d4382</sys_update_name>
+        <sys_update_version display_value="sys_properties_94b2550e47f36d103580c4e2846d4382">c8a3990e47f36d103580c4e2846d43ee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 09:22:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

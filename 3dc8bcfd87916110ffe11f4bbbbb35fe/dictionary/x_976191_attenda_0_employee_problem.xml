@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="e86842134793e1103580c4e2846d4366" max_length="40" name="x_976191_attenda_0_employee_problem" text_index="true" type="collection"/>
+    <element audit="true" db_object_id="e86842134793e1103580c4e2846d4366" extends="x_976191_attenda_0_employee_table" label="Employee Problem" max_length="40" name="x_976191_attenda_0_employee_problem" text_index="true" type="collection">
+        <element label="Days for leave" max_length="20" name="days_for_leave" type="integer"/>
+        <element label="Problems" max_length="32" name="problems" reference="x_976191_attenda_0_problem_table" type="reference"/>
+        <element display="true" label="Problem Description" max_length="200" name="problem_description" type="string"/>
+        <element label="Requester Name" max_length="32" name="requester_name" reference="x_976191_attenda_0_employee_table" type="reference"/>
+        <element label="R_email" max_length="32" name="r_email" reference="x_976191_attenda_0_employee_table" type="reference"/>
+    </element>
 </database>

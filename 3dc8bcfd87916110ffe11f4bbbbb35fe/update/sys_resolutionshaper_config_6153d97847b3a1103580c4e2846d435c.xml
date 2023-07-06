@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_resolutionshaper_config">
+    <sys_resolutionshaper_config action="INSERT_OR_UPDATE">
+        <caller_label>Customer</caller_label>
+        <closed_state>Approved</closed_state>
+        <fullfiller_label>Agent</fullfiller_label>
+        <new_state>Pending</new_state>
+        <request_label>Case</request_label>
+        <requestor_states>Pending,Open,Rejected,Closed Skipped,Closed Incomplete,Approved,Awaiting approval</requestor_states>
+        <sys_class_name>sys_resolutionshaper_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-30 12:03:57</sys_created_on>
+        <sys_id>6153d97847b3a1103580c4e2846d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_resolutionshaper_config_6153d97847b3a1103580c4e2846d435c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-30 12:03:57</sys_updated_on>
+        <table>x_976191_attenda_0_employee_request</table>
+    </sys_resolutionshaper_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=6153d97847b3a1103580c4e2846d435c"/>
+</record_update>

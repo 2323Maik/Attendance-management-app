@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>2051c0fc53730010b87bddeeff7b12cf</category>
+        <channels/>
+        <connect_queue/>
+        <description>Track the status of Universal Requests that have been opened for me.</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.41",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "26549decf8bf41d283e21ae45c10fbb1": {
+          "id": "26549decf8bf41d283e21ae45c10fbb1",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hello "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.first_name}}",
+                      "displayValue": "Input Variables➛User➛First name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": "!  Welcome to Universal request"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "80e35e3472c64c63b334b42789f85396": {
+          "id": "80e35e3472c64c63b334b42789f85396",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "ae64601563164001be9575767f728e03": {
+          "id": "ae64601563164001be9575767f728e03",
+          "stepType": "TextOutput",
+          "name": "Show record count",
+          "secure": false,
+          "value": [
+            {
+              "value": "(function execute() {  \n    var gr = new GlideRecord(\"x_976191_attenda_0_employee_request\");\n    //gr.addEncodedQuery('active=true^opened_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe');\n    gr.addEncodedQuery('active=true^opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe');\n    gr.query();\n    var message = \"\";\n    if(gr.next()) {\n        var totalRecords = gr.getRowCount();\n        if(totalRecords == 1) {\n            message = \"You have \" + totalRecords + \" open request. Here is what we have found.\"\n        } else {\n            message = \"You have \" + totalRecords + \" open requests. Which request would you like to track?\"\n        }\n    }\n   return message;\n})()\n",
+              "mode": "script"
+            }
+          ],
+          "applicability": {
+            "mode": "query",
+            "value": ""
+          }
+        },
+        "887d98d438944faa8da907d11a1eaa52": {
+          "stepType": "ChoicePrompt",
+          "name": "Help",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Do you need more help on this request?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "vaInputs.selectionISNOTEMPTY",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "6cdf28a267264fe39eacc9fb50229462",
+          "id": "887d98d438944faa8da907d11a1eaa52",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "hasCardHeader": false
+        },
+        "f71cd15951354fb0868d86e3798dea03": {
+          "id": "f71cd15951354fb0868d86e3798dea03",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "b0c26a51114f4378b91365fbaee5b334": {
+          "id": "b0c26a51114f4378b91365fbaee5b334",
+          "stepType": "ReusableTopic",
+          "name": "Search Catalog Item",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "reusableTopicChoice": "Search Catalog Item",
+          "reusableTopicId": "ccaacd71c3a3330012d1758a7ff57ecd",
+          "inputs": {
+            "catalogs": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.selection.primary_task.closed_by.sys_id}}",
+                        "displayValue": "Input Variables➛Selection➛Primary Ticket➛Closed by➛Sys ID"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "query_term": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.catalog_item_id}}",
+                        "displayValue": "Input Variables➛Catalog_item_id"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "result_limit": {
+              "value": "5",
+              "mode": "simple",
+              "type": "String"
+            }
+          },
+          "outputs": [
+            {
+              "id": "a789dc3b24ec47ae85776157ce432bab",
+              "value": "catalog_item_id",
+              "mapping": "catalog_item_id",
+              "preventDisable": true
+            },
+            {
+              "id": "f070c4ccc6554bd09b7aefb838438718",
+              "value": "item_type",
+              "mapping": "item_type",
+              "preventDisable": false
+            },
+            {
+              "id": "8e60a19b89524c449fb8f0abac8f4504",
+              "value": "is_conversational",
+              "mapping": "is_conversational",
+              "preventDisable": false
+            }
+          ],
+          "variableIds": [
+            "a789dc3b24ec47ae85776157ce432bab",
+            "f070c4ccc6554bd09b7aefb838438718",
+            "8e60a19b89524c449fb8f0abac8f4504"
+          ],
+          "outdatedNote": false,
+          "loading": false
+        },
+        "3d967f94533247eeba523f9d1cc97a72": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Selection",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Selection"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "mode": "query",
+            "value": ""
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "variableId": "644f730c3f274bd98f4328b62f62211e",
+          "id": "3d967f94533247eeba523f9d1cc97a72",
+          "mode": "glide_record",
+          "script": "",
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "No record found"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_scripted_query",
+            "value": "(function execute(table) {\n     \n        var options = [];\n        var gr = new GlideRecordSecure(table);\n        //gr.addEncodedQuery('active=true^opened_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe');\n        gr.addEncodedQuery('active=true^opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe');\n        gr.orderByDesc('number');\n        gr.query();\n        while(gr.next()) {\n            var label = gr.getValue('short_description') + \":\" + gr.getValue('number');\n            options.push({ 'value': gr.getUniqueValue(), 'label': label });\n        }\n        return options;\n   \n})(table)\n"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "hasCardHeader": false
+        },
+        "6341b1e0d6a0448380934dbf7a46f051": {
+          "id": "6341b1e0d6a0448380934dbf7a46f051",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "2e2dda8e034b4b5b91b665a3e77c21b7": {
+          "id": "2e2dda8e034b4b5b91b665a3e77c21b7",
+          "stepType": "TextOutput",
+          "name": "UR with primary ticket comments",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaVars.comments}}",
+                        "displayValue": "Script Variables➛comments"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "63ee22bb822546c89756c11616a578b5": {
+          "id": "63ee22bb822546c89756c11616a578b5",
+          "name": "Get primary ticket comments",
+          "script": "(function execute() {\n   var tableName = vaVars.primary_task_gr.getRecordClassName();\n   var primaryGR = new GlideRecordSecure(tableName);\n   //primaryGR.addQuery(\"universal_request\", vaInputs.selection);\n   primaryGR.addQuery('x_976191_attenda_0_employee_request',vaInputs.selection);\n   primaryGR.query();\n   if(primaryGR.next()) {\n       vaVars.comments = primaryGR.comments.getHTMLValue();\n}\nelse\nvaVars.comments = \"No new comments\";\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "60876f8c3bc34f90b6d92d1b9af776a4": {
+          "id": "60876f8c3bc34f90b6d92d1b9af776a4",
+          "stepType": "RecordOutput",
+          "name": "Display UR card",
+          "variableId": "644f730c3f274bd98f4328b62f62211e",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "x_976191_attenda_0_employee_request",
+          "fields": [
+            "number",
+            "short_description",
+            "state",
+            "sys_updated_on",
+            "watch_list"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "applicability": {
+            "value": "vaInputs.selectionISNOTEMPTY",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        },
+        "0768ffad25ad4f059dc4bf56bcc98dba": {
+          "id": "0768ffad25ad4f059dc4bf56bcc98dba",
+          "stepType": "TextOutput",
+          "name": "UR without primary ticket",
+          "secure": false,
+          "value": [
+            {
+              "value": "(function execute() {\n   if(vaVars.ur_comments) {\n       return vaVars.ur_comments;\n   }\n    return '';\n})()\n",
+              "mode": "script"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "70b39447d6614e49beacaded2e0f05d3",
+          "edgeType": "Branch",
+          "source": "6341b1e0d6a0448380934dbf7a46f051",
+          "target": "63ee22bb822546c89756c11616a578b5",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\nvar urGR = new GlideRecord(\"universal_request\");\nurGR.addQuery(\"sys_id\", vaInputs.selection);\nurGR.query();\nif(urGR.next()) {\n    if(urGR.getValue(\"primary_task\")) {\n        var taskgr = new GlideRecord(\"task\");\n        taskgr.get(urGR.primary_task);\n        vaVars.primary_task_gr = taskgr;\n        return true;\n    }\n}\nreturn false;\n})()"
+          },
+          "label": "UR with Primary Ticket"
+        },
+        {
+          "id": "805af18aaf7a42b087377ce9c7808314",
+          "edgeType": "Edge",
+          "source": "63ee22bb822546c89756c11616a578b5",
+          "target": "2e2dda8e034b4b5b91b665a3e77c21b7",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "a7883b7ef25e436eaeda95f38a4079d2",
+          "edgeType": "Edge",
+          "source": "26549decf8bf41d283e21ae45c10fbb1",
+          "target": "ae64601563164001be9575767f728e03",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d41e21f6a15040a7bf134184068433f6",
+          "edgeType": "Edge",
+          "source": "ae64601563164001be9575767f728e03",
+          "target": "3d967f94533247eeba523f9d1cc97a72",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1d2b0717192b453ab25ff2238931d95f",
+          "edgeType": "Edge",
+          "source": "887d98d438944faa8da907d11a1eaa52",
+          "target": "f71cd15951354fb0868d86e3798dea03",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "bebe35166c044b1db809c6b4769dfb31",
+          "edgeType": "Branch",
+          "source": "f71cd15951354fb0868d86e3798dea03",
+          "target": "80e35e3472c64c63b334b42789f85396",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.help=no",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "25c5f0c55dc44bbd9c5f47395b6a44d3",
+          "edgeType": "Branch",
+          "source": "f71cd15951354fb0868d86e3798dea03",
+          "target": "b0c26a51114f4378b91365fbaee5b334",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.help=yes",
+            "mode": "query"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "f1c616f600bc4d08a62bdf40b3829bc3",
+          "edgeType": "Edge",
+          "source": "b0c26a51114f4378b91365fbaee5b334",
+          "target": "80e35e3472c64c63b334b42789f85396",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "bcdf687100304e9ca2b9a0fff1c290d2",
+          "edgeType": "Edge",
+          "source": "2e2dda8e034b4b5b91b665a3e77c21b7",
+          "target": "887d98d438944faa8da907d11a1eaa52",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "8cf1fe2ae56d4d26949c3f5725aad70b",
+          "edgeType": "Edge",
+          "source": "3d967f94533247eeba523f9d1cc97a72",
+          "target": "60876f8c3bc34f90b6d92d1b9af776a4",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "45696ddef03d437286854cdf63135dd0",
+          "edgeType": "Edge",
+          "source": "60876f8c3bc34f90b6d92d1b9af776a4",
+          "target": "6341b1e0d6a0448380934dbf7a46f051",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "354aa90aee5c414bad2d797a2ec5378d",
+          "edgeType": "Branch",
+          "source": "6341b1e0d6a0448380934dbf7a46f051",
+          "target": "0768ffad25ad4f059dc4bf56bcc98dba",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\nvar urGR = new GlideRecord(\"universal_request\");\nurGR.addQuery(\"sys_id\", vaInputs.selection);\nurGR.query();\nif(urGR.next()) {\n    if(urGR.getValue(\"primary_task\")) {\n        return false;\n    }\n}\nvaVars.ur_comments = urGR.comments.getHTMLValue();\nreturn true;\n})()"
+          },
+          "label": "UR without Primary Ticket"
+        },
+        {
+          "id": "63f2ab26f3854e7fabdcb6b339cdc457",
+          "edgeType": "Edge",
+          "source": "0768ffad25ad4f059dc4bf56bcc98dba",
+          "target": "887d98d438944faa8da907d11a1eaa52",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "fdd3d3693a9d4d5585f3ea80386d7511": {
+      "id": "fdd3d3693a9d4d5585f3ea80386d7511",
+      "name": "LiveAgent_application",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "43746c03b31f42b386163962f095f1f8": {
+      "id": "43746c03b31f42b386163962f095f1f8",
+      "name": "LiveAgent_ur_topic_id",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "477665f30e92414ca1829eeeda47167d": {
+      "category": "vaInputs",
+      "id": "477665f30e92414ca1829eeeda47167d",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "6cdf28a267264fe39eacc9fb50229462": {
+      "id": "6cdf28a267264fe39eacc9fb50229462",
+      "name": "help",
+      "label": "Help",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "644f730c3f274bd98f4328b62f62211e": {
+      "id": "644f730c3f274bd98f4328b62f62211e",
+      "name": "selection",
+      "label": "Selection",
+      "varType": "reference",
+      "table": "x_976191_attenda_0_employee_request",
+      "category": "vaInputs"
+    },
+    "c24c034e9ba74378a0cfa9e743e2915d": {
+      "id": "c24c034e9ba74378a0cfa9e743e2915d",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "primary_task_gr",
+      "label": "primary_task_gr",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "fd25802939ff48eba884e1f8b524187c": {
+      "id": "fd25802939ff48eba884e1f8b524187c",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "comments",
+      "label": "comments",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "5f9e2a2521944fca81447a1d4ebac4e1": {
+      "id": "5f9e2a2521944fca81447a1d4ebac4e1",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "ur_comments",
+      "label": "ur_comments",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "a789dc3b24ec47ae85776157ce432bab": {
+      "id": "a789dc3b24ec47ae85776157ce432bab",
+      "name": "catalog_item_id",
+      "label": "Catalog_item_id",
+      "defaultValue": "catalog_item_id",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": true
+    },
+    "f070c4ccc6554bd09b7aefb838438718": {
+      "id": "f070c4ccc6554bd09b7aefb838438718",
+      "name": "item_type",
+      "label": "Item_type",
+      "defaultValue": "item_type",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false
+    },
+    "8e60a19b89524c449fb8f0abac8f4504": {
+      "id": "8e60a19b89524c449fb8f0abac8f4504",
+      "name": "is_conversational",
+      "label": "Is_conversational",
+      "defaultValue": "is_conversational",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false
+    }
+  }
+}</graph>
+        <key_phrases>Universal Requested Items,Track Universal Request Status(Template)</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Universal Requested Items</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id>ce20bf67c3312010a0b3ec4b7d40dda7</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-19 13:27:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>dcddb81547ebe1103580c4e2846d4395</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Universal Requested Items</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_cb_topic_dcddb81547ebe1103580c4e2846d4395</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-23 08:40:21</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=dcddb81547ebe1103580c4e2846d4395"/>
+</record_update>

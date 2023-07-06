@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="f510c9b587d16110ffe11f4bbbbb35ac" label="Attendance Table" max_length="40" name="x_976191_attenda_0_attendance_table" text_index="true" type="collection">
+    <element attributes="email_client=true" audit="true" db_object_id="f510c9b587d16110ffe11f4bbbbb35ac" label="Attendance Table" max_length="40" name="x_976191_attenda_0_attendance_table" text_index="true" type="collection">
         <element label="Absent Dates" max_length="40" name="absent_dates" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Absent Reason" max_length="1000" name="absent_reason" type="string"/>
         <element label="Due Date" max_length="40" name="due_date" type="glide_date"/>
         <element attributes="encode_utf8=false" label="EmpId" max_length="32" name="empid" reference="x_976191_attenda_0_employee_table" type="reference"/>
-        <element attributes="ref_ac_columns=empid,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter" label="EmpName" mandatory="true" max_length="32" name="empname" reference="x_976191_attenda_0_employee_table" type="reference"/>
-        <element choice="1" choice_field="importance" choice_table="x_976191_to_do_to_do" label="Importance" max_length="40" name="importance" type="choice">
+        <element attributes="ref_ac_columns=empid,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter" label="EmpName" mandatory="true" max_length="32" name="empname" reference="sys_user" type="reference"/>
+        <element choice="1" choice_table="x_976191_to_do_to_do" default="important" label="Importance" max_length="40" name="importance" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Important" sequence="0" value="Important"/>
-                <element inactive_on_update="false" label="Not important" sequence="1" value="not_important"/>
-                <element inactive_on_update="false" label="Very Important" sequence="2" value="Very Important"/>
+                <element inactive_on_update="false" label="Not important" sequence="0" value="not_important"/>
+                <element inactive_on_update="false" label="Important" sequence="1" value="important"/>
+                <element inactive_on_update="false" label="Very Important" sequence="2" value="very_importance"/>
             </choice>
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="3" label="State" max_length="40" name="state" type="choice">
+        <element label="Parent" max_length="32" name="parent" reference="x_976191_attenda_0_attendance_table" type="reference"/>
+        <element choice="3" default="new" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Approved" value="approved"/>
                 <element inactive_on_update="false" label="Closed complate" value="closedcomplate"/>
@@ -31,8 +32,10 @@
             <element name="empname"/>
         </index>
         <index name="index3">
+            <element name="parent"/>
+        </index>
+        <index name="index4">
             <element name="sys_class_name"/>
         </index>
-        <element attributes="edge_encryption_enabled=true" label="Employment Start Date" max_length="40" name="employment_start_date" type="glide_date"/>
     </element>
 </database>

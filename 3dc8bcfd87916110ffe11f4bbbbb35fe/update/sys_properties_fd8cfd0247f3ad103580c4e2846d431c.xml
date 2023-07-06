@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.polaris.theme.custom</name>
+        <read_roles/>
+        <suffix>employee managment</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 12:14:16</sys_created_on>
+        <sys_id>fd8cfd0247f3ad103580c4e2846d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.polaris.theme.custom</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_properties_fd8cfd0247f3ad103580c4e2846d431c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 12:14:16</sys_updated_on>
+        <type>string</type>
+        <value>fafb798e47b3ad103580c4e2846d437b</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=fd8cfd0247f3ad103580c4e2846d431c"/>
+</record_update>

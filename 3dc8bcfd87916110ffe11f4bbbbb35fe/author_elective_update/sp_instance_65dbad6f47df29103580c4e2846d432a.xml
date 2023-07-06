@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">d5fc2d23471369103580c4e2846d4321</sp_column>
+        <sp_widget display_value="My Request Custom">638aa92f47df29103580c4e2846d4310</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 06:19:19</sys_created_on>
+        <sys_id>65dbad6f47df29103580c4e2846d432a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sp_instance_65dbad6f47df29103580c4e2846d432a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 06:24:19</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=65dbad6f47df29103580c4e2846d432a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>220d0332db483010431011f8489619e0</instance_id>
+        <instance_name>dev116529</instance_name>
+        <name>sp_instance_65dbad6f47df29103580c4e2846d432a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">d5fc2d23471369103580c4e2846d4321</sp_column><sp_widget display_value="My Request Custom">638aa92f47df29103580c4e2846d4310</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-14 06:19:19</sys_created_on><sys_id>65dbad6f47df29103580c4e2846d432a</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sp_instance_65dbad6f47df29103580c4e2846d432a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-14 06:24:19</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=65dbad6f47df29103580c4e2846d432a"/></record_update>]]></payload>
+        <payload_hash>-2023517762</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7d9c6913471761103580c4e2846d43b9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 06:24:19</sys_created_on>
+        <sys_id>76fc2d23471369103580c4e2846d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b89395400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 06:24:19</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>7efc2d237b13691070fe8b0bbce41fc4</update_guid>
+        <update_guid_history>7efc2d237b13691070fe8b0bbce41fc4:-2023517762,3fdb2d6f7adf2910bdd1b5e6d669e595:-1907387169,a5dbad6f50df29105bc63345f91a762c:1450864542</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4a2de123471369103580c4e2846d43e7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 06:25:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>6172ef5ecde94b3c92f492a0790f9864</sys_id>
+        <sys_metadata>65dbad6f47df29103580c4e2846d432a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sp_instance_65dbad6f47df29103580c4e2846d432a</sys_update_name>
+        <sys_update_version display_value="sp_instance_65dbad6f47df29103580c4e2846d432a">76fc2d23471369103580c4e2846d43c5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 06:25:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

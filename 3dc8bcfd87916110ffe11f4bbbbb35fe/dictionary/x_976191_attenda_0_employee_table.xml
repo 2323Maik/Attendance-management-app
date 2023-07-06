@@ -20,12 +20,5 @@
                 <element inactive_on_update="false" label="Other" sequence="8" value="other"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="States" max_length="40" name="states" type="string">
-            <choice>
-                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
-                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
-                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
-            </choice>
-        </element>
     </element>
 </database>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name>.bg-primary</class_name>
+        <color>primary</color>
+        <css/>
+        <glyph>briefcase</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category display_value="Employee request">72b27ae3475769103580c4e2846d43c3</sc_category>
+        <short_description>Employee request for their issues</short_description>
+        <size>md</size>
+        <sp_column display_value="1">3a52febd4727a5103580c4e2846d4382</sp_column>
+        <sp_page display_value="custom_sc_category">8d43edaa47af29103580c4e2846d43b6</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-21 11:13:45</sys_created_on>
+        <sys_id>ba52febd4727a5103580c4e2846d4384</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Request Here</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sp_instance_link_ba52febd4727a5103580c4e2846d4384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-23 13:27:09</sys_updated_on>
+        <title>Request Here</title>
+        <type>sc_category</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=ba52febd4727a5103580c4e2846d4384"/>
+</record_update>

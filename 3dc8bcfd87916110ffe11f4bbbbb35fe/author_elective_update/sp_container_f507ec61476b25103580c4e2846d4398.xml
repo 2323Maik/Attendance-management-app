@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>homepage-quicklinks</class_name>
+        <container_class_name/>
+        <name>My Landing Page - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="my_landing_page">ed07ec61476b25103580c4e2846d4381</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-20 06:26:32</sys_created_on>
+        <sys_id>f507ec61476b25103580c4e2846d4398</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>My Landing Page - Container 2</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sp_container_f507ec61476b25103580c4e2846d4398</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-20 06:57:36</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>220d0332db483010431011f8489619e0</instance_id>
+        <instance_name>dev116529</instance_name>
+        <name>sp_container_f507ec61476b25103580c4e2846d4398</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>homepage-quicklinks</class_name><container_class_name/><name>My Landing Page - Container 2</name><order>2</order><sp_page display_value="my_landing_page">ed07ec61476b25103580c4e2846d4381</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-20 06:26:32</sys_created_on><sys_id>f507ec61476b25103580c4e2846d4398</sys_id><sys_mod_count>5</sys_mod_count><sys_name>My Landing Page - Container 2</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sp_container_f507ec61476b25103580c4e2846d4398</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-20 06:57:36</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>2040897833</payload_hash>
+        <record_name>My Landing Page - Container 2</record_name>
+        <reverted_from/>
+        <source>5ab66861476b25103580c4e2846d43bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-20 06:57:36</sys_created_on>
+        <sys_id>e82ee42147ab25103580c4e2846d43a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188d79833350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-20 06:57:36</sys_updated_on>
+        <type>Container</type>
+        <update_guid>e02ee4211aab25106ffb66b1d07d67a8</update_guid>
+        <update_guid_history>e02ee4211aab25106ffb66b1d07d67a8:2040897833,440e642153ab25102b892eeb8231ef2e:587143560,12ede0219eab251004032a8883f2cfe0:2040897833,8e9d6cad766b2510756ba6811191f1f6:-800315190,3737aca1ac6b25102f0ee097794e1664:-1993593636,f907ec61db6b2510e4758f60a87a5399:-1890199496</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Landing Page - Container 2">db3e682147ab25103580c4e2846d4328</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-20 06:58:03</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>022d0dc73d33473f8d0676d45d79c231</sys_id>
+        <sys_metadata>f507ec61476b25103580c4e2846d4398</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Landing Page - Container 2</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sp_container_f507ec61476b25103580c4e2846d4398</sys_update_name>
+        <sys_update_version display_value="sp_container_f507ec61476b25103580c4e2846d4398">e82ee42147ab25103580c4e2846d43a8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-20 06:58:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

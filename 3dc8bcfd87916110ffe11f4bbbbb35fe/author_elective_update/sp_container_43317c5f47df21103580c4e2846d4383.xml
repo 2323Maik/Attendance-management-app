@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>homepage-quicklinks</class_name>
+        <container_class_name/>
+        <name>Custom Portal  - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="custom_landing">3f196c1747df21103580c4e2846d436e</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 07:24:48</sys_created_on>
+        <sys_id>43317c5f47df21103580c4e2846d4383</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Custom Portal  - Container 2</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sp_container_43317c5f47df21103580c4e2846d4383</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 07:32:38</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>220d0332db483010431011f8489619e0</instance_id>
+        <instance_name>dev116529</instance_name>
+        <name>sp_container_43317c5f47df21103580c4e2846d4383</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>homepage-quicklinks</class_name><container_class_name/><name>Custom Portal  - Container 2</name><order>2</order><sp_page display_value="custom_landing">3f196c1747df21103580c4e2846d436e</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-13 07:24:48</sys_created_on><sys_id>43317c5f47df21103580c4e2846d4383</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Custom Portal  - Container 2</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sp_container_43317c5f47df21103580c4e2846d4383</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-13 07:32:38</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>697697605</payload_hash>
+        <record_name>Custom Portal  - Container 2</record_name>
+        <reverted_from/>
+        <source>3346ecdf479f21103580c4e2846d433f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 07:32:38</sys_created_on>
+        <sys_id>3103b013471361103580c4e2846d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b3abc3c60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 07:32:38</sys_updated_on>
+        <type>Container</type>
+        <update_guid>f5037cdf4bdf2110ebfb4b41753d421a</update_guid>
+        <update_guid_history>f5037cdf4bdf2110ebfb4b41753d421a:697697605,c7317c5f6fdf21109c2099487e392b84:24257912</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Custom Portal  - Container 2">e3e66c61476b25103580c4e2846d436c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-20 06:26:07</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>2094577bed094761a772634fe4e836d9</sys_id>
+        <sys_metadata>43317c5f47df21103580c4e2846d4383</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Portal  - Container 2</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sp_container_43317c5f47df21103580c4e2846d4383</sys_update_name>
+        <sys_update_version display_value="sp_container_43317c5f47df21103580c4e2846d4383">3103b013471361103580c4e2846d43e3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-20 06:26:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

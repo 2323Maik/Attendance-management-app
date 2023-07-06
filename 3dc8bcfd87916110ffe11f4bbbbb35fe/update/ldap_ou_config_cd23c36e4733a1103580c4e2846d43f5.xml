@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_ou_config">
+    <ldap_ou_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <default_values/>
+        <filter>(objectClass=group)</filter>
+        <map/>
+        <name>Groups</name>
+        <ou>CN=Users</ou>
+        <query_field>sAMAccountName</query_field>
+        <server display_value="ServiceNow LDAP Server">c9e2cf2e4733a1103580c4e2846d430d</server>
+        <sys_class_name>ldap_ou_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-06 06:38:13</sys_created_on>
+        <sys_id>cd23c36e4733a1103580c4e2846d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Groups</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>ldap_ou_config_cd23c36e4733a1103580c4e2846d43f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-06 06:38:13</sys_updated_on>
+        <table>sys_user_group</table>
+    </ldap_ou_config>
+</record_update>

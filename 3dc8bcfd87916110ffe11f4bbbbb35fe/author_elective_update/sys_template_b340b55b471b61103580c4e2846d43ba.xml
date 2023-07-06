@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="DELETE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Attendance Form Filler</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>Employee Attendance</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 12:02:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b340b55b471b61103580c4e2846d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attendance Form Filler</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_template_b340b55b471b61103580c4e2846d43ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 12:02:41</sys_updated_on>
+        <table>x_976191_attenda_0_attendance_table</table>
+        <template>due_date=2023-06-30^employment_start_date=2023-06-12^empname=332e2197475761103580c4e2846d438c^state=new^absent_dates=0^absent_reason=Unknown^EQ</template>
+        <user display_value="Mikias Hailu">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sys_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>220d0332db483010431011f8489619e0</instance_id>
+        <instance_name>dev116529</instance_name>
+        <name>sys_template_b340b55b471b61103580c4e2846d43ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template"><sys_template action="INSERT_OR_UPDATE"><active>true</active><global>false</global><group/><groups/><link_element/><name>Attendance Form Filler</name><next/><next_child/><roles/><short_description>Employee Attendance</short_description><show_on_template_bar>true</show_on_template_bar><stand_alone>false</stand_alone><sys_class_name>sys_template</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-13 12:02:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b340b55b471b61103580c4e2846d43ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Attendance Form Filler</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sys_template_b340b55b471b61103580c4e2846d43ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-13 12:02:41</sys_updated_on><table>x_976191_attenda_0_attendance_table</table><template>due_date=2023-06-30^employment_start_date=2023-06-12^empname=332e2197475761103580c4e2846d438c^state=new^absent_dates=0^absent_reason=Unknown^EQ</template><user display_value="Mikias Hailu">6816f79cc0a8016401c5a33be04be441</user><view/></sys_template></record_update>]]></payload>
+        <payload_hash>-1366031746</payload_hash>
+        <record_name>Attendance Form Filler</record_name>
+        <reverted_from/>
+        <source>7d9c6913471761103580c4e2846d43b9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 12:02:41</sys_created_on>
+        <sys_id>bdd07d57475b61103580c4e2846d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b4a3023c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 12:02:41</sys_updated_on>
+        <type>Template</type>
+        <update_guid>f5d07d571f5b6110bceb8914b5ea09ad</update_guid>
+        <update_guid_history>f5d07d571f5b6110bceb8914b5ea09ad:-1366031746</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 12:04:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_template">sys_template</sys_db_object>
+        <sys_id>5a1328a5710c4334b8ab5086651baa84</sys_id>
+        <sys_metadata>b340b55b471b61103580c4e2846d43ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attendance Form Filler</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sys_template_b340b55b471b61103580c4e2846d43ba</sys_update_name>
+        <sys_update_version display_value="sys_template_b340b55b471b61103580c4e2846d43ba">bdd07d57475b61103580c4e2846d43ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 12:04:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

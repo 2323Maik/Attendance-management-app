@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>other</category>
+        <css>main.page, main.body {
+  height: 99vh;
+  min-height: 100%;
+  padding-top: 0px !important;
+}
+
+@media(max-width: 767px) {
+  main.page, main.body {
+    height: auto;
+  }
+}
+
+section.page {
+  background-image: url('la_jolla_sp_login_background.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #3A3F50;
+}
+
+section.page main.body:before {
+  display: block;
+  background-color: #3A3F50;
+  opacity: 0.75;
+}
+
+footer {
+  margin-top: 57px;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>custom_landing</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 06:49:21</sys_created_on>
+        <sys_id>3f196c1747df21103580c4e2846d436e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>custom_landing</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sp_page_3f196c1747df21103580c4e2846d436e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 08:42:40</sys_updated_on>
+        <title>Custom Portal </title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=3f196c1747df21103580c4e2846d436e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>220d0332db483010431011f8489619e0</instance_id>
+        <instance_name>dev116529</instance_name>
+        <name>sp_page_3f196c1747df21103580c4e2846d436e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>other</category><css>main.page, main.body {
+  height: 99vh;
+  min-height: 100%;
+  padding-top: 0px !important;
+}
+
+@media(max-width: 767px) {
+  main.page, main.body {
+    height: auto;
+  }
+}
+
+section.page {
+  background-image: url('la_jolla_sp_login_background.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #3A3F50;
+}
+
+section.page main.body:before {
+  display: block;
+  background-color: #3A3F50;
+  opacity: 0.75;
+}
+
+footer {
+  margin-top: 57px;
+}</css><draft>false</draft><dynamic_title_structure/><id>custom_landing</id><internal>false</internal><omit_watcher>false</omit_watcher><public>true</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-13 06:49:21</sys_created_on><sys_id>3f196c1747df21103580c4e2846d436e</sys_id><sys_mod_count>5</sys_mod_count><sys_name>custom_landing</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sp_page_3f196c1747df21103580c4e2846d436e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-13 08:42:40</sys_updated_on><title>Custom Portal </title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=3f196c1747df21103580c4e2846d436e"/></record_update>]]></payload>
+        <payload_hash>1846227477</payload_hash>
+        <record_name>custom_landing</record_name>
+        <reverted_from/>
+        <source>3346ecdf479f21103580c4e2846d433f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-13 08:42:41</sys_created_on>
+        <sys_id>7303819f471361103580c4e2846d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b3ebe4e50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-13 08:42:41</sys_updated_on>
+        <type>Page</type>
+        <update_guid>7b03819f641361101dad930a3e5a2ef3</update_guid>
+        <update_guid_history>7b03819f641361101dad930a3e5a2ef3:1846227477,d4b2059fcd13611018f5a092fb1ce0d4:1080566762,1332099f631361105a9c5a832bc6b4a8:1031394686,540c381b39136110260c56262d879acf:1521936412,1469e4974fdf2110f6f55db4c1cd4cce:1378443843,c0296c1746df211021c29c82df15e671:1684437321</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="custom_landing">a7e66c61476b25103580c4e2846d43a8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-20 06:26:07</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>c6b9d8a3974746fc935251580119cbe4</sys_id>
+        <sys_metadata>3f196c1747df21103580c4e2846d436e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>custom_landing</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sp_page_3f196c1747df21103580c4e2846d436e</sys_update_name>
+        <sys_update_version display_value="sp_page_3f196c1747df21103580c4e2846d436e">7303819f471361103580c4e2846d43f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-20 06:26:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

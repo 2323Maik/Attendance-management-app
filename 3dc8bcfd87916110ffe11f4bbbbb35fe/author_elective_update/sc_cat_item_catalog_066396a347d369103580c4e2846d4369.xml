@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Employee Request for Attendance and Password problem">7532926347d369103580c4e2846d4370</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 09:12:12</sys_created_on>
+        <sys_id>066396a347d369103580c4e2846d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Employee Request for Attendance and Password problem</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_066396a347d369103580c4e2846d4369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 09:12:12</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>220d0332db483010431011f8489619e0</instance_id>
+        <instance_name>dev116529</instance_name>
+        <name>sc_cat_item_catalog_066396a347d369103580c4e2846d4369</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Employee Request for Attendance and Password problem">7532926347d369103580c4e2846d4370</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-14 09:12:12</sys_created_on><sys_id>066396a347d369103580c4e2846d4369</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Employee Request for Attendance and Password problem</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sc_cat_item_catalog_066396a347d369103580c4e2846d4369</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-14 09:12:12</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1081773164</payload_hash>
+        <record_name>Service Catalog.Employee Request for Attendance and Password problem</record_name>
+        <reverted_from/>
+        <source>7d9c6913471761103580c4e2846d43b9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 09:12:12</sys_created_on>
+        <sys_id>4e6396a347d369103580c4e2846d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b92d47020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 09:12:12</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>c26396a373d369101763a1b16d5f1d78</update_guid>
+        <update_guid_history>c26396a373d369101763a1b16d5f1d78:1081773164</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Employee Request for Attendance and Password problem">bde39ea347d369103580c4e2846d4363</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 09:14:22</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>370e66f9dd1445aeb838fa1dc1aa1824</sys_id>
+        <sys_metadata>066396a347d369103580c4e2846d4369</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Employee Request for Attendance and Password problem</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent display_value="Employee Request for Attendance and Password problem">7532926347d369103580c4e2846d4370</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_066396a347d369103580c4e2846d4369</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_066396a347d369103580c4e2846d4369">4e6396a347d369103580c4e2846d4378</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 09:14:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

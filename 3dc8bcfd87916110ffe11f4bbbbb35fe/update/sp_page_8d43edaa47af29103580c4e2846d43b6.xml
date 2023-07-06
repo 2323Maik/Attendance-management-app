@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>sc</category>
+        <css>.bgc {
+	background: #edf7f5;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure>%title</dynamic_title_structure>
+        <id>custom_sc_category</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles>snc_external,snc_internal,user</roles>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-23 13:23:39</sys_created_on>
+        <sys_id>8d43edaa47af29103580c4e2846d43b6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>custom_sc_category</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sp_page_8d43edaa47af29103580c4e2846d43b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-01 06:43:17</sys_updated_on>
+        <title>Custom Catalog Categories </title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=8d43edaa47af29103580c4e2846d43b6"/>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Copy of Development Laptop (PC)">0f4483a7479769103580c4e2846d4304</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 12:45:49</sys_created_on>
+        <sys_id>834483a7479769103580c4e2846d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Copy of Development Laptop (PC)</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_834483a7479769103580c4e2846d4308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 12:45:49</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>220d0332db483010431011f8489619e0</instance_id>
+        <instance_name>dev116529</instance_name>
+        <name>sc_cat_item_catalog_834483a7479769103580c4e2846d4308</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Development Laptop (PC)">0f4483a7479769103580c4e2846d4304</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-14 12:45:49</sys_created_on><sys_id>834483a7479769103580c4e2846d4308</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Copy of Development Laptop (PC)</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sc_cat_item_catalog_834483a7479769103580c4e2846d4308</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-14 12:45:49</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-886812392</payload_hash>
+        <record_name>Service Catalog.Copy of Development Laptop (PC)</record_name>
+        <reverted_from/>
+        <source>db693aab475769103580c4e2846d43d0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 12:45:49</sys_created_on>
+        <sys_id>0f4483a7479769103580c4e2846d430a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188b9f0d9b90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 12:45:49</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>474483a7e6976910673997114989520a</update_guid>
+        <update_guid_history>474483a7e6976910673997114989520a:-886812392</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Copy of Development Laptop (PC)">4794476b479769103580c4e2846d435f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 12:47:10</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>053ee7a3f8b743628070755b9822b561</sys_id>
+        <sys_metadata>834483a7479769103580c4e2846d4308</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Copy of Development Laptop (PC)</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent display_value="Development Laptop (PC)">0f4483a7479769103580c4e2846d4304</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_834483a7479769103580c4e2846d4308</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_834483a7479769103580c4e2846d4308">0f4483a7479769103580c4e2846d430a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 12:47:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

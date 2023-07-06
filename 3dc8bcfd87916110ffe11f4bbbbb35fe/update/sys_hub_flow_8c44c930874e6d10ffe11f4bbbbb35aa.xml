@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description>Ask for approval for attendance state </description>
         <internal_name>ask_for_approval_for_attendance_state</internal_name>
-        <label_cache>[{"name":"883262a3-dd84-4e4a-b6d1-f1ae794b1c14.record.additional_assignee_list","label":"1 - Update Record➛Problem Table Record➛Additional assignee list","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_976191_attenda_0_problem_table","column_name":"additional_assignee_list"},{"name":"883262a3-dd84-4e4a-b6d1-f1ae794b1c14.record","label":"1 - Update Record➛Problem Table Record","reference":"x_976191_attenda_0_problem_table","reference_display":"Problem Table","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Problem Table Record","reference":"x_976191_attenda_0_problem_table","reference_display":"Problem Table","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.assigned_to.manager","label":"Trigger - Record Created➛Problem Table Record➛Assigned to➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"9fb4823f-293f-40e8-8860-900afec01cea.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"9fb4823f-293f-40e8-8860-900afec01cea.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.assigned_to.manager","label":"Trigger - Record Created➛Problem Table Record➛Assigned to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current","label":"Trigger - Record Created➛Problem Table Record","reference":"x_976191_attenda_0_problem_table","reference_display":"Problem Table","type":"reference","base_type":"reference","attributes":{}},{"name":"883262a3-dd84-4e4a-b6d1-f1ae794b1c14.record","label":"1 - Update Record➛Problem Table Record","reference":"x_976191_attenda_0_problem_table","reference_display":"Problem Table Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"883262a3-dd84-4e4a-b6d1-f1ae794b1c14.record.additional_assignee_list","label":"1 - Update Record➛Problem Table Record➛Additional assignee list","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_976191_attenda_0_problem_table","column_name":"additional_assignee_list"},{"name":"883262a3-dd84-4e4a-b6d1-f1ae794b1c14.table_name","label":"1 - Update Record➛Problem Table Table","reference":"x_976191_attenda_0_problem_table","reference_display":"Problem Table Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"883262a3-dd84-4e4a-b6d1-f1ae794b1c14.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"883262a3-dd84-4e4a-b6d1-f1ae794b1c14.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9fb4823f-293f-40e8-8860-900afec01cea.__action_status__","label":"2 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9fb4823f-293f-40e8-8860-900afec01cea.__dont_treat_as_error__","label":"2 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4300d875-2b72-4511-8b44-b7a3f52eb022.record","label":"4 - Update Record➛Problem Table Record","reference":"x_976191_attenda_0_problem_table","reference_display":"Problem Table Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4300d875-2b72-4511-8b44-b7a3f52eb022.table_name","label":"4 - Update Record➛Problem Table Table","reference":"x_976191_attenda_0_problem_table","reference_display":"Problem Table Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4300d875-2b72-4511-8b44-b7a3f52eb022.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4300d875-2b72-4511-8b44-b7a3f52eb022.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c66a00e3-54d4-4c1f-89ff-d3b7d214d0d3.record","label":"6 - Update Record➛Problem Table Record","reference":"x_976191_attenda_0_problem_table","reference_display":"Problem Table Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c66a00e3-54d4-4c1f-89ff-d3b7d214d0d3.table_name","label":"6 - Update Record➛Problem Table Table","reference":"x_976191_attenda_0_problem_table","reference_display":"Problem Table Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c66a00e3-54d4-4c1f-89ff-d3b7d214d0d3.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c66a00e3-54d4-4c1f-89ff-d3b7d214d0d3.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Ask for approval for problem state</name>
@@ -31,15 +31,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8c44c930874e6d10ffe11f4bbbbb35aa</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Ask for approval for problem state</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name>sys_hub_flow_8c44c930874e6d10ffe11f4bbbbb35aa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-04 12:42:17</sys_updated_on>
+        <sys_updated_on>2023-06-21 12:17:56</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=8c44c930874e6d10ffe11f4bbbbb35aa"/>
@@ -54,10 +54,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-04 11:27:58</sys_created_on>
         <sys_id>ea9909b4874e6d10ffe11f4bbbbb358a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-04 12:42:16</sys_updated_on>
+        <sys_updated_on>2023-06-21 12:17:56</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -174,7 +174,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-04-04 11:27:57</sys_updated_on>
@@ -257,7 +257,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-04-04 11:27:58</sys_updated_on>
@@ -291,10 +291,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-04 12:42:16</sys_created_on>
         <sys_id>0b9ad978878e6d10ffe11f4bbbbb35b9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-04 12:42:16</sys_updated_on>
+        <sys_updated_on>2023-06-21 12:17:56</sys_updated_on>
         <ui_id>4300d875-2b72-4511-8b44-b7a3f52eb022</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0b9ad978878e6d10ffe11f4bbbbb35b9"/>
@@ -380,10 +380,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-04 12:22:33</sys_created_on>
         <sys_id>8a165d34878e6d10ffe11f4bbbbb3524</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-04 12:42:16</sys_updated_on>
+        <sys_updated_on>2023-06-21 12:17:56</sys_updated_on>
         <ui_id>9fb4823f-293f-40e8-8860-900afec01cea</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8a165d34878e6d10ffe11f4bbbbb3524"/>
@@ -547,10 +547,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-04 11:27:58</sys_created_on>
         <sys_id>ae9909b4874e6d10ffe11f4bbbbb359d</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-04 12:42:16</sys_updated_on>
+        <sys_updated_on>2023-06-21 12:17:56</sys_updated_on>
         <ui_id>883262a3-dd84-4e4a-b6d1-f1ae794b1c14</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ae9909b4874e6d10ffe11f4bbbbb359d"/>
@@ -636,10 +636,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-04 12:42:17</sys_created_on>
         <sys_id>c79ad978878e6d10ffe11f4bbbbb35db</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-04 12:42:17</sys_updated_on>
+        <sys_updated_on>2023-06-21 12:17:56</sys_updated_on>
         <ui_id>c66a00e3-54d4-4c1f-89ff-d3b7d214d0d3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c79ad978878e6d10ffe11f4bbbbb35db"/>
@@ -713,7 +713,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=8c44c930874e6d10ffe11f4bbbbb35aa"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=8c44c930874e6d10ffe11f4bbbbb35aa^sys_idNOT IN0b9ad978878e6d10ffe11f4bbbbb35bc,8f9ad978878e6d10ffe11f4bbbbb35b0"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">839ad978878e6d10ffe11f4bbbbb35bc</block>
+        <block display_value="">4f01437147a7a5103580c4e2846d4303</block>
         <comment/>
         <connected_to>bf94c67d-d42d-4a18-8888-0d8071e96d6d</connected_to>
         <decision_table/>
@@ -733,10 +733,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-04 12:42:16</sys_created_on>
         <sys_id>0b9ad978878e6d10ffe11f4bbbbb35bc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-04 12:42:16</sys_updated_on>
+        <sys_updated_on>2023-06-21 12:17:56</sys_updated_on>
         <ui_id>3a740cdd-c042-4e1e-932c-a9d7ce13c0aa</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -746,7 +746,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=0b9ad978878e6d10ffe11f4bbbbb35bc"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=0b9ad978878e6d10ffe11f4bbbbb35bc"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">c39ad978878e6d10ffe11f4bbbbb35b0</block>
+        <block display_value="">b601037147a7a5103580c4e2846d43fc</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -767,10 +767,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-04 12:42:16</sys_created_on>
         <sys_id>8f9ad978878e6d10ffe11f4bbbbb35b0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-04 12:42:16</sys_updated_on>
+        <sys_updated_on>2023-06-21 12:17:56</sys_updated_on>
         <ui_id>bf94c67d-d42d-4a18-8888-0d8071e96d6d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -884,11 +884,11 @@
         <sys_created_on>2023-04-06 14:09:52</sys_created_on>
         <sys_id>b1d1002987862150ffe11f4bbbbb35de</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
+        <sys_name>variable</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
-        <sys_update_name/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_b1d1002987862150ffe11f4bbbbb35de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-04-06 14:09:52</sys_updated_on>
         <table_reference>false</table_reference>
@@ -918,9 +918,9 @@
         <sys_id>a69909b4874e6d10ffe11f4bbbbb3588</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-04-04 11:27:58</sys_updated_on>
@@ -941,9 +941,9 @@
         <sys_id>e69909b4874e6d10ffe11f4bbbbb3585</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-04-04 11:27:58</sys_updated_on>

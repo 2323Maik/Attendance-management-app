@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="b57ac61b4717e1103580c4e2846d43fe" sys_domain="global" table="x_976191_attenda_0_employee_problem" version="3" view="problem">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-13 13:56:43</sys_created_on>
+            <sys_id>40fa8a534757e1103580c4e2846d432c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-13 13:56:43</sys_updated_on>
+            <text>&lt;h3 style="text-align:center"&gt; Employee Form&lt;/h3&gt;</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>40fa8a534757e1103580c4e2846d432c</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-13 13:56:44</sys_created_on>
+            <sys_id>80fa4e5b4757e1103580c4e2846d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_employee_problem" sys_domain="global" view="397ac61b4717e1103580c4e2846d43f8">b57ac61b4717e1103580c4e2846d43fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-13 13:56:44</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-13 13:56:44</sys_created_on>
+            <sys_id>84fa4e5b4757e1103580c4e2846d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_employee_problem" sys_domain="global" view="397ac61b4717e1103580c4e2846d43f8">b57ac61b4717e1103580c4e2846d43fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-13 13:56:44</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-13 13:56:44</sys_created_on>
+            <sys_id>88fa4e5b4757e1103580c4e2846d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_employee_problem" sys_domain="global" view="397ac61b4717e1103580c4e2846d43f8">b57ac61b4717e1103580c4e2846d43fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-13 13:56:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requester_name</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-13 13:56:44</sys_created_on>
+            <sys_id>8cfa4e5b4757e1103580c4e2846d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_employee_problem" sys_domain="global" view="397ac61b4717e1103580c4e2846d43f8">b57ac61b4717e1103580c4e2846d43fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-13 13:56:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>problem_description</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-13 13:56:44</sys_created_on>
+            <sys_id>80fa4e5b4757e1103580c4e2846d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_employee_problem" sys_domain="global" view="397ac61b4717e1103580c4e2846d43f8">b57ac61b4717e1103580c4e2846d43fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-13 13:56:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-13 13:56:44</sys_created_on>
+            <sys_id>84fa4e5b4757e1103580c4e2846d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_employee_problem" sys_domain="global" view="397ac61b4717e1103580c4e2846d43f8">b57ac61b4717e1103580c4e2846d43fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-13 13:56:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-13 13:56:44</sys_created_on>
+            <sys_id>88fa4e5b4757e1103580c4e2846d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_employee_problem" sys_domain="global" view="397ac61b4717e1103580c4e2846d43f8">b57ac61b4717e1103580c4e2846d43fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-13 13:56:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-13 13:56:44</sys_created_on>
+            <sys_id>8cfa4e5b4757e1103580c4e2846d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_employee_problem" sys_domain="global" view="397ac61b4717e1103580c4e2846d43f8">b57ac61b4717e1103580c4e2846d43fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-13 13:56:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requester_name.contact_number</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-13 13:56:44</sys_created_on>
+            <sys_id>80fa4e5b4757e1103580c4e2846d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_employee_problem" sys_domain="global" view="397ac61b4717e1103580c4e2846d43f8">b57ac61b4717e1103580c4e2846d43fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-13 13:56:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requester_name.positions</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-13 13:56:44</sys_created_on>
+            <sys_id>84fa4e5b4757e1103580c4e2846d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_976191_attenda_0_employee_problem" sys_domain="global" view="397ac61b4717e1103580c4e2846d43f8">b57ac61b4717e1103580c4e2846d43fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-13 13:56:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_976191_attenda_0_employee_problem</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-13 13:54:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b57ac61b4717e1103580c4e2846d43fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_976191_attenda_0_employee_problem</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+            <sys_update_name>sys_ui_section_b57ac61b4717e1103580c4e2846d43fe</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-13 13:54:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Problem" name="problem">397ac61b4717e1103580c4e2846d43f8</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

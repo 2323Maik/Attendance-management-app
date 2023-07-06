@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="DELETE">
+        <active>true</active>
+        <description>Laptop computers for mobile workers.</description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Employee Catalog">6ca99e6b47d369103580c4e2846d436f</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 12:53:22</sys_created_on>
+        <sys_id>f90683a7479769103580c4e2846d436e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Laptops</sys_name>
+        <sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_update_name>sc_category_f90683a7479769103580c4e2846d436e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 13:13:56</sys_updated_on>
+        <title>Laptops</title>
+    </sc_category>
+    <sys_translated_text action="DELETE" query="documentkey=f90683a7479769103580c4e2846d436e"/>
+    <sys_attachment action="DELETE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>homepage_image</file_name>
+        <hash/>
+        <image_height/>
+        <image_width/>
+        <size_bytes>503</size_bytes>
+        <size_compressed>518</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 12:53:23</sys_created_on>
+        <sys_id>8a060fab479769103580c4e2846d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-14 12:53:23</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>f90683a7479769103580c4e2846d436e</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="DELETE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="homepage_image" sys_id="8a060fab479769103580c4e2846d437a">8a060fab479769103580c4e2846d437a</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 12:53:23</sys_created_on>
+        <sys_id>0e060fab479769103580c4e2846d4387</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="DELETE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSnkDswcEGJHfp36gEUpIlrhElwflpJeWJRakMjin5SakKnrmJ6alBqYkplYUnU20YGBhnero4hlTcejPbNuiQg4SDuSR/g7rBNzEZRyltaT8Fk21J4lpLJhlHFDIHBWuYT2iSy1NwfxCt1mpw8Gx/zqF31cbWmpMMTj7+fdPHzIuRAQQcLnN+kpM4ftjDbGIz37bJJ39v2qQieGXS2Si30xcTXnaveLlybuI5+UxrHY+ZRiohCSyeHr/k12nNu7/zQHXdpIub1TytDj26xOO5fJ/63RWeHk5CkyawgMkWFRVFTs8GMAkSYACTUp5LzXek3msza5BePalF/xIvUN2G7sKvb+/+eexrpswf8yWc//zlQy/Vmr503Rb3Z0oL2abGO+W29+R6Yc+AL1xLo6VczcR25F9K3MNZ+k9fyGxS0XZXtclmizK0FyuLp01RqZ8l9qX2WfYt98uFuVzZ61wf2zSZvCx8bJUVHJDsfjnwim7hvTNOLfIluxYci7qSwpcV/KLS/fTVl5u4ypWSD9pUx/NtUrWtW1cqnvnYQzfcyM816MnJ5I7O6/uzhFaWPVEs5hI4flj+fPf2f3rfb315M61CzpWzk4WBIW+zcAKD8aeQY91KnldAgerp6ueyzimhCQBZ8E169wEAAA==
+		</data>
+        <length>680</length>
+        <position>1</position>
+        <sys_attachment display_value="homepage_image" sys_id="8a060fab479769103580c4e2846d437a">8a060fab479769103580c4e2846d437a</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-14 12:53:23</sys_created_on>
+        <sys_id>8e060fab479769103580c4e2846d4387</sys_id>
+    </sys_attachment_doc>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</application>
+        <file_path/>
+        <instance_id>220d0332db483010431011f8489619e0</instance_id>
+        <instance_name>dev116529</instance_name>
+        <name>sc_category_f90683a7479769103580c4e2846d436e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Laptop computers for mobile workers.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Employee Catalog">6ca99e6b47d369103580c4e2846d436f</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-14 12:53:22</sys_created_on><sys_id>f90683a7479769103580c4e2846d436e</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Laptops</sys_name><sys_package display_value="Attendance Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package><sys_policy/><sys_scope display_value="Attendance Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope><sys_update_name>sc_category_f90683a7479769103580c4e2846d436e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-14 13:13:56</sys_updated_on><title>Laptops</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=f90683a7479769103580c4e2846d436e"/><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes/><compressed>true</compressed><content_type>image/png</content_type><file_name>homepage_image</file_name><hash/><image_height/><image_width/><size_bytes>503</size_bytes><size_compressed>518</size_compressed><state>available</state><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-14 12:53:23</sys_created_on><sys_id>8a060fab479769103580c4e2846d437a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-14 12:53:23</sys_updated_on><table_name>ZZ_YYsc_category</table_name><table_sys_id>f90683a7479769103580c4e2846d436e</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="homepage_image" sys_id="8a060fab479769103580c4e2846d437a">8a060fab479769103580c4e2846d437a</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-14 12:53:23</sys_created_on><sys_id>0e060fab479769103580c4e2846d4387</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>6wzwc+flkuJiYGDg9fRwCQLSnkDswcEGJHfp36gEUpIlrhElwflpJeWJRakMjin5SakKnrmJ6alBqYkplYUnU20YGBhnero4hlTcejPbNuiQg4SDuSR/g7rBNzEZRyltaT8Fk21J4lpLJhlHFDIHBWuYT2iSy1NwfxCt1mpw8Gx/zqF31cbWmpMMTj7+fdPHzIuRAQQcLnN+kpM4ftjDbGIz37bJJ39v2qQieGXS2Si30xcTXnaveLlybuI5+UxrHY+ZRiohCSyeHr/k12nNu7/zQHXdpIub1TytDj26xOO5fJ/63RWeHk5CkyawgMkWFRVFTs8GMAkSYACTUp5LzXek3msza5BePalF/xIvUN2G7sKvb+/+eexrpswf8yWc//zlQy/Vmr503Rb3Z0oL2abGO+W29+R6Yc+AL1xLo6VczcR25F9K3MNZ+k9fyGxS0XZXtclmizK0FyuLp01RqZ8l9qX2WfYt98uFuVzZ61wf2zSZvCx8bJUVHJDsfjnwim7hvTNOLfIluxYci7qSwpcV/KLS/fTVl5u4ypWSD9pUx/NtUrWtW1cqnvnYQzfcyM816MnJ5I7O6/uzhFaWPVEs5hI4flj+fPf2f3rfb315M61CzpWzk4WBIW+zcAKD8aeQY91KnldAgerp6ueyzimhCQBZ8E169wEAAA==
+		</data><length>680</length><position>1</position><sys_attachment display_value="homepage_image" sys_id="8a060fab479769103580c4e2846d437a">8a060fab479769103580c4e2846d437a</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-14 12:53:23</sys_created_on><sys_id>8e060fab479769103580c4e2846d4387</sys_id></sys_attachment_doc></record_update>]]></payload>
+        <payload_hash>0</payload_hash>
+        <record_name>Laptops</record_name>
+        <reverted_from/>
+        <source>5ab66861476b25103580c4e2846d43bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-20 07:51:46</sys_created_on>
+        <sys_id>c28a306547eb25103580c4e2846d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188d7c9ca880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-20 07:51:46</sys_updated_on>
+        <type>Category</type>
+        <update_guid>028a30653aeb2510eb7428e72ac031f6</update_guid>
+        <update_guid_history>028a30653aeb2510eb7428e72ac031f6:0,83ba0323dbd769101dbee486f18b4905:-210306240,599a4fef939769100781552b96a7b086:1198046661,1a08836f519769109b9d268a8a6ca13a:-210306240,4e060fab039769106b991d1f9e34cc79:-1461180134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Laptops">5a8a706547eb25103580c4e2846d4341</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-20 07:51:46</sys_created_on>
+        <sys_db_object display_value="" name="sc_category">sc_category</sys_db_object>
+        <sys_id>9061d0ae4e334c57bac792459e7fc219</sys_id>
+        <sys_metadata>f90683a7479769103580c4e2846d436e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptops</sys_name>
+        <sys_package display_value="Employee Management" source="x_976191_attenda_0">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Management">3dc8bcfd87916110ffe11f4bbbbb35fe</sys_scope>
+        <sys_scope_delete display_value="">03612cd62f2246a080bb2b1465b11840</sys_scope_delete>
+        <sys_update_name>sc_category_f90683a7479769103580c4e2846d436e</sys_update_name>
+        <sys_update_version display_value="sc_category_f90683a7479769103580c4e2846d436e">c28a306547eb25103580c4e2846d43f6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-20 07:51:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
